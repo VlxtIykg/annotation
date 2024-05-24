@@ -1,4 +1,6 @@
 ---
+import FileUpload from '../components/FileUpload.jsx';
+import parseJSON from "@components/parser";
 ---
 
 <html lang="en">
@@ -10,8 +12,14 @@
     <title>Astro</title>
   </head>
   <style>
+    #drop_zone {
+      border: 5px solid blue;
+      width: 200px;
+      height: 100px;
+    }
   </style>
   <body>
+		<FileUpload client:load/>
   </body>
   <script>
   </script>
