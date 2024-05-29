@@ -20,7 +20,10 @@
       ],
       "@scripts/*": [
         "src/scripts/*"
-      ]
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
     }
   }
 }
