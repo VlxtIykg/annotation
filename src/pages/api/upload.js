@@ -27,7 +27,6 @@ export async function POST({ request }) {
 
   const extrapolated_data = autoFill(filePath);  
   const html_str = htmlFormatter(extrapolated_data);
-  console.log(html_str);
 
   return new Response(JSON.stringify({status: 200, message: html_str}));
 }

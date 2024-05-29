@@ -1,6 +1,7 @@
 ---
-import FileUpload from '../components/FileUpload.jsx';
+import FileUpload from "../components/FileUpload.jsx";
 import parseJSON from "@components/parser";
+import "@styles/index.sass";
 ---
 
 <html lang="en">
@@ -18,9 +19,8 @@ import parseJSON from "@components/parser";
       height: 100px;
     }
   </style>
-  <body>
-		<FileUpload client:load/>
+  <body class="bg-black text-tahiti-dark">
+    <FileUpload client:load />
   </body>
-  <script>
-  </script>
+  <script></script>
 </html>
