@@ -34,3 +34,41 @@ p.text
 	margin: auto
 	width: 50%
 	padding: 10px
+
+.test:before
+	content: ""
+	position: absolute
+	border: 1px solid transparent
+	top: 0.9rem
+	left: 1.5rem
+	width: 4rem
+	height: 4rem
+	transition: border 1s
+
+.test:hover::before
+	animation: animate 1.5s forwards
+
+@keyframes animate
+	0%
+		width: 4rem
+		height: 4rem
+		border-top: 1px solid #000
+		border-left: 1px solid #000
+
+	25%
+		width: 4rem
+		height: 4rem
+
+	// 50%
+	// 	width: 4rem
+	// 	height: 4rem
+
+	// 75%
+
+	100%
+		width: 4rem
+		height: 4rem
+		border-top: 1px solid #000
+		border-left: 1px solid #000
+		border-bottom: 1px solid #000
+		border-right: 1px solid #000
