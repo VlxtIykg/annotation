@@ -1,30 +1,36 @@
-*, body, html 
+*, body, html
 	margin: 0
 	padding: 0
 	box-sizing: border-box
-	// font-family: 'Roboto', sans-serif
 
 .start_time, .end_time, .type, .confidence, .locale, .speaker
 	display: none
-	width: 0
-	height: 0
 
 #diarized_text
-	// display: flex
-	// flex-wrap: wrap
-	// gap: 10px
 	max-width: 100%
-	max-height: 20rem
-	
+	max-height: 100%
 
 .personal_card
-	max-height: 20rem
-	
+	max-height: 2rem
+	display: flex
+	flex-wrap: wrap
+
 .personal_card,
 .personal_card > p.text
 	position: relative
 
-	
 p.text
 	position: absolute
 	margin-bottom: 1rem
+	white-space: pre
+	text-align: center
+
+.card-container
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+
+.center
+	margin: auto
+	width: 50%
+	padding: 10px
