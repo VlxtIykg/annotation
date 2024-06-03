@@ -2,7 +2,7 @@ export default function htmlFormatter(data) {
 	const htmlText = data.map(obj => {
 		let htmlElements = Object.entries(obj).map(([key, value]) => generateHTML(key, value)).join('');
 		
-		htmlElements = "<div class='personal_card'>" + htmlElements + "</div>";
+		htmlElements = "<div class='personal_cards'>" + htmlElements + "</div>";
 		return htmlElements;
 	}).join('');
 

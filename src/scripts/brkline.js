@@ -1,25 +1,21 @@
-const test_1 = document.getElementsByClassName("personal_cards")[0];
-const test_2 = Array.from(test_1.getElementsByClassName("details speaker"));
+// document.addEventListener('DOMContentLoaded', main);
 
-let speaker = "";
-let speakerNumber = 1;
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.addEventListener('submit', function(event) {
+    console.log("BRKLine script has loaded: L2C")
+    findUniqueSpeakers(event)
+})})
 
-test_2.forEach(element => {
-    const text = element.textContent;
-    if (text.startsWith("S")) {
-        speaker = text;
-        const speakerText = document.createElement("div");
-        speakerText.textContent = speaker;
-        test_1.appendChild(speakerText);
-
-        const invisibleDiv = document.createElement("div");
-        invisibleDiv.style.flexBasis = "100%";
-        test_1.appendChild(invisibleDiv);
-
-        speakerNumber++;
-    } else {
-        const speechText = document.createElement("div");
-        speechText.textContent = text;
-        test_1.appendChild(speechText);
+function findUniqueSpeakers(e) {
+    e.preventDefault()
+    console.log("Starting extraction")
+    const p_cards = document.getElementsByClassName("personal_cards");
+    console.log(p_cards, p_cards.length);
+    // console.log(p_cards)
+    // console.log(p_cards.length)
+    if (p_cards.length === 0) return
+    for (let i = 0; i < p_cards.length; i++) {
+        console.log("p_cards" + i);
+        console.log(p_cards[i]);
     }
-});
+}
