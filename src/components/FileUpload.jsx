@@ -36,12 +36,6 @@ const FileUpload = () => {
 	};
 
 	return (
-		<div>
-			<form onSubmit={handleSubmit}>
-				<input  className="border" type="file" onChange={handleFileChange} />
-				<button className="border" type="submit">Upload</button>
-			</form>
-			{result && <div id="diarized_text" className="max-w-prose personal_ct center flex flex-wrap" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(result) }} />}
 		<div className=''>
 				
 				<form onSubmit={handleSubmit}>
