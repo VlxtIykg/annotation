@@ -13,7 +13,7 @@ function generateHTML(key, value) {
 		if (value === '.') return '<p class="text">.<br/></p>';
 		if (value === ',') return '<p class="text">,<br/></p>';
 		if (value === ' ') return;
-		return `<p class="text"> ${value}</p>`;
+		return `<span class="space"> </span><p class="text">${value}</p>`;
 }
   return `<p class="details ${key} ${value}">${key}: ${value}</p>`;
 }
