@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import DOMPurify from 'dompurify';
 import speechmatic from '@assets/speechmatic.svg';
 import wsx from '@assets/wsx.svg';
+import findUniqueSpeakers from "@scripts/brkline.js";
+import cardActivator from '@scripts/card_activator.js';
 
 const FileUpload = () => {
 	const [file, setFile] = useState(null);
@@ -23,6 +25,8 @@ const FileUpload = () => {
 			formData.append('file', file);
 			formData.append('formatter', selectedFormatter); 
 
+			console.log(selectedFormatter)
+
 
 			// Assuming you have an endpoint to handle the file upload
 			const response = await fetch('/api/upload', {
@@ -34,19 +38,14 @@ const FileUpload = () => {
 			setResult(data.message);
 		}
 	};
+
 	useEffect(() => {
 		if (result) {
-			// DOM has been updated with new content
-			const cards = document.getElementsByClassName('personal_cards');
-			console.log("Cards length:", cards.length);
-			
-			// Log each card's classes
-			for (let card of cards) {
-				let html = card.innerHTML;
-			console.log("Card classes:", html);
-			}
+			cardActivator();
+			findUniqueSpeakers();
+
 		}
-		}, [result]);
+	}, [result]);
 
 	return (
 		<div className=''>
