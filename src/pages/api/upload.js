@@ -8,6 +8,8 @@ import htmlFormatter from '@scripts/htmlformatter';
 export async function POST({ request }) {
   const formData = await request.formData();
   const file = formData.get('file');
+  const formatter = formData.get('formatter');
+  console.log(formatter);
   const arrayBuffer = await file.arrayBuffer();
   const buffer = Buffer.from(arrayBuffer);
 
