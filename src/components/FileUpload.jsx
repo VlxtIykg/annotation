@@ -66,7 +66,7 @@ const FileUpload = () => {
 									</div>	
 								</div>
 								
-							<div className='flex flex-wrap justify-center'>
+							<div className='flex flex-wrap justify-center'> 
 								<div className='relative h-28 w-28 m-2'>
 									<label className='sr-only' htmlFor="formatter">Whisper-x</label>
 									<div className='test flex flex-col items-center justify-center h-full -z-10'>
