@@ -9,7 +9,7 @@ export async function POST({ request }) {
   const formData = await request.formData();
   const file = formData.get('file');
   const formatter = formData.get('formatter');
-  console.log(formatter);
+  // console.log(formatter);
   const arrayBuffer = await file.arrayBuffer();
   const buffer = Buffer.from(arrayBuffer);
 
@@ -27,7 +27,8 @@ export async function POST({ request }) {
   // Process the file and return the result
   const result = `File ${file.name} uploaded successfully.`;
 
-  const extrapolated_data = autoFill(filePath);  
+  const extrapolated_data = autoFill(filePath, formatter);
+  console.log(extrapolated_data) 
   const html_str = htmlFormatter(extrapolated_data);
 
   return new Response(JSON.stringify({status: 200, message: html_str}));

@@ -1,13 +1,12 @@
 export default function htmlFormatter(data) {
-	const htmlText = data.map(obj => {
+	return data.map(obj => {
 		let htmlElements = Object.entries(obj).map(([key, value]) => generateHTML(key, value)).join('');
 		
 		htmlElements = "<div class='personal_cards'>" + htmlElements + "</div>";
 		return htmlElements;
 	}).join('');
-
-	return htmlText;
 }
+
 function generateHTML(key, value) {
 	if (key === 'text') {
 		if (value === '.') return '<p class="text">.<br/></p>';

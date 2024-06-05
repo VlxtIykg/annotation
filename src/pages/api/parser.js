@@ -6,7 +6,18 @@ import JSON from 'json5';
  * @param {string} data - Raw json data 
  * @returns 
  */
-export default function autoFill(data) {
+export default function autoFill(data, formatter) {
+	switch(formatter){
+		case "sms":{
+			return speechmatics(data);
+		}
+		default:{
+			return whisperx(data);
+		}	
+	}	
+}
+
+function speechmatics(data) {
 	try {
 		if (data instanceof Array) {
 			const _temp = data.map(filename => processJSONFile(JSON.parse(fs.readFileSync(filename, 'utf8'))));
@@ -23,8 +34,20 @@ export default function autoFill(data) {
 		const _temp = jsonData.map(result => fillTemplate(result));
 		return _temp;
 	} catch (error) {
-			console.error(`Error reading or parsing data:`, error);
-			return null;
+		console.error(`Error reading or parsing data:`, error);
+	}
+}
+
+function whisperx(data) {
+	try {
+		const jsonContent = fs.readFileSync(data, 'utf8');
+		const jsonData = JSON.parse(jsonContent).segments;
+		const _temp = jsonData.map(result => fillTemplateWhisper(result));
+		const onearray = _temp.flat();
+		console.log(onearray)
+		return onearray
+	} catch (error) {
+		console.error(`Error reading or parsing data:`, error);	
 	}
 }
 
@@ -36,7 +59,33 @@ function isJSON(str) {
         return false;
     }
 }
+function fillTemplateWhisper(json) {
+	const kami = []
+	for(let i = 0; i < json.words.length; i++){
+		const template = {
+			start_time: '',
+			end_time: '',
+			type: '',
+			confidence: '',
+			text: '',
+			locale: '',
+			speaker: ''
+		};
+		
+		const ongod = json.words[i]
+		
+		template.start_time = ongod?.start;
+		template.end_time = ongod?.end;
+		template.confidence = ongod?.score;
+		template.text = ongod?.word;
+		template.speaker = ongod?.speaker;
+		console.log(template)
+		kami.push(template)
+	}
+	
+return kami
 
+}
 function fillTemplate(json) {
 	const template = {
 		start_time: '',
