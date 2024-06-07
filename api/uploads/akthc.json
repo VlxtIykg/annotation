@@ -1,0 +1,4445 @@
+{
+  "segments": [
+    {
+      "start": 0.34,
+      "end": 2.301,
+      "text": " The wait is almost over.",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.34,
+          "end": 0.44,
+          "score": 0.967,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "wait",
+          "start": 0.5,
+          "end": 0.86,
+          "score": 0.583,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "is",
+          "start": 1.08,
+          "end": 1.18,
+          "score": 0.736,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "almost",
+          "start": 1.44,
+          "end": 1.901,
+          "score": 0.776,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "over.",
+          "start": 2.061,
+          "end": 2.301,
+          "score": 0.752,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 2.361,
+      "end": 8.683,
+      "text": "The first televised face-off between Hillary Clinton and Donald Trump will get underway in less than four hours from now.",
+      "words": [
+        {
+          "word": "The",
+          "start": 2.361,
+          "end": 2.461,
+          "score": 0.764,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "first",
+          "start": 2.501,
+          "end": 2.861,
+          "score": 0.751,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "televised",
+          "start": 2.881,
+          "end": 3.741,
+          "score": 0.715,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "face-off",
+          "start": 3.901,
+          "end": 4.501,
+          "score": 0.895,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "between",
+          "start": 4.562,
+          "end": 4.862,
+          "score": 0.918,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Hillary",
+          "start": 4.902,
+          "end": 5.222,
+          "score": 0.879,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Clinton",
+          "start": 5.262,
+          "end": 5.542,
+          "score": 0.813,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "and",
+          "start": 5.562,
+          "end": 5.642,
+          "score": 0.847,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Donald",
+          "start": 5.682,
+          "end": 5.962,
+          "score": 0.813,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Trump",
+          "start": 6.002,
+          "end": 6.262,
+          "score": 0.877,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "will",
+          "start": 6.302,
+          "end": 6.522,
+          "score": 0.585,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "get",
+          "start": 6.542,
+          "end": 6.722,
+          "score": 0.832,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "underway",
+          "start": 6.782,
+          "end": 7.162,
+          "score": 0.906,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "in",
+          "start": 7.202,
+          "end": 7.262,
+          "score": 0.97,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "less",
+          "start": 7.322,
+          "end": 7.523,
+          "score": 0.841,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "than",
+          "start": 7.563,
+          "end": 7.683,
+          "score": 0.897,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "four",
+          "start": 7.743,
+          "end": 7.923,
+          "score": 0.903,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "hours",
+          "start": 7.963,
+          "end": 8.223,
+          "score": 0.865,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "from",
+          "start": 8.263,
+          "end": 8.403,
+          "score": 0.842,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "now.",
+          "start": 8.443,
+          "end": 8.683,
+          "score": 0.949,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 8.783,
+      "end": 16.285,
+      "text": "It's expected to be the most watched presidential debate in history and could even rival ratings seen during the Super Bowl.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 8.783,
+          "end": 8.943,
+          "score": 0.877,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "expected",
+          "start": 9.483,
+          "end": 10.023,
+          "score": 0.834,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 10.063,
+          "end": 10.123,
+          "score": 0.936,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "be",
+          "start": 10.163,
+          "end": 10.303,
+          "score": 0.778,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "the",
+          "start": 10.343,
+          "end": 10.423,
+          "score": 0.826,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "most",
+          "start": 10.564,
+          "end": 10.944,
+          "score": 0.732,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "watched",
+          "start": 11.104,
+          "end": 11.524,
+          "score": 0.869,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "presidential",
+          "start": 11.664,
+          "end": 12.264,
+          "score": 0.878,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "debate",
+          "start": 12.324,
+          "end": 12.704,
+          "score": 0.841,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "in",
+          "start": 12.824,
+          "end": 12.924,
+          "score": 0.928,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "history",
+          "start": 12.964,
+          "end": 13.344,
+          "score": 0.859,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "and",
+          "start": 13.404,
+          "end": 13.485,
+          "score": 0.962,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "could",
+          "start": 13.565,
+          "end": 13.765,
+          "score": 0.847,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "even",
+          "start": 13.825,
+          "end": 14.025,
+          "score": 0.842,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "rival",
+          "start": 14.125,
+          "end": 14.485,
+          "score": 0.886,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ratings",
+          "start": 14.545,
+          "end": 14.945,
+          "score": 0.693,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "seen",
+          "start": 15.065,
+          "end": 15.245,
+          "score": 0.995,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "during",
+          "start": 15.265,
+          "end": 15.505,
+          "score": 0.761,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "the",
+          "start": 15.525,
+          "end": 15.625,
+          "score": 0.787,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Super",
+          "start": 15.685,
+          "end": 16.025,
+          "score": 0.932,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Bowl.",
+          "start": 16.065,
+          "end": 16.285,
+          "score": 0.581,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 16.706,
+      "end": 17.706,
+      "text": "Yoon Shin reports.",
+      "words": [
+        {
+          "word": "Yoon",
+          "start": 16.706,
+          "end": 16.886,
+          "score": 0.64,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Shin",
+          "start": 16.906,
+          "end": 17.166,
+          "score": 0.591,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "reports.",
+          "start": 17.266,
+          "end": 17.706,
+          "score": 0.839,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 20.047,
+      "end": 23.188,
+      "text": "Their first historic face-off is almost here.",
+      "words": [
+        {
+          "word": "Their",
+          "start": 20.047,
+          "end": 20.827,
+          "score": 0.778,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "first",
+          "start": 20.867,
+          "end": 21.127,
+          "score": 0.83,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "historic",
+          "start": 21.187,
+          "end": 21.667,
+          "score": 0.835,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "face-off",
+          "start": 21.707,
+          "end": 22.187,
+          "score": 0.731,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "is",
+          "start": 22.247,
+          "end": 22.347,
+          "score": 0.548,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "almost",
+          "start": 22.488,
+          "end": 22.868,
+          "score": 0.803,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "here.",
+          "start": 22.928,
+          "end": 23.188,
+          "score": 0.826,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 24.048,
+      "end": 34.017,
+      "text": " Democratic presidential candidate Hillary Clinton and her Republican rival Donald Trump are gearing up for their first debate on Monday night at one of this century's most anticipated TV events.",
+      "words": [
+        {
+          "word": "Democratic",
+          "start": 24.048,
+          "end": 24.508,
+          "score": 0.824,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "presidential",
+          "start": 24.528,
+          "end": 25.029,
+          "score": 0.862,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "candidate",
+          "start": 25.069,
+          "end": 25.509,
+          "score": 0.885,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Hillary",
+          "start": 25.549,
+          "end": 25.87,
+          "score": 0.92,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Clinton",
+          "start": 25.91,
+          "end": 26.37,
+          "score": 0.875,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 26.51,
+          "end": 26.59,
+          "score": 0.917,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "her",
+          "start": 26.61,
+          "end": 26.69,
+          "score": 0.021,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Republican",
+          "start": 26.71,
+          "end": 27.211,
+          "score": 0.783,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "rival",
+          "start": 27.271,
+          "end": 27.571,
+          "score": 0.929,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Donald",
+          "start": 27.611,
+          "end": 27.951,
+          "score": 0.93,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 28.031,
+          "end": 28.392,
+          "score": 0.801,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "are",
+          "start": 28.532,
+          "end": 28.612,
+          "score": 0.791,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "gearing",
+          "start": 28.632,
+          "end": 28.952,
+          "score": 0.919,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "up",
+          "start": 28.992,
+          "end": 29.052,
+          "score": 0.243,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 29.072,
+          "end": 29.172,
+          "score": 0.985,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "their",
+          "start": 29.212,
+          "end": 29.353,
+          "score": 0.818,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "first",
+          "start": 29.393,
+          "end": 29.613,
+          "score": 0.736,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "debate",
+          "start": 29.673,
+          "end": 29.993,
+          "score": 0.928,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 30.093,
+          "end": 30.173,
+          "score": 0.836,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Monday",
+          "start": 30.253,
+          "end": 30.614,
+          "score": 0.817,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "night",
+          "start": 30.714,
+          "end": 30.994,
+          "score": 0.805,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "at",
+          "start": 31.154,
+          "end": 31.234,
+          "score": 0.484,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "one",
+          "start": 31.294,
+          "end": 31.374,
+          "score": 0.881,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 31.394,
+          "end": 31.434,
+          "score": 0.999,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "this",
+          "start": 31.474,
+          "end": 31.595,
+          "score": 0.632,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "century's",
+          "start": 31.615,
+          "end": 31.995,
+          "score": 0.607,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "most",
+          "start": 32.095,
+          "end": 32.315,
+          "score": 0.874,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "anticipated",
+          "start": 32.435,
+          "end": 33.196,
+          "score": 0.899,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "TV",
+          "start": 33.256,
+          "end": 33.556,
+          "score": 0.718,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "events.",
+          "start": 33.636,
+          "end": 34.017,
+          "score": 0.891,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 34.884,
+      "end": 41.708,
+      "text": " Moderated by NBC News anchor Lester Holt, it\u2032s a 90-minute session starting at 9 PM at New York\u2032s Hofstra University.",
+      "words": [
+        {
+          "word": "Moderated",
+          "start": 34.884,
+          "end": 35.504,
+          "score": 0.93,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "by",
+          "start": 35.584,
+          "end": 35.725,
+          "score": 0.666,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "NBC",
+          "start": 35.845,
+          "end": 36.225,
+          "score": 0.757,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "News",
+          "start": 36.265,
+          "end": 36.485,
+          "score": 0.96,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "anchor",
+          "start": 36.545,
+          "end": 36.785,
+          "score": 0.882,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Lester",
+          "start": 36.825,
+          "end": 37.185,
+          "score": 0.785,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Holt,",
+          "start": 37.225,
+          "end": 37.546,
+          "score": 0.822,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "it\u2032s",
+          "start": 37.726,
+          "end": 37.846,
+          "score": 0.669,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 37.886,
+          "end": 37.926,
+          "score": 0.524,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "90-minute",
+          "start": 37.946,
+          "end": 38.526,
+          "score": 0.719,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "session",
+          "start": 38.566,
+          "end": 39.006,
+          "score": 0.961,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "starting",
+          "start": 39.046,
+          "end": 39.347,
+          "score": 0.855,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "at",
+          "start": 39.407,
+          "end": 39.467,
+          "score": 0.779,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "9"
+        },
+        {
+          "word": "PM",
+          "start": 39.787,
+          "end": 40.087,
+          "score": 0.912,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "at",
+          "start": 40.167,
+          "end": 40.227,
+          "score": 0.75,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "New",
+          "start": 40.267,
+          "end": 40.347,
+          "score": 0.999,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "York\u2032s",
+          "start": 40.387,
+          "end": 40.607,
+          "score": 0.796,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Hofstra",
+          "start": 40.647,
+          "end": 41.108,
+          "score": 0.857,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "University.",
+          "start": 41.148,
+          "end": 41.708,
+          "score": 0.894,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 42.508,
+      "end": 48.232,
+      "text": "Clinton and Trump are expected to cover topics including foreign policy and national security issues.",
+      "words": [
+        {
+          "word": "Clinton",
+          "start": 42.508,
+          "end": 42.969,
+          "score": 0.823,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 43.009,
+          "end": 43.109,
+          "score": 0.69,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 43.169,
+          "end": 43.509,
+          "score": 0.818,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "are",
+          "start": 43.589,
+          "end": 43.689,
+          "score": 0.803,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "expected",
+          "start": 43.749,
+          "end": 44.229,
+          "score": 0.945,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "to",
+          "start": 44.269,
+          "end": 44.369,
+          "score": 0.943,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "cover",
+          "start": 44.45,
+          "end": 44.69,
+          "score": 0.868,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "topics",
+          "start": 44.73,
+          "end": 45.27,
+          "score": 0.809,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "including",
+          "start": 45.37,
+          "end": 45.73,
+          "score": 0.871,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "foreign",
+          "start": 45.77,
+          "end": 46.03,
+          "score": 0.83,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "policy",
+          "start": 46.07,
+          "end": 46.511,
+          "score": 0.903,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 46.611,
+          "end": 46.691,
+          "score": 0.842,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "national",
+          "start": 46.751,
+          "end": 47.111,
+          "score": 0.85,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "security",
+          "start": 47.171,
+          "end": 47.711,
+          "score": 0.822,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "issues.",
+          "start": 47.811,
+          "end": 48.232,
+          "score": 0.726,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 48.952,
+      "end": 54.255,
+      "text": "Clinton has three decades of experience in politics and a long history of high-profile debates.",
+      "words": [
+        {
+          "word": "Clinton",
+          "start": 48.952,
+          "end": 49.312,
+          "score": 0.83,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "has",
+          "start": 49.332,
+          "end": 49.452,
+          "score": 0.953,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "three",
+          "start": 49.472,
+          "end": 49.793,
+          "score": 0.54,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "decades",
+          "start": 49.853,
+          "end": 50.293,
+          "score": 0.842,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 50.333,
+          "end": 50.393,
+          "score": 0.75,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "experience",
+          "start": 50.473,
+          "end": 51.133,
+          "score": 0.877,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "in",
+          "start": 51.173,
+          "end": 51.273,
+          "score": 0.838,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "politics",
+          "start": 51.313,
+          "end": 51.894,
+          "score": 0.752,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 52.054,
+          "end": 52.154,
+          "score": 0.605,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 52.194,
+          "end": 52.214,
+          "score": 0.989,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "long",
+          "start": 52.274,
+          "end": 52.514,
+          "score": 0.945,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "history",
+          "start": 52.574,
+          "end": 52.974,
+          "score": 0.797,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 53.014,
+          "end": 53.074,
+          "score": 0.75,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "high-profile",
+          "start": 53.134,
+          "end": 53.815,
+          "score": 0.852,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "debates.",
+          "start": 53.835,
+          "end": 54.255,
+          "score": 0.861,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 55.096,
+      "end": 58.858,
+      "text": "Last Wednesday, she put a pause on campaigning to prepare for the debate.",
+      "words": [
+        {
+          "word": "Last",
+          "start": 55.096,
+          "end": 55.316,
+          "score": 0.75,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Wednesday,",
+          "start": 55.356,
+          "end": 55.756,
+          "score": 0.736,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "she",
+          "start": 55.796,
+          "end": 55.916,
+          "score": 0.869,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "put",
+          "start": 55.956,
+          "end": 56.116,
+          "score": 0.883,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 56.136,
+          "end": 56.196,
+          "score": 0.742,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "pause",
+          "start": 56.276,
+          "end": 56.596,
+          "score": 0.9,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 56.677,
+          "end": 56.777,
+          "score": 0.594,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "campaigning",
+          "start": 56.837,
+          "end": 57.517,
+          "score": 0.869,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "to",
+          "start": 57.557,
+          "end": 57.657,
+          "score": 0.992,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "prepare",
+          "start": 57.717,
+          "end": 58.157,
+          "score": 0.732,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 58.197,
+          "end": 58.317,
+          "score": 0.889,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 58.357,
+          "end": 58.438,
+          "score": 0.83,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "debate.",
+          "start": 58.478,
+          "end": 58.858,
+          "score": 0.938,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 59.85,
+      "end": 66.595,
+      "text": " And Donald Trump, who vanquished nearly a dozen opponents in the Republican debates, has also been getting ready while on the campaign trail.",
+      "words": [
+        {
+          "word": "And",
+          "start": 59.85,
+          "end": 59.95,
+          "score": 0.851,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Donald",
+          "start": 59.97,
+          "end": 60.29,
+          "score": 0.917,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump,",
+          "start": 60.33,
+          "end": 60.611,
+          "score": 0.861,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "who",
+          "start": 60.731,
+          "end": 60.871,
+          "score": 0.775,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "vanquished",
+          "start": 60.911,
+          "end": 61.451,
+          "score": 0.829,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "nearly",
+          "start": 61.531,
+          "end": 61.831,
+          "score": 0.801,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 61.892,
+          "end": 61.952,
+          "score": 0.611,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "dozen",
+          "start": 61.992,
+          "end": 62.292,
+          "score": 0.862,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "opponents",
+          "start": 62.332,
+          "end": 62.772,
+          "score": 0.995,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "in",
+          "start": 62.812,
+          "end": 62.852,
+          "score": 0.992,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 62.872,
+          "end": 62.952,
+          "score": 0.832,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Republican",
+          "start": 62.972,
+          "end": 63.453,
+          "score": 0.858,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "debates,",
+          "start": 63.473,
+          "end": 63.913,
+          "score": 0.752,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "has",
+          "start": 64.153,
+          "end": 64.273,
+          "score": 0.6,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "also",
+          "start": 64.353,
+          "end": 64.553,
+          "score": 0.984,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "been",
+          "start": 64.593,
+          "end": 64.734,
+          "score": 0.888,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "getting",
+          "start": 64.754,
+          "end": 64.994,
+          "score": 0.858,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "ready",
+          "start": 65.054,
+          "end": 65.314,
+          "score": 0.893,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "while",
+          "start": 65.374,
+          "end": 65.574,
+          "score": 0.685,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 65.614,
+          "end": 65.674,
+          "score": 0.764,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 65.694,
+          "end": 65.774,
+          "score": 0.834,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "campaign",
+          "start": 65.794,
+          "end": 66.215,
+          "score": 0.931,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "trail.",
+          "start": 66.275,
+          "end": 66.595,
+          "score": 0.777,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 67.375,
+      "end": 77.543,
+      "text": "It's reported that he's been studying Clinton's past debates to find flaws in her stances on national issues, with the help of Steve Bannon, the CEO of the Trump campaign and others on his team.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 67.375,
+          "end": 67.495,
+          "score": 0.773,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "reported",
+          "start": 67.516,
+          "end": 67.896,
+          "score": 0.861,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that",
+          "start": 67.916,
+          "end": 68.016,
+          "score": 0.874,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "he's",
+          "start": 68.056,
+          "end": 68.216,
+          "score": 0.503,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "been",
+          "start": 68.236,
+          "end": 68.396,
+          "score": 0.833,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "studying",
+          "start": 68.476,
+          "end": 68.916,
+          "score": 0.731,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Clinton's",
+          "start": 68.977,
+          "end": 69.337,
+          "score": 0.75,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "past",
+          "start": 69.397,
+          "end": 69.637,
+          "score": 0.952,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "debates",
+          "start": 69.677,
+          "end": 70.097,
+          "score": 0.829,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "to",
+          "start": 70.197,
+          "end": 70.297,
+          "score": 0.978,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "find",
+          "start": 70.338,
+          "end": 70.558,
+          "score": 0.761,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "flaws",
+          "start": 70.638,
+          "end": 70.938,
+          "score": 0.762,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "in",
+          "start": 70.998,
+          "end": 71.058,
+          "score": 0.996,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "her",
+          "start": 71.078,
+          "end": 71.198,
+          "score": 0.69,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "stances",
+          "start": 71.238,
+          "end": 71.739,
+          "score": 0.888,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 71.819,
+          "end": 71.879,
+          "score": 0.994,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "national",
+          "start": 71.919,
+          "end": 72.279,
+          "score": 0.819,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "issues,",
+          "start": 72.359,
+          "end": 72.739,
+          "score": 0.719,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "with",
+          "start": 73.099,
+          "end": 73.2,
+          "score": 0.877,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 73.22,
+          "end": 73.3,
+          "score": 0.845,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "help",
+          "start": 73.32,
+          "end": 73.48,
+          "score": 0.705,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 73.52,
+          "end": 73.56,
+          "score": 1.0,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Steve",
+          "start": 73.62,
+          "end": 73.92,
+          "score": 0.916,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Bannon,",
+          "start": 73.98,
+          "end": 74.38,
+          "score": 0.661,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 74.52,
+          "end": 74.641,
+          "score": 0.881,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "CEO",
+          "start": 74.701,
+          "end": 75.341,
+          "score": 0.818,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 75.401,
+          "end": 75.481,
+          "score": 0.83,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 75.521,
+          "end": 75.601,
+          "score": 0.83,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 75.641,
+          "end": 75.861,
+          "score": 0.929,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "campaign",
+          "start": 75.901,
+          "end": 76.402,
+          "score": 0.807,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 76.482,
+          "end": 76.562,
+          "score": 0.898,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "others",
+          "start": 76.722,
+          "end": 76.982,
+          "score": 0.819,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 77.042,
+          "end": 77.102,
+          "score": 0.997,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "his",
+          "start": 77.142,
+          "end": 77.262,
+          "score": 0.79,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "team.",
+          "start": 77.322,
+          "end": 77.543,
+          "score": 0.917,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 78.621,
+      "end": 82.945,
+      "text": " Just six weeks ahead of Election Day, the polls show the two candidates neck and neck.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 78.621,
+          "end": 78.821,
+          "score": 0.796,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "six",
+          "start": 78.881,
+          "end": 79.121,
+          "score": 0.878,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "weeks",
+          "start": 79.202,
+          "end": 79.502,
+          "score": 0.851,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "ahead",
+          "start": 79.562,
+          "end": 79.742,
+          "score": 0.518,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 79.762,
+          "end": 79.802,
+          "score": 0.952,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Election",
+          "start": 79.862,
+          "end": 80.242,
+          "score": 0.833,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Day,",
+          "start": 80.282,
+          "end": 80.543,
+          "score": 0.199,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 80.683,
+          "end": 80.783,
+          "score": 0.676,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "polls",
+          "start": 80.823,
+          "end": 81.203,
+          "score": 0.818,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "show",
+          "start": 81.323,
+          "end": 81.483,
+          "score": 0.86,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 81.503,
+          "end": 81.584,
+          "score": 0.821,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "two",
+          "start": 81.624,
+          "end": 81.744,
+          "score": 0.891,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "candidates",
+          "start": 81.784,
+          "end": 82.224,
+          "score": 0.847,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "neck",
+          "start": 82.264,
+          "end": 82.444,
+          "score": 0.87,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 82.484,
+          "end": 82.584,
+          "score": 0.803,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "neck.",
+          "start": 82.664,
+          "end": 82.945,
+          "score": 0.832,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 83.705,
+      "end": 95.695,
+      "text": "A poll released on Sunday by ABC News and The Washington Post showed voters are split, with 46 percent for Clinton and 44 percent for Trump, well within the poll's four-and-a-half percentage point margin of error.",
+      "words": [
+        {
+          "word": "A",
+          "start": 83.705,
+          "end": 83.745,
+          "score": 0.88,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "poll",
+          "start": 83.785,
+          "end": 83.966,
+          "score": 0.69,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "released",
+          "start": 84.006,
+          "end": 84.286,
+          "score": 0.828,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 84.346,
+          "end": 84.426,
+          "score": 0.832,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Sunday",
+          "start": 84.486,
+          "end": 84.886,
+          "score": 0.836,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "by",
+          "start": 84.946,
+          "end": 85.066,
+          "score": 0.82,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "ABC",
+          "start": 85.127,
+          "end": 85.467,
+          "score": 0.802,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "News",
+          "start": 85.487,
+          "end": 85.707,
+          "score": 0.651,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 85.767,
+          "end": 85.827,
+          "score": 0.369,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "The",
+          "start": 85.847,
+          "end": 85.907,
+          "score": 0.987,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Washington",
+          "start": 85.967,
+          "end": 86.408,
+          "score": 0.912,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Post",
+          "start": 86.468,
+          "end": 86.868,
+          "score": 0.847,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "showed",
+          "start": 87.008,
+          "end": 87.248,
+          "score": 0.847,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "voters",
+          "start": 87.308,
+          "end": 87.669,
+          "score": 0.835,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "are",
+          "start": 87.729,
+          "end": 87.829,
+          "score": 0.633,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "split,",
+          "start": 87.889,
+          "end": 88.269,
+          "score": 0.861,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "with",
+          "start": 88.669,
+          "end": 88.81,
+          "score": 0.864,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "46"
+        },
+        {
+          "word": "percent",
+          "start": 89.31,
+          "end": 89.61,
+          "score": 0.854,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 89.63,
+          "end": 89.77,
+          "score": 0.857,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Clinton",
+          "start": 89.85,
+          "end": 90.371,
+          "score": 0.899,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 90.451,
+          "end": 90.551,
+          "score": 0.802,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "44"
+        },
+        {
+          "word": "percent",
+          "start": 91.172,
+          "end": 91.472,
+          "score": 0.855,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 91.492,
+          "end": 91.632,
+          "score": 0.885,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump,",
+          "start": 91.732,
+          "end": 92.092,
+          "score": 0.881,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "well",
+          "start": 92.393,
+          "end": 92.593,
+          "score": 0.793,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "within",
+          "start": 92.633,
+          "end": 93.053,
+          "score": 0.803,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 93.133,
+          "end": 93.233,
+          "score": 0.88,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "poll's",
+          "start": 93.253,
+          "end": 93.494,
+          "score": 0.772,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "four-and-a-half",
+          "start": 93.534,
+          "end": 94.034,
+          "score": 0.72,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "percentage",
+          "start": 94.074,
+          "end": 94.474,
+          "score": 0.885,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "point",
+          "start": 94.554,
+          "end": 94.895,
+          "score": 0.86,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "margin",
+          "start": 95.015,
+          "end": 95.315,
+          "score": 0.981,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 95.335,
+          "end": 95.395,
+          "score": 0.784,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "error.",
+          "start": 95.495,
+          "end": 95.695,
+          "score": 0.801,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 96.636,
+      "end": 103.844,
+      "text": " Described as debate of the century, Monday night's showdown is expected to draw more than 100 million viewers in the states alone.",
+      "words": [
+        {
+          "word": "Described",
+          "start": 96.636,
+          "end": 97.177,
+          "score": 0.909,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "as",
+          "start": 97.277,
+          "end": 97.357,
+          "score": 0.672,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "debate",
+          "start": 97.457,
+          "end": 97.858,
+          "score": 0.894,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 97.938,
+          "end": 98.018,
+          "score": 0.837,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 98.038,
+          "end": 98.138,
+          "score": 0.946,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "century,",
+          "start": 98.198,
+          "end": 98.718,
+          "score": 0.781,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Monday",
+          "start": 98.899,
+          "end": 99.179,
+          "score": 0.913,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "night's",
+          "start": 99.239,
+          "end": 99.459,
+          "score": 0.819,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "showdown",
+          "start": 99.519,
+          "end": 100.04,
+          "score": 0.904,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "is",
+          "start": 100.16,
+          "end": 100.22,
+          "score": 0.758,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "expected",
+          "start": 100.28,
+          "end": 100.721,
+          "score": 0.881,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "to",
+          "start": 100.761,
+          "end": 100.841,
+          "score": 0.752,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "draw",
+          "start": 100.881,
+          "end": 101.101,
+          "score": 0.968,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "more",
+          "start": 101.161,
+          "end": 101.281,
+          "score": 0.816,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "than",
+          "start": 101.301,
+          "end": 101.421,
+          "score": 0.761,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "100"
+        },
+        {
+          "word": "million",
+          "start": 101.942,
+          "end": 102.242,
+          "score": 0.874,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "viewers",
+          "start": 102.282,
+          "end": 102.623,
+          "score": 0.509,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "in",
+          "start": 102.663,
+          "end": 102.743,
+          "score": 0.565,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 102.763,
+          "end": 102.843,
+          "score": 0.837,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "states",
+          "start": 102.923,
+          "end": 103.243,
+          "score": 0.874,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "alone.",
+          "start": 103.404,
+          "end": 103.844,
+          "score": 0.835,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 104.485,
+      "end": 107.388,
+      "text": "And with the rest of the world eyeing this crucial point in the U.S.",
+      "words": [
+        {
+          "word": "And",
+          "start": 104.485,
+          "end": 104.565,
+          "score": 0.98,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "with",
+          "start": 104.605,
+          "end": 104.705,
+          "score": 0.932,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 104.725,
+          "end": 104.805,
+          "score": 0.831,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "rest",
+          "start": 104.845,
+          "end": 105.005,
+          "score": 0.96,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 105.025,
+          "end": 105.106,
+          "score": 0.802,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 105.126,
+          "end": 105.206,
+          "score": 0.832,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "world",
+          "start": 105.226,
+          "end": 105.446,
+          "score": 0.814,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "eyeing",
+          "start": 105.606,
+          "end": 105.786,
+          "score": 0.876,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "this",
+          "start": 105.806,
+          "end": 105.946,
+          "score": 0.8,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "crucial",
+          "start": 106.047,
+          "end": 106.487,
+          "score": 0.902,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "point",
+          "start": 106.567,
+          "end": 106.867,
+          "score": 0.81,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "in",
+          "start": 106.908,
+          "end": 106.988,
+          "score": 0.899,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 107.008,
+          "end": 107.068,
+          "score": 0.952,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "U.S.",
+          "start": 107.188,
+          "end": 107.388,
+          "score": 0.77,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 107.488,
+      "end": 111.372,
+      "text": "election, it'll be streamed live online through platforms like YouTube.",
+      "words": [
+        {
+          "word": "election,",
+          "start": 107.488,
+          "end": 108.109,
+          "score": 0.543,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "it'll",
+          "start": 108.269,
+          "end": 108.469,
+          "score": 0.988,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "be",
+          "start": 108.489,
+          "end": 108.589,
+          "score": 0.572,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "streamed",
+          "start": 108.649,
+          "end": 108.95,
+          "score": 0.925,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "live",
+          "start": 109.01,
+          "end": 109.23,
+          "score": 0.88,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "online",
+          "start": 109.37,
+          "end": 109.811,
+          "score": 0.942,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "through",
+          "start": 109.871,
+          "end": 110.071,
+          "score": 0.74,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "platforms",
+          "start": 110.131,
+          "end": 110.672,
+          "score": 0.86,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "like",
+          "start": 110.712,
+          "end": 110.852,
+          "score": 0.875,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "YouTube.",
+          "start": 110.892,
+          "end": 111.372,
+          "score": 0.783,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 112.354,
+      "end": 113.455,
+      "text": "Lee Unshin, Arirang News.",
+      "words": [
+        {
+          "word": "Lee",
+          "start": 112.354,
+          "end": 112.434,
+          "score": 0.169,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Unshin,",
+          "start": 112.454,
+          "end": 112.754,
+          "score": 0.704,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Arirang",
+          "start": 112.934,
+          "end": 113.255,
+          "score": 0.593,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "News.",
+          "start": 113.275,
+          "end": 113.455,
+          "score": 0.596,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "The",
+      "start": 0.34,
+      "end": 0.44,
+      "score": 0.967,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "wait",
+      "start": 0.5,
+      "end": 0.86,
+      "score": 0.583,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "is",
+      "start": 1.08,
+      "end": 1.18,
+      "score": 0.736,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "almost",
+      "start": 1.44,
+      "end": 1.901,
+      "score": 0.776,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "over.",
+      "start": 2.061,
+      "end": 2.301,
+      "score": 0.752,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "The",
+      "start": 2.361,
+      "end": 2.461,
+      "score": 0.764,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "first",
+      "start": 2.501,
+      "end": 2.861,
+      "score": 0.751,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "televised",
+      "start": 2.881,
+      "end": 3.741,
+      "score": 0.715,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "face-off",
+      "start": 3.901,
+      "end": 4.501,
+      "score": 0.895,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "between",
+      "start": 4.562,
+      "end": 4.862,
+      "score": 0.918,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Hillary",
+      "start": 4.902,
+      "end": 5.222,
+      "score": 0.879,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Clinton",
+      "start": 5.262,
+      "end": 5.542,
+      "score": 0.813,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "and",
+      "start": 5.562,
+      "end": 5.642,
+      "score": 0.847,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Donald",
+      "start": 5.682,
+      "end": 5.962,
+      "score": 0.813,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Trump",
+      "start": 6.002,
+      "end": 6.262,
+      "score": 0.877,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "will",
+      "start": 6.302,
+      "end": 6.522,
+      "score": 0.585,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "get",
+      "start": 6.542,
+      "end": 6.722,
+      "score": 0.832,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "underway",
+      "start": 6.782,
+      "end": 7.162,
+      "score": 0.906,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "in",
+      "start": 7.202,
+      "end": 7.262,
+      "score": 0.97,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "less",
+      "start": 7.322,
+      "end": 7.523,
+      "score": 0.841,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "than",
+      "start": 7.563,
+      "end": 7.683,
+      "score": 0.897,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "four",
+      "start": 7.743,
+      "end": 7.923,
+      "score": 0.903,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "hours",
+      "start": 7.963,
+      "end": 8.223,
+      "score": 0.865,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "from",
+      "start": 8.263,
+      "end": 8.403,
+      "score": 0.842,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "now.",
+      "start": 8.443,
+      "end": 8.683,
+      "score": 0.949,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "It's",
+      "start": 8.783,
+      "end": 8.943,
+      "score": 0.877,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "expected",
+      "start": 9.483,
+      "end": 10.023,
+      "score": 0.834,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 10.063,
+      "end": 10.123,
+      "score": 0.936,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "be",
+      "start": 10.163,
+      "end": 10.303,
+      "score": 0.778,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "the",
+      "start": 10.343,
+      "end": 10.423,
+      "score": 0.826,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "most",
+      "start": 10.564,
+      "end": 10.944,
+      "score": 0.732,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "watched",
+      "start": 11.104,
+      "end": 11.524,
+      "score": 0.869,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "presidential",
+      "start": 11.664,
+      "end": 12.264,
+      "score": 0.878,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "debate",
+      "start": 12.324,
+      "end": 12.704,
+      "score": 0.841,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "in",
+      "start": 12.824,
+      "end": 12.924,
+      "score": 0.928,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "history",
+      "start": 12.964,
+      "end": 13.344,
+      "score": 0.859,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "and",
+      "start": 13.404,
+      "end": 13.485,
+      "score": 0.962,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "could",
+      "start": 13.565,
+      "end": 13.765,
+      "score": 0.847,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "even",
+      "start": 13.825,
+      "end": 14.025,
+      "score": 0.842,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "rival",
+      "start": 14.125,
+      "end": 14.485,
+      "score": 0.886,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ratings",
+      "start": 14.545,
+      "end": 14.945,
+      "score": 0.693,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "seen",
+      "start": 15.065,
+      "end": 15.245,
+      "score": 0.995,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "during",
+      "start": 15.265,
+      "end": 15.505,
+      "score": 0.761,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "the",
+      "start": 15.525,
+      "end": 15.625,
+      "score": 0.787,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Super",
+      "start": 15.685,
+      "end": 16.025,
+      "score": 0.932,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Bowl.",
+      "start": 16.065,
+      "end": 16.285,
+      "score": 0.581,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Yoon",
+      "start": 16.706,
+      "end": 16.886,
+      "score": 0.64,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Shin",
+      "start": 16.906,
+      "end": 17.166,
+      "score": 0.591,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "reports.",
+      "start": 17.266,
+      "end": 17.706,
+      "score": 0.839,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Their",
+      "start": 20.047,
+      "end": 20.827,
+      "score": 0.778,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "first",
+      "start": 20.867,
+      "end": 21.127,
+      "score": 0.83,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "historic",
+      "start": 21.187,
+      "end": 21.667,
+      "score": 0.835,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "face-off",
+      "start": 21.707,
+      "end": 22.187,
+      "score": 0.731,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "is",
+      "start": 22.247,
+      "end": 22.347,
+      "score": 0.548,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "almost",
+      "start": 22.488,
+      "end": 22.868,
+      "score": 0.803,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "here.",
+      "start": 22.928,
+      "end": 23.188,
+      "score": 0.826,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Democratic",
+      "start": 24.048,
+      "end": 24.508,
+      "score": 0.824,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "presidential",
+      "start": 24.528,
+      "end": 25.029,
+      "score": 0.862,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "candidate",
+      "start": 25.069,
+      "end": 25.509,
+      "score": 0.885,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Hillary",
+      "start": 25.549,
+      "end": 25.87,
+      "score": 0.92,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton",
+      "start": 25.91,
+      "end": 26.37,
+      "score": 0.875,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 26.51,
+      "end": 26.59,
+      "score": 0.917,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "her",
+      "start": 26.61,
+      "end": 26.69,
+      "score": 0.021,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Republican",
+      "start": 26.71,
+      "end": 27.211,
+      "score": 0.783,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "rival",
+      "start": 27.271,
+      "end": 27.571,
+      "score": 0.929,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Donald",
+      "start": 27.611,
+      "end": 27.951,
+      "score": 0.93,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 28.031,
+      "end": 28.392,
+      "score": 0.801,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "are",
+      "start": 28.532,
+      "end": 28.612,
+      "score": 0.791,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "gearing",
+      "start": 28.632,
+      "end": 28.952,
+      "score": 0.919,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "up",
+      "start": 28.992,
+      "end": 29.052,
+      "score": 0.243,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 29.072,
+      "end": 29.172,
+      "score": 0.985,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "their",
+      "start": 29.212,
+      "end": 29.353,
+      "score": 0.818,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "first",
+      "start": 29.393,
+      "end": 29.613,
+      "score": 0.736,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "debate",
+      "start": 29.673,
+      "end": 29.993,
+      "score": 0.928,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 30.093,
+      "end": 30.173,
+      "score": 0.836,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Monday",
+      "start": 30.253,
+      "end": 30.614,
+      "score": 0.817,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "night",
+      "start": 30.714,
+      "end": 30.994,
+      "score": 0.805,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "at",
+      "start": 31.154,
+      "end": 31.234,
+      "score": 0.484,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "one",
+      "start": 31.294,
+      "end": 31.374,
+      "score": 0.881,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 31.394,
+      "end": 31.434,
+      "score": 0.999,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "this",
+      "start": 31.474,
+      "end": 31.595,
+      "score": 0.632,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "century's",
+      "start": 31.615,
+      "end": 31.995,
+      "score": 0.607,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "most",
+      "start": 32.095,
+      "end": 32.315,
+      "score": 0.874,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "anticipated",
+      "start": 32.435,
+      "end": 33.196,
+      "score": 0.899,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "TV",
+      "start": 33.256,
+      "end": 33.556,
+      "score": 0.718,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "events.",
+      "start": 33.636,
+      "end": 34.017,
+      "score": 0.891,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Moderated",
+      "start": 34.884,
+      "end": 35.504,
+      "score": 0.93,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "by",
+      "start": 35.584,
+      "end": 35.725,
+      "score": 0.666,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "NBC",
+      "start": 35.845,
+      "end": 36.225,
+      "score": 0.757,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "News",
+      "start": 36.265,
+      "end": 36.485,
+      "score": 0.96,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "anchor",
+      "start": 36.545,
+      "end": 36.785,
+      "score": 0.882,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Lester",
+      "start": 36.825,
+      "end": 37.185,
+      "score": 0.785,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Holt,",
+      "start": 37.225,
+      "end": 37.546,
+      "score": 0.822,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "it\u2032s",
+      "start": 37.726,
+      "end": 37.846,
+      "score": 0.669,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 37.886,
+      "end": 37.926,
+      "score": 0.524,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "90-minute",
+      "start": 37.946,
+      "end": 38.526,
+      "score": 0.719,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "session",
+      "start": 38.566,
+      "end": 39.006,
+      "score": 0.961,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "starting",
+      "start": 39.046,
+      "end": 39.347,
+      "score": 0.855,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "at",
+      "start": 39.407,
+      "end": 39.467,
+      "score": 0.779,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "9"
+    },
+    {
+      "word": "PM",
+      "start": 39.787,
+      "end": 40.087,
+      "score": 0.912,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "at",
+      "start": 40.167,
+      "end": 40.227,
+      "score": 0.75,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "New",
+      "start": 40.267,
+      "end": 40.347,
+      "score": 0.999,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "York\u2032s",
+      "start": 40.387,
+      "end": 40.607,
+      "score": 0.796,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Hofstra",
+      "start": 40.647,
+      "end": 41.108,
+      "score": 0.857,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "University.",
+      "start": 41.148,
+      "end": 41.708,
+      "score": 0.894,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton",
+      "start": 42.508,
+      "end": 42.969,
+      "score": 0.823,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 43.009,
+      "end": 43.109,
+      "score": 0.69,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 43.169,
+      "end": 43.509,
+      "score": 0.818,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "are",
+      "start": 43.589,
+      "end": 43.689,
+      "score": 0.803,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "expected",
+      "start": 43.749,
+      "end": 44.229,
+      "score": 0.945,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "to",
+      "start": 44.269,
+      "end": 44.369,
+      "score": 0.943,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "cover",
+      "start": 44.45,
+      "end": 44.69,
+      "score": 0.868,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "topics",
+      "start": 44.73,
+      "end": 45.27,
+      "score": 0.809,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "including",
+      "start": 45.37,
+      "end": 45.73,
+      "score": 0.871,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "foreign",
+      "start": 45.77,
+      "end": 46.03,
+      "score": 0.83,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "policy",
+      "start": 46.07,
+      "end": 46.511,
+      "score": 0.903,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 46.611,
+      "end": 46.691,
+      "score": 0.842,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "national",
+      "start": 46.751,
+      "end": 47.111,
+      "score": 0.85,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "security",
+      "start": 47.171,
+      "end": 47.711,
+      "score": 0.822,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "issues.",
+      "start": 47.811,
+      "end": 48.232,
+      "score": 0.726,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton",
+      "start": 48.952,
+      "end": 49.312,
+      "score": 0.83,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "has",
+      "start": 49.332,
+      "end": 49.452,
+      "score": 0.953,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "three",
+      "start": 49.472,
+      "end": 49.793,
+      "score": 0.54,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "decades",
+      "start": 49.853,
+      "end": 50.293,
+      "score": 0.842,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 50.333,
+      "end": 50.393,
+      "score": 0.75,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "experience",
+      "start": 50.473,
+      "end": 51.133,
+      "score": 0.877,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "in",
+      "start": 51.173,
+      "end": 51.273,
+      "score": 0.838,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "politics",
+      "start": 51.313,
+      "end": 51.894,
+      "score": 0.752,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 52.054,
+      "end": 52.154,
+      "score": 0.605,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 52.194,
+      "end": 52.214,
+      "score": 0.989,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "long",
+      "start": 52.274,
+      "end": 52.514,
+      "score": 0.945,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "history",
+      "start": 52.574,
+      "end": 52.974,
+      "score": 0.797,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 53.014,
+      "end": 53.074,
+      "score": 0.75,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "high-profile",
+      "start": 53.134,
+      "end": 53.815,
+      "score": 0.852,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "debates.",
+      "start": 53.835,
+      "end": 54.255,
+      "score": 0.861,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Last",
+      "start": 55.096,
+      "end": 55.316,
+      "score": 0.75,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Wednesday,",
+      "start": 55.356,
+      "end": 55.756,
+      "score": 0.736,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "she",
+      "start": 55.796,
+      "end": 55.916,
+      "score": 0.869,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "put",
+      "start": 55.956,
+      "end": 56.116,
+      "score": 0.883,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 56.136,
+      "end": 56.196,
+      "score": 0.742,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "pause",
+      "start": 56.276,
+      "end": 56.596,
+      "score": 0.9,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 56.677,
+      "end": 56.777,
+      "score": 0.594,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "campaigning",
+      "start": 56.837,
+      "end": 57.517,
+      "score": 0.869,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "to",
+      "start": 57.557,
+      "end": 57.657,
+      "score": 0.992,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "prepare",
+      "start": 57.717,
+      "end": 58.157,
+      "score": 0.732,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 58.197,
+      "end": 58.317,
+      "score": 0.889,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 58.357,
+      "end": 58.438,
+      "score": 0.83,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "debate.",
+      "start": 58.478,
+      "end": 58.858,
+      "score": 0.938,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "And",
+      "start": 59.85,
+      "end": 59.95,
+      "score": 0.851,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Donald",
+      "start": 59.97,
+      "end": 60.29,
+      "score": 0.917,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump,",
+      "start": 60.33,
+      "end": 60.611,
+      "score": 0.861,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "who",
+      "start": 60.731,
+      "end": 60.871,
+      "score": 0.775,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "vanquished",
+      "start": 60.911,
+      "end": 61.451,
+      "score": 0.829,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "nearly",
+      "start": 61.531,
+      "end": 61.831,
+      "score": 0.801,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 61.892,
+      "end": 61.952,
+      "score": 0.611,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "dozen",
+      "start": 61.992,
+      "end": 62.292,
+      "score": 0.862,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "opponents",
+      "start": 62.332,
+      "end": 62.772,
+      "score": 0.995,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "in",
+      "start": 62.812,
+      "end": 62.852,
+      "score": 0.992,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 62.872,
+      "end": 62.952,
+      "score": 0.832,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Republican",
+      "start": 62.972,
+      "end": 63.453,
+      "score": 0.858,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "debates,",
+      "start": 63.473,
+      "end": 63.913,
+      "score": 0.752,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "has",
+      "start": 64.153,
+      "end": 64.273,
+      "score": 0.6,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "also",
+      "start": 64.353,
+      "end": 64.553,
+      "score": 0.984,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "been",
+      "start": 64.593,
+      "end": 64.734,
+      "score": 0.888,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "getting",
+      "start": 64.754,
+      "end": 64.994,
+      "score": 0.858,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "ready",
+      "start": 65.054,
+      "end": 65.314,
+      "score": 0.893,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "while",
+      "start": 65.374,
+      "end": 65.574,
+      "score": 0.685,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 65.614,
+      "end": 65.674,
+      "score": 0.764,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 65.694,
+      "end": 65.774,
+      "score": 0.834,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "campaign",
+      "start": 65.794,
+      "end": 66.215,
+      "score": 0.931,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "trail.",
+      "start": 66.275,
+      "end": 66.595,
+      "score": 0.777,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "It's",
+      "start": 67.375,
+      "end": 67.495,
+      "score": 0.773,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "reported",
+      "start": 67.516,
+      "end": 67.896,
+      "score": 0.861,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that",
+      "start": 67.916,
+      "end": 68.016,
+      "score": 0.874,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "he's",
+      "start": 68.056,
+      "end": 68.216,
+      "score": 0.503,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "been",
+      "start": 68.236,
+      "end": 68.396,
+      "score": 0.833,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "studying",
+      "start": 68.476,
+      "end": 68.916,
+      "score": 0.731,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton's",
+      "start": 68.977,
+      "end": 69.337,
+      "score": 0.75,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "past",
+      "start": 69.397,
+      "end": 69.637,
+      "score": 0.952,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "debates",
+      "start": 69.677,
+      "end": 70.097,
+      "score": 0.829,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "to",
+      "start": 70.197,
+      "end": 70.297,
+      "score": 0.978,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "find",
+      "start": 70.338,
+      "end": 70.558,
+      "score": 0.761,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "flaws",
+      "start": 70.638,
+      "end": 70.938,
+      "score": 0.762,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "in",
+      "start": 70.998,
+      "end": 71.058,
+      "score": 0.996,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "her",
+      "start": 71.078,
+      "end": 71.198,
+      "score": 0.69,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "stances",
+      "start": 71.238,
+      "end": 71.739,
+      "score": 0.888,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 71.819,
+      "end": 71.879,
+      "score": 0.994,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "national",
+      "start": 71.919,
+      "end": 72.279,
+      "score": 0.819,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "issues,",
+      "start": 72.359,
+      "end": 72.739,
+      "score": 0.719,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "with",
+      "start": 73.099,
+      "end": 73.2,
+      "score": 0.877,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 73.22,
+      "end": 73.3,
+      "score": 0.845,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "help",
+      "start": 73.32,
+      "end": 73.48,
+      "score": 0.705,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 73.52,
+      "end": 73.56,
+      "score": 1.0,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Steve",
+      "start": 73.62,
+      "end": 73.92,
+      "score": 0.916,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Bannon,",
+      "start": 73.98,
+      "end": 74.38,
+      "score": 0.661,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 74.52,
+      "end": 74.641,
+      "score": 0.881,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "CEO",
+      "start": 74.701,
+      "end": 75.341,
+      "score": 0.818,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 75.401,
+      "end": 75.481,
+      "score": 0.83,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 75.521,
+      "end": 75.601,
+      "score": 0.83,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 75.641,
+      "end": 75.861,
+      "score": 0.929,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "campaign",
+      "start": 75.901,
+      "end": 76.402,
+      "score": 0.807,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 76.482,
+      "end": 76.562,
+      "score": 0.898,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "others",
+      "start": 76.722,
+      "end": 76.982,
+      "score": 0.819,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 77.042,
+      "end": 77.102,
+      "score": 0.997,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "his",
+      "start": 77.142,
+      "end": 77.262,
+      "score": 0.79,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "team.",
+      "start": 77.322,
+      "end": 77.543,
+      "score": 0.917,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Just",
+      "start": 78.621,
+      "end": 78.821,
+      "score": 0.796,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "six",
+      "start": 78.881,
+      "end": 79.121,
+      "score": 0.878,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "weeks",
+      "start": 79.202,
+      "end": 79.502,
+      "score": 0.851,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "ahead",
+      "start": 79.562,
+      "end": 79.742,
+      "score": 0.518,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 79.762,
+      "end": 79.802,
+      "score": 0.952,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Election",
+      "start": 79.862,
+      "end": 80.242,
+      "score": 0.833,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Day,",
+      "start": 80.282,
+      "end": 80.543,
+      "score": 0.199,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 80.683,
+      "end": 80.783,
+      "score": 0.676,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "polls",
+      "start": 80.823,
+      "end": 81.203,
+      "score": 0.818,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "show",
+      "start": 81.323,
+      "end": 81.483,
+      "score": 0.86,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 81.503,
+      "end": 81.584,
+      "score": 0.821,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "two",
+      "start": 81.624,
+      "end": 81.744,
+      "score": 0.891,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "candidates",
+      "start": 81.784,
+      "end": 82.224,
+      "score": 0.847,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "neck",
+      "start": 82.264,
+      "end": 82.444,
+      "score": 0.87,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 82.484,
+      "end": 82.584,
+      "score": 0.803,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "neck.",
+      "start": 82.664,
+      "end": 82.945,
+      "score": 0.832,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "A",
+      "start": 83.705,
+      "end": 83.745,
+      "score": 0.88,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "poll",
+      "start": 83.785,
+      "end": 83.966,
+      "score": 0.69,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "released",
+      "start": 84.006,
+      "end": 84.286,
+      "score": 0.828,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 84.346,
+      "end": 84.426,
+      "score": 0.832,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Sunday",
+      "start": 84.486,
+      "end": 84.886,
+      "score": 0.836,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "by",
+      "start": 84.946,
+      "end": 85.066,
+      "score": 0.82,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "ABC",
+      "start": 85.127,
+      "end": 85.467,
+      "score": 0.802,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "News",
+      "start": 85.487,
+      "end": 85.707,
+      "score": 0.651,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 85.767,
+      "end": 85.827,
+      "score": 0.369,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "The",
+      "start": 85.847,
+      "end": 85.907,
+      "score": 0.987,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Washington",
+      "start": 85.967,
+      "end": 86.408,
+      "score": 0.912,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Post",
+      "start": 86.468,
+      "end": 86.868,
+      "score": 0.847,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "showed",
+      "start": 87.008,
+      "end": 87.248,
+      "score": 0.847,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "voters",
+      "start": 87.308,
+      "end": 87.669,
+      "score": 0.835,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "are",
+      "start": 87.729,
+      "end": 87.829,
+      "score": 0.633,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "split,",
+      "start": 87.889,
+      "end": 88.269,
+      "score": 0.861,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "with",
+      "start": 88.669,
+      "end": 88.81,
+      "score": 0.864,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "46"
+    },
+    {
+      "word": "percent",
+      "start": 89.31,
+      "end": 89.61,
+      "score": 0.854,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 89.63,
+      "end": 89.77,
+      "score": 0.857,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton",
+      "start": 89.85,
+      "end": 90.371,
+      "score": 0.899,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 90.451,
+      "end": 90.551,
+      "score": 0.802,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "44"
+    },
+    {
+      "word": "percent",
+      "start": 91.172,
+      "end": 91.472,
+      "score": 0.855,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 91.492,
+      "end": 91.632,
+      "score": 0.885,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump,",
+      "start": 91.732,
+      "end": 92.092,
+      "score": 0.881,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "well",
+      "start": 92.393,
+      "end": 92.593,
+      "score": 0.793,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "within",
+      "start": 92.633,
+      "end": 93.053,
+      "score": 0.803,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 93.133,
+      "end": 93.233,
+      "score": 0.88,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "poll's",
+      "start": 93.253,
+      "end": 93.494,
+      "score": 0.772,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "four-and-a-half",
+      "start": 93.534,
+      "end": 94.034,
+      "score": 0.72,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "percentage",
+      "start": 94.074,
+      "end": 94.474,
+      "score": 0.885,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "point",
+      "start": 94.554,
+      "end": 94.895,
+      "score": 0.86,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "margin",
+      "start": 95.015,
+      "end": 95.315,
+      "score": 0.981,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 95.335,
+      "end": 95.395,
+      "score": 0.784,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "error.",
+      "start": 95.495,
+      "end": 95.695,
+      "score": 0.801,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Described",
+      "start": 96.636,
+      "end": 97.177,
+      "score": 0.909,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "as",
+      "start": 97.277,
+      "end": 97.357,
+      "score": 0.672,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "debate",
+      "start": 97.457,
+      "end": 97.858,
+      "score": 0.894,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 97.938,
+      "end": 98.018,
+      "score": 0.837,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 98.038,
+      "end": 98.138,
+      "score": 0.946,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "century,",
+      "start": 98.198,
+      "end": 98.718,
+      "score": 0.781,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Monday",
+      "start": 98.899,
+      "end": 99.179,
+      "score": 0.913,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "night's",
+      "start": 99.239,
+      "end": 99.459,
+      "score": 0.819,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "showdown",
+      "start": 99.519,
+      "end": 100.04,
+      "score": 0.904,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "is",
+      "start": 100.16,
+      "end": 100.22,
+      "score": 0.758,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "expected",
+      "start": 100.28,
+      "end": 100.721,
+      "score": 0.881,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "to",
+      "start": 100.761,
+      "end": 100.841,
+      "score": 0.752,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "draw",
+      "start": 100.881,
+      "end": 101.101,
+      "score": 0.968,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "more",
+      "start": 101.161,
+      "end": 101.281,
+      "score": 0.816,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "than",
+      "start": 101.301,
+      "end": 101.421,
+      "score": 0.761,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "100"
+    },
+    {
+      "word": "million",
+      "start": 101.942,
+      "end": 102.242,
+      "score": 0.874,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "viewers",
+      "start": 102.282,
+      "end": 102.623,
+      "score": 0.509,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "in",
+      "start": 102.663,
+      "end": 102.743,
+      "score": 0.565,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 102.763,
+      "end": 102.843,
+      "score": 0.837,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "states",
+      "start": 102.923,
+      "end": 103.243,
+      "score": 0.874,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "alone.",
+      "start": 103.404,
+      "end": 103.844,
+      "score": 0.835,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "And",
+      "start": 104.485,
+      "end": 104.565,
+      "score": 0.98,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "with",
+      "start": 104.605,
+      "end": 104.705,
+      "score": 0.932,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 104.725,
+      "end": 104.805,
+      "score": 0.831,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "rest",
+      "start": 104.845,
+      "end": 105.005,
+      "score": 0.96,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 105.025,
+      "end": 105.106,
+      "score": 0.802,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 105.126,
+      "end": 105.206,
+      "score": 0.832,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "world",
+      "start": 105.226,
+      "end": 105.446,
+      "score": 0.814,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "eyeing",
+      "start": 105.606,
+      "end": 105.786,
+      "score": 0.876,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "this",
+      "start": 105.806,
+      "end": 105.946,
+      "score": 0.8,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "crucial",
+      "start": 106.047,
+      "end": 106.487,
+      "score": 0.902,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "point",
+      "start": 106.567,
+      "end": 106.867,
+      "score": 0.81,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "in",
+      "start": 106.908,
+      "end": 106.988,
+      "score": 0.899,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 107.008,
+      "end": 107.068,
+      "score": 0.952,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "U.S.",
+      "start": 107.188,
+      "end": 107.388,
+      "score": 0.77,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "election,",
+      "start": 107.488,
+      "end": 108.109,
+      "score": 0.543,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "it'll",
+      "start": 108.269,
+      "end": 108.469,
+      "score": 0.988,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "be",
+      "start": 108.489,
+      "end": 108.589,
+      "score": 0.572,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "streamed",
+      "start": 108.649,
+      "end": 108.95,
+      "score": 0.925,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "live",
+      "start": 109.01,
+      "end": 109.23,
+      "score": 0.88,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "online",
+      "start": 109.37,
+      "end": 109.811,
+      "score": 0.942,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "through",
+      "start": 109.871,
+      "end": 110.071,
+      "score": 0.74,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "platforms",
+      "start": 110.131,
+      "end": 110.672,
+      "score": 0.86,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "like",
+      "start": 110.712,
+      "end": 110.852,
+      "score": 0.875,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "YouTube.",
+      "start": 110.892,
+      "end": 111.372,
+      "score": 0.783,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Lee",
+      "start": 112.354,
+      "end": 112.434,
+      "score": 0.169,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Unshin,",
+      "start": 112.454,
+      "end": 112.754,
+      "score": 0.704,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Arirang",
+      "start": 112.934,
+      "end": 113.255,
+      "score": 0.593,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "News.",
+      "start": 113.275,
+      "end": 113.455,
+      "score": 0.596,
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "language": "en"
+}
