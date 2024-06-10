@@ -1,9 +1,19 @@
 import cache from "js-cache";
+import nullHandler from "./nullhandler";
 
 export default function htmlFormatter(data) {
-	console.log(data)
-	return data.map(obj => {
-		let htmlElements = Object.entries(obj).map(([key, value]) => generateHTML(key, value)).join('');
+	cache.set("word", null);
+	cache.set("start", null);
+	cache.set("end", null);
+	cache.set("score", null);
+	cache.set("speaker", null);
+	return data.map((obj, true_idx) => {
+		let htmlElements = Object.entries(obj).map(([key, value]) => {
+			const next_interval = data[true_idx + 1];
+			// console.log({next_interval});
+			cache.set("start_time_2", next_interval?.start_time ?? next_interval?.end_time);
+			return generateHTML(key, value)
+		}).join('');
 		
 		htmlElements = "<div class='personal_cards'>" + htmlElements + "</div>";
 		return htmlElements;
@@ -11,27 +21,24 @@ export default function htmlFormatter(data) {
 }
 
 function generateHTML(key, value) {
-	console.log("Key: ", key, "Value: ", value)
+	if (!value) value = nullHandler(key);
+	if (key === "locale") return;
+	if (value === ' ') return;
 
-	if (key === "locale") return
+	cache.set(key, value);
 	if (key === 'text') {
-		if (value === '.') return '<p class="text">.<br/></p>';
-		if (value === ',') return '<p class="text">,<br/></p>';
-		if (value === ' ') return;
-		cache.get("Hewo", (v) => {
-			console.log({v})
-			return v
-		})		
+		if (value === '.' || value === ',') return punctuations(value);
 		return `<span class="space"> </span><p class="text">${value}</p>`;
 	}
 	if (key === 'speaker') {
-		console.log(value.split("_")[1] ?? cache.get(key));
 		let specific_speaker_cls = "S" + parseInt(value.split("_")[1]);
 		return `<p class="speaker ${specific_speaker_cls}">Speaker ${value}</p>`;
 	}
-	cache.set(key, value);
   return `<p class="details ${key} ${value}">${key}: ${value}</p>`;
 }
 
+function punctuations(arg1) {
+	return `<p class="text">${arg1}<br/></p>`;
+}
 
-generateHTML()
+// Path: src/scripts/nullhandler.js
