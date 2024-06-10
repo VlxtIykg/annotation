@@ -44,7 +44,6 @@ function whisperx(data) {
 		const jsonData = JSON.parse(jsonContent).segments;
 		const _temp = jsonData.map(result => fillTemplateWhisper(result));
 		const onearray = _temp.flat();
-		console.log(onearray)
 		return onearray
 	} catch (error) {
 		console.error(`Error reading or parsing data:`, error);	
@@ -61,14 +60,13 @@ function isJSON(str) {
 }
 function fillTemplateWhisper(json) {
 	const kami = []
+
 	for(let i = 0; i < json.words.length; i++){
 		const template = {
 			start_time: '',
 			end_time: '',
-			type: '',
 			confidence: '',
 			text: '',
-			locale: '',
 			speaker: ''
 		};
 		
@@ -79,7 +77,6 @@ function fillTemplateWhisper(json) {
 		template.confidence = ongod?.score;
 		template.text = ongod?.word;
 		template.speaker = ongod?.speaker;
-		console.log(template)
 		kami.push(template)
 	}
 	

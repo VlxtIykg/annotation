@@ -28,7 +28,6 @@ export async function POST({ request }) {
   const result = `File ${file.name} uploaded successfully.`;
 
   const extrapolated_data = autoFill(filePath, formatter);
-  console.log(extrapolated_data) 
   const html_str = htmlFormatter(extrapolated_data);
 
   return new Response(JSON.stringify({status: 200, message: html_str}));

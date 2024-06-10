@@ -13,24 +13,17 @@ export default function findUniqueSpeakers(e) {
 			continue;
 		}
 		if (previous_speaker !== current_speaker) {
-			console.log({
-				previous_speaker,
-				current_speaker
-			})
+			
 			
 			const filler = document.createElement('div');
 			filler.classList.add('filler');
 			filler.classList.add('grow');
 			filler.classList.add('w-full');
-			console.log(card)
 			card.previousSibling.insertAdjacentElement("afterend", filler);
 			card.previousSibling.insertAdjacentElement("afterend", document.createElement('br'));
 		}
 		speakers.push(current_speaker);
 	}
-	
-	console.log(speakers);
-
 }
 
 
