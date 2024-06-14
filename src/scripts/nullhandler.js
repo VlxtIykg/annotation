@@ -1,4 +1,5 @@
-import cache from "js-cache"
+import cache from "./cacheHandler";
+
 export default function nullHandler(key) {
 		switch (key) {
 			case "text": {
@@ -24,15 +25,13 @@ export default function nullHandler(key) {
 }
 
 function start_time() {
-	// return "00.00";
-	let mysterious_value = cache.get("end_time");
-	return;
+	let mysterious_value = cache.get("end_time") ?? cache.get("start_time") ?? 0;
+	return mysterious_value;
 }
 
 function end_time() {
-	// return "00.00";
-	let mysterious_value = cache.get("start_time_2");
-	return;
+	let mysterious_value = cache.get("start_time_2") ?? cache.get("end_time") ?? cache.get("start") ?? 0;
+	return mysterious_value;
 }
 
 function confidence() {
@@ -40,10 +39,10 @@ function confidence() {
 }
 
 function speaker() {
-	// return "SPEAKER_N/A";
-	let mysterious_value = cache.get("speaker");
-	
-	return;
+	let previous = cache.get("speaker");
+	let next = cache.get("next_speaker");
+	let mysterious_value = previous ?? next ?? "SPEAKER_N/A";
+	return mysterious_value;
 }
 
 function text() {

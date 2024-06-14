@@ -33,6 +33,7 @@ p.text
 	color: #ffffffda
 
 .S1 ~ p.text
+	color: #f000ff
 	border-bottom-color: #ff0000
 
 .S2 ~ p.text
@@ -113,18 +114,19 @@ p.text
 		position: absolute
 		right: 0
 
-	p.text,
-	p.details
-		position: relative
-		height: 24px
-		background: #f0f0f0
-		color: #191919
-		display: block
-		flex-grow: 1
-		padding: 0.1rem
-		margin: 0.1rem
-		justify-content: center
-		text-align: center		
+		p.text,
+		p.details,
+		p.speaker
+			position: relative
+			height: 24px
+			background: #f0f0f0
+			color: #191919
+			display: block
+			flex-grow: 1
+			padding: 0.1rem
+			margin: 0.1rem
+			justify-content: center
+			text-align: center		
 
 	span.space
 		display: none
