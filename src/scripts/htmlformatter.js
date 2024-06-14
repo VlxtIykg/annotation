@@ -31,7 +31,8 @@ function generateHTML(key, value) {
 		return `<span class="space"> </span><p class="text">${value}</p>`;
 	}
 	if (key === 'speaker') {
-		let specific_speaker_cls = "S" + parseInt(value.split("_")[1]);
+		// let specific_speaker_cls = "S" + parseInt(value.split("_")[1]);
+		let specific_speaker_cls = "S1"
 		return `<p class="speaker ${specific_speaker_cls}">Speaker ${value}</p>`;
 	}
   return `<p class="details ${key} ${value}">${key}: ${value}</p>`;
