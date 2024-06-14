@@ -1,0 +1,4543 @@
+{
+  "segments": [
+    {
+      "start": 0.029,
+      "end": 0.59,
+      "text": " This is brand new.",
+      "words": [
+        {
+          "word": "This",
+          "start": 0.029,
+          "end": 0.149,
+          "score": 0.505,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "is",
+          "start": 0.189,
+          "end": 0.249,
+          "score": 0.268,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "brand",
+          "start": 0.289,
+          "end": 0.49,
+          "score": 0.8,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "new.",
+          "start": 0.51,
+          "end": 0.59,
+          "score": 0.769,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 0.61,
+      "end": 5.155,
+      "text": "We're changing our CNN electoral map just this hour after going through these things over recent days.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 0.61,
+          "end": 0.75,
+          "score": 0.791,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "changing",
+          "start": 0.77,
+          "end": 1.03,
+          "score": 0.812,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "our",
+          "start": 1.07,
+          "end": 1.17,
+          "score": 0.678,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "CNN",
+          "start": 1.19,
+          "end": 1.551,
+          "score": 0.381,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "electoral",
+          "start": 1.851,
+          "end": 2.252,
+          "score": 0.711,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "map",
+          "start": 2.272,
+          "end": 2.452,
+          "score": 0.859,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "just",
+          "start": 2.492,
+          "end": 2.672,
+          "score": 0.874,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "this",
+          "start": 2.712,
+          "end": 2.872,
+          "score": 0.824,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "hour",
+          "start": 2.932,
+          "end": 3.193,
+          "score": 0.912,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "after",
+          "start": 3.493,
+          "end": 3.653,
+          "score": 0.866,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "going",
+          "start": 3.693,
+          "end": 3.853,
+          "score": 0.992,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "through",
+          "start": 3.873,
+          "end": 4.054,
+          "score": 0.857,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "these",
+          "start": 4.074,
+          "end": 4.194,
+          "score": 0.902,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "things",
+          "start": 4.234,
+          "end": 4.394,
+          "score": 0.834,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "over",
+          "start": 4.474,
+          "end": 4.614,
+          "score": 0.963,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "recent",
+          "start": 4.654,
+          "end": 4.935,
+          "score": 0.891,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "days.",
+          "start": 4.955,
+          "end": 5.155,
+          "score": 0.698,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 5.195,
+      "end": 10.781,
+      "text": "We now have the map, if you look at it here, Clinton, 307 electoral votes if the election were held today.",
+      "words": [
+        {
+          "word": "We",
+          "start": 5.195,
+          "end": 5.315,
+          "score": 0.748,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "now",
+          "start": 5.375,
+          "end": 5.535,
+          "score": 0.896,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "have",
+          "start": 5.575,
+          "end": 5.715,
+          "score": 0.853,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "the",
+          "start": 5.755,
+          "end": 5.856,
+          "score": 0.827,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "map,",
+          "start": 5.896,
+          "end": 6.136,
+          "score": 0.991,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "if",
+          "start": 6.456,
+          "end": 6.516,
+          "score": 0.768,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "you",
+          "start": 6.536,
+          "end": 6.616,
+          "score": 0.999,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "look",
+          "start": 6.656,
+          "end": 6.797,
+          "score": 0.824,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "at",
+          "start": 6.837,
+          "end": 6.917,
+          "score": 0.55,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "it",
+          "start": 6.937,
+          "end": 6.977,
+          "score": 0.994,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "here,",
+          "start": 7.017,
+          "end": 7.157,
+          "score": 0.652,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Clinton,",
+          "start": 7.497,
+          "end": 8.619,
+          "score": 0.73,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "307"
+        },
+        {
+          "word": "electoral",
+          "start": 8.879,
+          "end": 9.4,
+          "score": 0.564,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "votes",
+          "start": 9.42,
+          "end": 9.62,
+          "score": 0.889,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "if",
+          "start": 9.66,
+          "end": 9.72,
+          "score": 0.81,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "the",
+          "start": 9.74,
+          "end": 9.82,
+          "score": 0.835,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "election",
+          "start": 9.84,
+          "end": 10.16,
+          "score": 0.747,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "were",
+          "start": 10.18,
+          "end": 10.28,
+          "score": 0.877,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "held",
+          "start": 10.301,
+          "end": 10.441,
+          "score": 0.837,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "today.",
+          "start": 10.481,
+          "end": 10.781,
+          "score": 0.637,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 11.141,
+      "end": 13.784,
+      "text": "Donald Trump down to 179 electoral votes.",
+      "words": [
+        {
+          "word": "Donald",
+          "start": 11.141,
+          "end": 11.462,
+          "score": 0.862,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Trump",
+          "start": 11.502,
+          "end": 11.762,
+          "score": 0.847,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "down",
+          "start": 11.802,
+          "end": 12.042,
+          "score": 0.926,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 12.083,
+          "end": 12.563,
+          "score": 0.304,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "179"
+        },
+        {
+          "word": "electoral",
+          "start": 12.763,
+          "end": 13.544,
+          "score": 0.44,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "votes.",
+          "start": 13.604,
+          "end": 13.784,
+          "score": 0.897,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 13.824,
+      "end": 16.848,
+      "text": "The reason for this change, we've moved Arizona and Utah.",
+      "words": [
+        {
+          "word": "The",
+          "start": 13.824,
+          "end": 13.925,
+          "score": 0.87,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "reason",
+          "start": 13.965,
+          "end": 14.245,
+          "score": 0.784,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "for",
+          "start": 14.265,
+          "end": 14.365,
+          "score": 0.951,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "this",
+          "start": 14.385,
+          "end": 14.545,
+          "score": 0.652,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "change,",
+          "start": 14.605,
+          "end": 14.986,
+          "score": 0.803,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "we've",
+          "start": 15.306,
+          "end": 15.486,
+          "score": 0.901,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "moved",
+          "start": 15.526,
+          "end": 15.747,
+          "score": 0.659,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Arizona",
+          "start": 15.847,
+          "end": 16.287,
+          "score": 0.925,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "and",
+          "start": 16.327,
+          "end": 16.407,
+          "score": 0.843,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Utah.",
+          "start": 16.527,
+          "end": 16.848,
+          "score": 0.618,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 17.128,
+      "end": 23.009,
+      "text": " from leaning red or Republican states now to toss-up states because of polling in those states indicating that Donald Trump's in a lot of trouble.",
+      "words": [
+        {
+          "word": "from",
+          "start": 17.128,
+          "end": 17.268,
+          "score": 0.875,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "leaning",
+          "start": 17.308,
+          "end": 17.648,
+          "score": 0.832,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "red",
+          "start": 17.728,
+          "end": 17.968,
+          "score": 0.813,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "or",
+          "start": 18.028,
+          "end": 18.108,
+          "score": 0.713,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Republican",
+          "start": 18.148,
+          "end": 18.628,
+          "score": 0.897,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "states",
+          "start": 18.668,
+          "end": 18.928,
+          "score": 0.791,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "now",
+          "start": 18.988,
+          "end": 19.108,
+          "score": 0.935,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 19.148,
+          "end": 19.228,
+          "score": 0.747,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "toss-up",
+          "start": 19.248,
+          "end": 19.609,
+          "score": 0.937,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "states",
+          "start": 19.649,
+          "end": 19.869,
+          "score": 0.89,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "because",
+          "start": 19.929,
+          "end": 20.149,
+          "score": 0.919,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "of",
+          "start": 20.189,
+          "end": 20.229,
+          "score": 0.946,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "polling",
+          "start": 20.269,
+          "end": 20.569,
+          "score": 0.783,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "in",
+          "start": 20.589,
+          "end": 20.649,
+          "score": 0.741,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "those",
+          "start": 20.689,
+          "end": 20.829,
+          "score": 0.884,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "states",
+          "start": 20.849,
+          "end": 21.069,
+          "score": 0.824,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "indicating",
+          "start": 21.109,
+          "end": 21.529,
+          "score": 0.913,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "that",
+          "start": 21.769,
+          "end": 21.869,
+          "score": 0.922,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Donald",
+          "start": 21.889,
+          "end": 22.129,
+          "score": 0.65,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Trump's",
+          "start": 22.149,
+          "end": 22.349,
+          "score": 0.783,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "in",
+          "start": 22.389,
+          "end": 22.449,
+          "score": 0.68,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "a",
+          "start": 22.469,
+          "end": 22.509,
+          "score": 0.497,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "lot",
+          "start": 22.549,
+          "end": 22.649,
+          "score": 0.93,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "of",
+          "start": 22.689,
+          "end": 22.729,
+          "score": 0.998,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "trouble.",
+          "start": 22.769,
+          "end": 23.009,
+          "score": 0.732,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 23.049,
+      "end": 25.17,
+      "text": "It's possible Hillary Clinton is ahead in Arizona.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 23.049,
+          "end": 23.149,
+          "score": 0.881,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "possible",
+          "start": 23.189,
+          "end": 23.569,
+          "score": 0.817,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Hillary",
+          "start": 23.829,
+          "end": 24.069,
+          "score": 0.585,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Clinton",
+          "start": 24.109,
+          "end": 24.35,
+          "score": 0.838,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "is",
+          "start": 24.39,
+          "end": 24.45,
+          "score": 0.689,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "ahead",
+          "start": 24.49,
+          "end": 24.65,
+          "score": 0.849,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "in",
+          "start": 24.67,
+          "end": 24.71,
+          "score": 0.942,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Arizona.",
+          "start": 24.75,
+          "end": 25.17,
+          "score": 0.881,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 25.39,
+      "end": 27.29,
+      "text": "There's a third-party candidate who could possibly win.",
+      "words": [
+        {
+          "word": "There's",
+          "start": 25.39,
+          "end": 25.55,
+          "score": 0.918,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "a",
+          "start": 25.59,
+          "end": 25.63,
+          "score": 0.562,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "third-party",
+          "start": 25.67,
+          "end": 26.11,
+          "score": 0.726,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "candidate",
+          "start": 26.13,
+          "end": 26.41,
+          "score": 0.448,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "who",
+          "start": 26.45,
+          "end": 26.53,
+          "score": 0.897,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "could",
+          "start": 26.55,
+          "end": 26.69,
+          "score": 0.806,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "possibly",
+          "start": 26.71,
+          "end": 27.09,
+          "score": 0.774,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "win.",
+          "start": 27.13,
+          "end": 27.29,
+          "score": 0.776,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 27.35,
+      "end": 29.031,
+      "text": "Everett McMullin could possibly win Utah.",
+      "words": [
+        {
+          "word": "Everett",
+          "start": 27.35,
+          "end": 27.59,
+          "score": 0.622,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "McMullin",
+          "start": 27.61,
+          "end": 27.83,
+          "score": 0.407,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "could",
+          "start": 27.85,
+          "end": 27.97,
+          "score": 0.934,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "possibly",
+          "start": 28.01,
+          "end": 28.35,
+          "score": 0.856,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "win",
+          "start": 28.59,
+          "end": 28.69,
+          "score": 0.409,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Utah.",
+          "start": 28.79,
+          "end": 29.031,
+          "score": 0.54,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 29.051,
+      "end": 32.291,
+      "text": "We've also moved Florida and this state, Nevada, to lean Dem.",
+      "words": [
+        {
+          "word": "We've",
+          "start": 29.051,
+          "end": 29.211,
+          "score": 0.704,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "also",
+          "start": 29.231,
+          "end": 29.451,
+          "score": 0.831,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "moved",
+          "start": 29.511,
+          "end": 29.671,
+          "score": 0.824,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Florida",
+          "start": 29.711,
+          "end": 30.091,
+          "score": 0.794,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "and",
+          "start": 30.131,
+          "end": 30.211,
+          "score": 0.447,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "this",
+          "start": 30.251,
+          "end": 30.411,
+          "score": 0.791,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "state,",
+          "start": 30.451,
+          "end": 30.671,
+          "score": 0.889,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Nevada,",
+          "start": 30.711,
+          "end": 31.131,
+          "score": 0.886,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 31.451,
+          "end": 31.571,
+          "score": 0.834,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "lean",
+          "start": 31.631,
+          "end": 31.911,
+          "score": 0.93,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Dem.",
+          "start": 32.051,
+          "end": 32.291,
+          "score": 0.96,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 32.651,
+      "end": 37.952,
+      "text": "If you're looking at this map, and you've got 20 days to go, this has been such a volatile election, I rule nothing out.",
+      "words": [
+        {
+          "word": "If",
+          "start": 32.651,
+          "end": 32.691,
+          "score": 1.0,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "you're",
+          "start": 32.711,
+          "end": 32.871,
+          "score": 0.839,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "looking",
+          "start": 32.891,
+          "end": 33.151,
+          "score": 0.808,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "at",
+          "start": 33.171,
+          "end": 33.231,
+          "score": 0.766,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "this",
+          "start": 33.271,
+          "end": 33.391,
+          "score": 0.877,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "map,",
+          "start": 33.451,
+          "end": 33.752,
+          "score": 0.816,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "and",
+          "start": 33.772,
+          "end": 33.832,
+          "score": 0.083,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "you've",
+          "start": 33.852,
+          "end": 33.992,
+          "score": 0.737,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "got",
+          "start": 34.012,
+          "end": 34.112,
+          "score": 0.835,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "20"
+        },
+        {
+          "word": "days",
+          "start": 34.432,
+          "end": 34.612,
+          "score": 0.854,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 34.652,
+          "end": 34.732,
+          "score": 0.872,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "go,",
+          "start": 34.772,
+          "end": 34.972,
+          "score": 0.822,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "this",
+          "start": 35.332,
+          "end": 35.452,
+          "score": 0.846,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "has",
+          "start": 35.472,
+          "end": 35.572,
+          "score": 0.674,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "been",
+          "start": 35.592,
+          "end": 35.712,
+          "score": 0.889,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "such",
+          "start": 35.752,
+          "end": 35.952,
+          "score": 0.744,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "a",
+          "start": 35.992,
+          "end": 36.012,
+          "score": 0.928,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "volatile",
+          "start": 36.052,
+          "end": 36.372,
+          "score": 0.462,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "election,",
+          "start": 36.412,
+          "end": 36.812,
+          "score": 0.849,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "I",
+          "start": 36.952,
+          "end": 37.032,
+          "score": 0.995,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "rule",
+          "start": 37.092,
+          "end": 37.312,
+          "score": 0.755,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "nothing",
+          "start": 37.412,
+          "end": 37.732,
+          "score": 0.867,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "out.",
+          "start": 37.852,
+          "end": 37.952,
+          "score": 0.978,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 38.012,
+      "end": 45.554,
+      "text": "However, to change so many, to change as many states as he would have to change, Sarah, inside the Trump campaign, they've got to know this is near impossible.",
+      "words": [
+        {
+          "word": "However,",
+          "start": 38.012,
+          "end": 38.372,
+          "score": 0.875,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 38.693,
+          "end": 38.813,
+          "score": 0.962,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "change",
+          "start": 38.933,
+          "end": 39.333,
+          "score": 0.722,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "so",
+          "start": 39.633,
+          "end": 39.813,
+          "score": 0.884,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "many,",
+          "start": 39.893,
+          "end": 40.093,
+          "score": 0.798,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 40.153,
+          "end": 40.253,
+          "score": 0.974,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "change",
+          "start": 40.313,
+          "end": 40.553,
+          "score": 0.859,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "as",
+          "start": 40.593,
+          "end": 40.673,
+          "score": 0.75,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "many",
+          "start": 40.733,
+          "end": 40.913,
+          "score": 0.797,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "states",
+          "start": 40.953,
+          "end": 41.153,
+          "score": 0.918,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "as",
+          "start": 41.193,
+          "end": 41.233,
+          "score": 0.998,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "he",
+          "start": 41.253,
+          "end": 41.313,
+          "score": 0.75,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "would",
+          "start": 41.333,
+          "end": 41.453,
+          "score": 0.901,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "have",
+          "start": 41.473,
+          "end": 41.613,
+          "score": 0.77,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 41.633,
+          "end": 41.713,
+          "score": 0.672,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "change,",
+          "start": 41.773,
+          "end": 42.113,
+          "score": 0.652,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Sarah,",
+          "start": 42.153,
+          "end": 42.433,
+          "score": 0.802,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "inside",
+          "start": 42.473,
+          "end": 42.713,
+          "score": 0.971,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "the",
+          "start": 42.733,
+          "end": 42.813,
+          "score": 0.829,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "Trump",
+          "start": 42.833,
+          "end": 43.013,
+          "score": 0.8,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "campaign,",
+          "start": 43.033,
+          "end": 43.394,
+          "score": 0.874,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "they've",
+          "start": 44.034,
+          "end": 44.174,
+          "score": 0.179,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "got",
+          "start": 44.194,
+          "end": 44.254,
+          "score": 0.245,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "to",
+          "start": 44.274,
+          "end": 44.314,
+          "score": 0.005,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "know",
+          "start": 44.334,
+          "end": 44.414,
+          "score": 0.498,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "this",
+          "start": 44.434,
+          "end": 44.554,
+          "score": 0.503,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "is",
+          "start": 44.614,
+          "end": 44.674,
+          "score": 0.548,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "near",
+          "start": 44.934,
+          "end": 45.094,
+          "score": 0.788,
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "word": "impossible.",
+          "start": 45.134,
+          "end": 45.554,
+          "score": 0.932,
+          "speaker": "SPEAKER_00"
+        }
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 45.774,
+      "end": 57.398,
+      "text": " Oh, they know that this is a very steep path, and I think that's what makes Donald Trump tonight so unpredictable and why you're seeing so many Republicans twisted in knots because they hear Trump saying things like drain the swamp.",
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 45.774,
+          "end": 45.874,
+          "score": 0.535,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "they",
+          "start": 45.994,
+          "end": 46.174,
+          "score": 0.719,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "know",
+          "start": 46.234,
+          "end": 46.514,
+          "score": 0.796,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that",
+          "start": 46.654,
+          "end": 47.014,
+          "score": 0.674,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "this",
+          "start": 47.034,
+          "end": 47.114,
+          "score": 0.015,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "is",
+          "start": 47.314,
+          "end": 47.415,
+          "score": 0.72,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 47.455,
+          "end": 47.475,
+          "score": 0.919,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "very",
+          "start": 47.515,
+          "end": 47.775,
+          "score": 0.843,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "steep",
+          "start": 47.835,
+          "end": 48.055,
+          "score": 0.928,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "path,",
+          "start": 48.095,
+          "end": 48.295,
+          "score": 0.992,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 48.335,
+          "end": 48.395,
+          "score": 0.946,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "I",
+          "start": 48.415,
+          "end": 48.435,
+          "score": 0.987,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "think",
+          "start": 48.475,
+          "end": 48.615,
+          "score": 0.803,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that's",
+          "start": 48.635,
+          "end": 48.815,
+          "score": 0.892,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "what",
+          "start": 48.895,
+          "end": 49.055,
+          "score": 0.909,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "makes",
+          "start": 49.135,
+          "end": 49.355,
+          "score": 0.741,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Donald",
+          "start": 49.415,
+          "end": 49.715,
+          "score": 0.849,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 49.755,
+          "end": 49.995,
+          "score": 0.822,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "tonight",
+          "start": 50.035,
+          "end": 50.315,
+          "score": 0.901,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "so",
+          "start": 50.395,
+          "end": 50.595,
+          "score": 0.895,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "unpredictable",
+          "start": 50.716,
+          "end": 51.356,
+          "score": 0.851,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 51.396,
+          "end": 51.456,
+          "score": 0.999,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "why",
+          "start": 51.536,
+          "end": 51.816,
+          "score": 0.894,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "you're",
+          "start": 51.856,
+          "end": 51.996,
+          "score": 0.653,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "seeing",
+          "start": 52.016,
+          "end": 52.216,
+          "score": 0.61,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "so",
+          "start": 52.336,
+          "end": 52.516,
+          "score": 0.798,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "many",
+          "start": 52.556,
+          "end": 52.716,
+          "score": 0.862,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Republicans",
+          "start": 52.776,
+          "end": 53.316,
+          "score": 0.889,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "twisted",
+          "start": 53.776,
+          "end": 54.217,
+          "score": 0.767,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "in",
+          "start": 54.297,
+          "end": 54.397,
+          "score": 0.766,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "knots",
+          "start": 54.457,
+          "end": 54.797,
+          "score": 0.843,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "because",
+          "start": 54.877,
+          "end": 55.077,
+          "score": 0.896,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "they",
+          "start": 55.117,
+          "end": 55.277,
+          "score": 0.916,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "hear",
+          "start": 55.337,
+          "end": 55.597,
+          "score": 0.719,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 55.637,
+          "end": 55.917,
+          "score": 0.872,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "saying",
+          "start": 55.937,
+          "end": 56.197,
+          "score": 0.808,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "things",
+          "start": 56.237,
+          "end": 56.437,
+          "score": 0.736,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "like",
+          "start": 56.457,
+          "end": 56.597,
+          "score": 0.872,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "drain",
+          "start": 56.657,
+          "end": 56.957,
+          "score": 0.799,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 56.977,
+          "end": 57.077,
+          "score": 0.909,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "swamp.",
+          "start": 57.097,
+          "end": 57.398,
+          "score": 0.852,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 57.458,
+      "end": 62.859,
+      "text": "They hear him talking about term limits and say, why is this not what you've been talking about for the last six months?",
+      "words": [
+        {
+          "word": "They",
+          "start": 57.458,
+          "end": 57.598,
+          "score": 0.87,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "hear",
+          "start": 57.658,
+          "end": 57.838,
+          "score": 0.771,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "him",
+          "start": 57.878,
+          "end": 58.018,
+          "score": 0.685,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "talking",
+          "start": 58.058,
+          "end": 58.338,
+          "score": 0.871,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "about",
+          "start": 58.378,
+          "end": 58.538,
+          "score": 0.953,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "term",
+          "start": 58.578,
+          "end": 58.778,
+          "score": 0.889,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "limits",
+          "start": 58.798,
+          "end": 59.038,
+          "score": 0.811,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "and",
+          "start": 59.078,
+          "end": 59.158,
+          "score": 0.894,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "say,",
+          "start": 59.198,
+          "end": 59.398,
+          "score": 0.714,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "why",
+          "start": 59.878,
+          "end": 60.078,
+          "score": 0.873,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "is",
+          "start": 60.158,
+          "end": 60.218,
+          "score": 0.837,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "this",
+          "start": 60.258,
+          "end": 60.398,
+          "score": 0.852,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "not",
+          "start": 60.478,
+          "end": 60.619,
+          "score": 0.833,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "what",
+          "start": 60.639,
+          "end": 60.719,
+          "score": 0.786,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "you've",
+          "start": 60.739,
+          "end": 60.859,
+          "score": 0.4,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "been",
+          "start": 60.879,
+          "end": 60.999,
+          "score": 0.66,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "talking",
+          "start": 61.019,
+          "end": 61.339,
+          "score": 0.824,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "about",
+          "start": 61.379,
+          "end": 61.579,
+          "score": 0.84,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 61.659,
+          "end": 61.759,
+          "score": 0.702,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 61.779,
+          "end": 61.879,
+          "score": 0.685,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "last",
+          "start": 61.939,
+          "end": 62.199,
+          "score": 0.961,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "six",
+          "start": 62.299,
+          "end": 62.539,
+          "score": 0.836,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "months?",
+          "start": 62.599,
+          "end": 62.859,
+          "score": 0.836,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 62.899,
+      "end": 71.762,
+      "text": "If you had just hammered home this message, cast Hillary Clinton as a corrupt politician, we wouldn't have a situation where Utah is up for grabs, where Arizona is up for grabs.",
+      "words": [
+        {
+          "word": "If",
+          "start": 62.899,
+          "end": 62.979,
+          "score": 0.835,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "you",
+          "start": 62.999,
+          "end": 63.139,
+          "score": 0.925,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "had",
+          "start": 63.179,
+          "end": 63.279,
+          "score": 0.975,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "just",
+          "start": 63.319,
+          "end": 63.479,
+          "score": 0.865,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "hammered",
+          "start": 63.539,
+          "end": 63.92,
+          "score": 0.893,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "home",
+          "start": 63.96,
+          "end": 64.14,
+          "score": 0.783,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "this",
+          "start": 64.18,
+          "end": 64.34,
+          "score": 0.748,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "message,",
+          "start": 64.4,
+          "end": 64.76,
+          "score": 0.816,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "cast",
+          "start": 65.14,
+          "end": 65.42,
+          "score": 0.739,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Hillary",
+          "start": 65.44,
+          "end": 65.7,
+          "score": 0.784,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Clinton",
+          "start": 65.74,
+          "end": 66.06,
+          "score": 0.839,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "as",
+          "start": 66.12,
+          "end": 66.2,
+          "score": 0.734,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 66.24,
+          "end": 66.26,
+          "score": 0.985,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "corrupt",
+          "start": 66.3,
+          "end": 66.56,
+          "score": 0.888,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "politician,",
+          "start": 66.62,
+          "end": 67.121,
+          "score": 0.842,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "we",
+          "start": 67.421,
+          "end": 67.521,
+          "score": 0.838,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "wouldn't",
+          "start": 67.541,
+          "end": 67.821,
+          "score": 0.679,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "have",
+          "start": 67.901,
+          "end": 68.121,
+          "score": 0.799,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 68.181,
+          "end": 68.221,
+          "score": 0.499,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "situation",
+          "start": 68.261,
+          "end": 68.781,
+          "score": 0.89,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "where",
+          "start": 68.821,
+          "end": 68.961,
+          "score": 0.905,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Utah",
+          "start": 69.061,
+          "end": 69.301,
+          "score": 0.768,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "is",
+          "start": 69.341,
+          "end": 69.401,
+          "score": 0.468,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "up",
+          "start": 69.461,
+          "end": 69.541,
+          "score": 0.755,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 69.561,
+          "end": 69.661,
+          "score": 0.924,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "grabs,",
+          "start": 69.701,
+          "end": 69.981,
+          "score": 0.911,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "where",
+          "start": 70.021,
+          "end": 70.281,
+          "score": 0.637,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Arizona",
+          "start": 70.642,
+          "end": 71.102,
+          "score": 0.91,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "is",
+          "start": 71.162,
+          "end": 71.222,
+          "score": 0.845,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "up",
+          "start": 71.282,
+          "end": 71.362,
+          "score": 0.814,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 71.382,
+          "end": 71.482,
+          "score": 0.755,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "grabs.",
+          "start": 71.522,
+          "end": 71.762,
+          "score": 0.882,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 72.142,
+      "end": 82.396,
+      "text": " Now, a number of Republicans are still very, very skeptical that Arizona could actually go for Hillary Clinton or that Donald Trump could lose Utah because there are a lot of entrenched Republicans there.",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 72.142,
+          "end": 72.282,
+          "score": 0.837,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 72.322,
+          "end": 72.362,
+          "score": 0.535,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "number",
+          "start": 72.443,
+          "end": 72.663,
+          "score": 0.898,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 72.703,
+          "end": 72.763,
+          "score": 0.748,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Republicans",
+          "start": 72.803,
+          "end": 73.304,
+          "score": 0.916,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "are",
+          "start": 73.344,
+          "end": 73.444,
+          "score": 0.656,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "still",
+          "start": 73.464,
+          "end": 73.684,
+          "score": 0.705,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "very,",
+          "start": 73.784,
+          "end": 74.105,
+          "score": 0.842,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "very",
+          "start": 74.165,
+          "end": 74.525,
+          "score": 0.847,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "skeptical",
+          "start": 74.565,
+          "end": 75.166,
+          "score": 0.707,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that",
+          "start": 75.206,
+          "end": 75.326,
+          "score": 0.766,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Arizona",
+          "start": 75.406,
+          "end": 75.887,
+          "score": 0.888,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "could",
+          "start": 75.907,
+          "end": 76.047,
+          "score": 0.84,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "actually",
+          "start": 76.207,
+          "end": 76.588,
+          "score": 0.854,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "go",
+          "start": 76.688,
+          "end": 76.928,
+          "score": 0.905,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "for",
+          "start": 77.009,
+          "end": 77.129,
+          "score": 0.673,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Hillary",
+          "start": 77.169,
+          "end": 77.489,
+          "score": 0.932,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Clinton",
+          "start": 77.529,
+          "end": 77.93,
+          "score": 0.458,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "or",
+          "start": 78.31,
+          "end": 78.39,
+          "score": 0.67,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that",
+          "start": 78.43,
+          "end": 78.551,
+          "score": 0.894,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Donald",
+          "start": 78.591,
+          "end": 78.911,
+          "score": 0.802,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 78.951,
+          "end": 79.191,
+          "score": 0.724,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "could",
+          "start": 79.231,
+          "end": 79.432,
+          "score": 0.749,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "lose",
+          "start": 79.512,
+          "end": 79.792,
+          "score": 0.731,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Utah",
+          "start": 79.912,
+          "end": 80.253,
+          "score": 0.786,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "because",
+          "start": 80.293,
+          "end": 80.453,
+          "score": 0.999,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "there",
+          "start": 80.493,
+          "end": 80.693,
+          "score": 0.615,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "are",
+          "start": 80.813,
+          "end": 80.934,
+          "score": 0.619,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "a",
+          "start": 80.954,
+          "end": 80.974,
+          "score": 0.753,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "lot",
+          "start": 81.014,
+          "end": 81.154,
+          "score": 0.825,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "of",
+          "start": 81.174,
+          "end": 81.234,
+          "score": 0.749,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "entrenched",
+          "start": 81.274,
+          "end": 81.635,
+          "score": 0.81,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Republicans",
+          "start": 81.675,
+          "end": 82.195,
+          "score": 0.794,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "there.",
+          "start": 82.215,
+          "end": 82.396,
+          "score": 0.974,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 82.456,
+      "end": 86.14,
+      "text": "But there's nothing on that map that's going to make the Trump campaign feel good today.",
+      "words": [
+        {
+          "word": "But",
+          "start": 82.456,
+          "end": 82.556,
+          "score": 0.835,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "there's",
+          "start": 82.876,
+          "end": 83.076,
+          "score": 0.883,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "nothing",
+          "start": 83.137,
+          "end": 83.457,
+          "score": 0.895,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "on",
+          "start": 83.637,
+          "end": 83.757,
+          "score": 0.845,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that",
+          "start": 83.797,
+          "end": 83.978,
+          "score": 0.837,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "map",
+          "start": 84.058,
+          "end": 84.398,
+          "score": 0.877,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "that's",
+          "start": 84.418,
+          "end": 84.578,
+          "score": 0.875,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "going",
+          "start": 84.598,
+          "end": 84.699,
+          "score": 0.992,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "to",
+          "start": 84.719,
+          "end": 84.759,
+          "score": 0.992,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "make",
+          "start": 84.779,
+          "end": 84.899,
+          "score": 0.758,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "the",
+          "start": 84.919,
+          "end": 84.979,
+          "score": 0.991,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "Trump",
+          "start": 85.019,
+          "end": 85.179,
+          "score": 0.959,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "campaign",
+          "start": 85.219,
+          "end": 85.54,
+          "score": 0.919,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "feel",
+          "start": 85.56,
+          "end": 85.72,
+          "score": 0.958,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "good",
+          "start": 85.76,
+          "end": 85.9,
+          "score": 0.876,
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "word": "today.",
+          "start": 85.92,
+          "end": 86.14,
+          "score": 0.455,
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "This",
+      "start": 0.029,
+      "end": 0.149,
+      "score": 0.505,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "is",
+      "start": 0.189,
+      "end": 0.249,
+      "score": 0.268,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "brand",
+      "start": 0.289,
+      "end": 0.49,
+      "score": 0.8,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "new.",
+      "start": 0.51,
+      "end": 0.59,
+      "score": 0.769,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "We're",
+      "start": 0.61,
+      "end": 0.75,
+      "score": 0.791,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "changing",
+      "start": 0.77,
+      "end": 1.03,
+      "score": 0.812,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "our",
+      "start": 1.07,
+      "end": 1.17,
+      "score": 0.678,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "CNN",
+      "start": 1.19,
+      "end": 1.551,
+      "score": 0.381,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "electoral",
+      "start": 1.851,
+      "end": 2.252,
+      "score": 0.711,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "map",
+      "start": 2.272,
+      "end": 2.452,
+      "score": 0.859,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "just",
+      "start": 2.492,
+      "end": 2.672,
+      "score": 0.874,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "this",
+      "start": 2.712,
+      "end": 2.872,
+      "score": 0.824,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "hour",
+      "start": 2.932,
+      "end": 3.193,
+      "score": 0.912,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "after",
+      "start": 3.493,
+      "end": 3.653,
+      "score": 0.866,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "going",
+      "start": 3.693,
+      "end": 3.853,
+      "score": 0.992,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "through",
+      "start": 3.873,
+      "end": 4.054,
+      "score": 0.857,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "these",
+      "start": 4.074,
+      "end": 4.194,
+      "score": 0.902,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "things",
+      "start": 4.234,
+      "end": 4.394,
+      "score": 0.834,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "over",
+      "start": 4.474,
+      "end": 4.614,
+      "score": 0.963,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "recent",
+      "start": 4.654,
+      "end": 4.935,
+      "score": 0.891,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "days.",
+      "start": 4.955,
+      "end": 5.155,
+      "score": 0.698,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "We",
+      "start": 5.195,
+      "end": 5.315,
+      "score": 0.748,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "now",
+      "start": 5.375,
+      "end": 5.535,
+      "score": 0.896,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "have",
+      "start": 5.575,
+      "end": 5.715,
+      "score": 0.853,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "the",
+      "start": 5.755,
+      "end": 5.856,
+      "score": 0.827,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "map,",
+      "start": 5.896,
+      "end": 6.136,
+      "score": 0.991,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "if",
+      "start": 6.456,
+      "end": 6.516,
+      "score": 0.768,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "you",
+      "start": 6.536,
+      "end": 6.616,
+      "score": 0.999,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "look",
+      "start": 6.656,
+      "end": 6.797,
+      "score": 0.824,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "at",
+      "start": 6.837,
+      "end": 6.917,
+      "score": 0.55,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "it",
+      "start": 6.937,
+      "end": 6.977,
+      "score": 0.994,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "here,",
+      "start": 7.017,
+      "end": 7.157,
+      "score": 0.652,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Clinton,",
+      "start": 7.497,
+      "end": 8.619,
+      "score": 0.73,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "307"
+    },
+    {
+      "word": "electoral",
+      "start": 8.879,
+      "end": 9.4,
+      "score": 0.564,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "votes",
+      "start": 9.42,
+      "end": 9.62,
+      "score": 0.889,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "if",
+      "start": 9.66,
+      "end": 9.72,
+      "score": 0.81,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "the",
+      "start": 9.74,
+      "end": 9.82,
+      "score": 0.835,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "election",
+      "start": 9.84,
+      "end": 10.16,
+      "score": 0.747,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "were",
+      "start": 10.18,
+      "end": 10.28,
+      "score": 0.877,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "held",
+      "start": 10.301,
+      "end": 10.441,
+      "score": 0.837,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "today.",
+      "start": 10.481,
+      "end": 10.781,
+      "score": 0.637,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Donald",
+      "start": 11.141,
+      "end": 11.462,
+      "score": 0.862,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Trump",
+      "start": 11.502,
+      "end": 11.762,
+      "score": 0.847,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "down",
+      "start": 11.802,
+      "end": 12.042,
+      "score": 0.926,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 12.083,
+      "end": 12.563,
+      "score": 0.304,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "179"
+    },
+    {
+      "word": "electoral",
+      "start": 12.763,
+      "end": 13.544,
+      "score": 0.44,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "votes.",
+      "start": 13.604,
+      "end": 13.784,
+      "score": 0.897,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "The",
+      "start": 13.824,
+      "end": 13.925,
+      "score": 0.87,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "reason",
+      "start": 13.965,
+      "end": 14.245,
+      "score": 0.784,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "for",
+      "start": 14.265,
+      "end": 14.365,
+      "score": 0.951,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "this",
+      "start": 14.385,
+      "end": 14.545,
+      "score": 0.652,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "change,",
+      "start": 14.605,
+      "end": 14.986,
+      "score": 0.803,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "we've",
+      "start": 15.306,
+      "end": 15.486,
+      "score": 0.901,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "moved",
+      "start": 15.526,
+      "end": 15.747,
+      "score": 0.659,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Arizona",
+      "start": 15.847,
+      "end": 16.287,
+      "score": 0.925,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "and",
+      "start": 16.327,
+      "end": 16.407,
+      "score": 0.843,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Utah.",
+      "start": 16.527,
+      "end": 16.848,
+      "score": 0.618,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "from",
+      "start": 17.128,
+      "end": 17.268,
+      "score": 0.875,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "leaning",
+      "start": 17.308,
+      "end": 17.648,
+      "score": 0.832,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "red",
+      "start": 17.728,
+      "end": 17.968,
+      "score": 0.813,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "or",
+      "start": 18.028,
+      "end": 18.108,
+      "score": 0.713,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Republican",
+      "start": 18.148,
+      "end": 18.628,
+      "score": 0.897,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "states",
+      "start": 18.668,
+      "end": 18.928,
+      "score": 0.791,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "now",
+      "start": 18.988,
+      "end": 19.108,
+      "score": 0.935,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 19.148,
+      "end": 19.228,
+      "score": 0.747,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "toss-up",
+      "start": 19.248,
+      "end": 19.609,
+      "score": 0.937,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "states",
+      "start": 19.649,
+      "end": 19.869,
+      "score": 0.89,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "because",
+      "start": 19.929,
+      "end": 20.149,
+      "score": 0.919,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "of",
+      "start": 20.189,
+      "end": 20.229,
+      "score": 0.946,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "polling",
+      "start": 20.269,
+      "end": 20.569,
+      "score": 0.783,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "in",
+      "start": 20.589,
+      "end": 20.649,
+      "score": 0.741,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "those",
+      "start": 20.689,
+      "end": 20.829,
+      "score": 0.884,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "states",
+      "start": 20.849,
+      "end": 21.069,
+      "score": 0.824,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "indicating",
+      "start": 21.109,
+      "end": 21.529,
+      "score": 0.913,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "that",
+      "start": 21.769,
+      "end": 21.869,
+      "score": 0.922,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Donald",
+      "start": 21.889,
+      "end": 22.129,
+      "score": 0.65,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Trump's",
+      "start": 22.149,
+      "end": 22.349,
+      "score": 0.783,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "in",
+      "start": 22.389,
+      "end": 22.449,
+      "score": 0.68,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "a",
+      "start": 22.469,
+      "end": 22.509,
+      "score": 0.497,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "lot",
+      "start": 22.549,
+      "end": 22.649,
+      "score": 0.93,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "of",
+      "start": 22.689,
+      "end": 22.729,
+      "score": 0.998,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "trouble.",
+      "start": 22.769,
+      "end": 23.009,
+      "score": 0.732,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "It's",
+      "start": 23.049,
+      "end": 23.149,
+      "score": 0.881,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "possible",
+      "start": 23.189,
+      "end": 23.569,
+      "score": 0.817,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Hillary",
+      "start": 23.829,
+      "end": 24.069,
+      "score": 0.585,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Clinton",
+      "start": 24.109,
+      "end": 24.35,
+      "score": 0.838,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "is",
+      "start": 24.39,
+      "end": 24.45,
+      "score": 0.689,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "ahead",
+      "start": 24.49,
+      "end": 24.65,
+      "score": 0.849,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "in",
+      "start": 24.67,
+      "end": 24.71,
+      "score": 0.942,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Arizona.",
+      "start": 24.75,
+      "end": 25.17,
+      "score": 0.881,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "There's",
+      "start": 25.39,
+      "end": 25.55,
+      "score": 0.918,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "a",
+      "start": 25.59,
+      "end": 25.63,
+      "score": 0.562,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "third-party",
+      "start": 25.67,
+      "end": 26.11,
+      "score": 0.726,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "candidate",
+      "start": 26.13,
+      "end": 26.41,
+      "score": 0.448,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "who",
+      "start": 26.45,
+      "end": 26.53,
+      "score": 0.897,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "could",
+      "start": 26.55,
+      "end": 26.69,
+      "score": 0.806,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "possibly",
+      "start": 26.71,
+      "end": 27.09,
+      "score": 0.774,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "win.",
+      "start": 27.13,
+      "end": 27.29,
+      "score": 0.776,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Everett",
+      "start": 27.35,
+      "end": 27.59,
+      "score": 0.622,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "McMullin",
+      "start": 27.61,
+      "end": 27.83,
+      "score": 0.407,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "could",
+      "start": 27.85,
+      "end": 27.97,
+      "score": 0.934,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "possibly",
+      "start": 28.01,
+      "end": 28.35,
+      "score": 0.856,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "win",
+      "start": 28.59,
+      "end": 28.69,
+      "score": 0.409,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Utah.",
+      "start": 28.79,
+      "end": 29.031,
+      "score": 0.54,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "We've",
+      "start": 29.051,
+      "end": 29.211,
+      "score": 0.704,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "also",
+      "start": 29.231,
+      "end": 29.451,
+      "score": 0.831,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "moved",
+      "start": 29.511,
+      "end": 29.671,
+      "score": 0.824,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Florida",
+      "start": 29.711,
+      "end": 30.091,
+      "score": 0.794,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "and",
+      "start": 30.131,
+      "end": 30.211,
+      "score": 0.447,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "this",
+      "start": 30.251,
+      "end": 30.411,
+      "score": 0.791,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "state,",
+      "start": 30.451,
+      "end": 30.671,
+      "score": 0.889,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Nevada,",
+      "start": 30.711,
+      "end": 31.131,
+      "score": 0.886,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 31.451,
+      "end": 31.571,
+      "score": 0.834,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "lean",
+      "start": 31.631,
+      "end": 31.911,
+      "score": 0.93,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Dem.",
+      "start": 32.051,
+      "end": 32.291,
+      "score": 0.96,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "If",
+      "start": 32.651,
+      "end": 32.691,
+      "score": 1.0,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "you're",
+      "start": 32.711,
+      "end": 32.871,
+      "score": 0.839,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "looking",
+      "start": 32.891,
+      "end": 33.151,
+      "score": 0.808,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "at",
+      "start": 33.171,
+      "end": 33.231,
+      "score": 0.766,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "this",
+      "start": 33.271,
+      "end": 33.391,
+      "score": 0.877,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "map,",
+      "start": 33.451,
+      "end": 33.752,
+      "score": 0.816,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "and",
+      "start": 33.772,
+      "end": 33.832,
+      "score": 0.083,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "you've",
+      "start": 33.852,
+      "end": 33.992,
+      "score": 0.737,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "got",
+      "start": 34.012,
+      "end": 34.112,
+      "score": 0.835,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "20"
+    },
+    {
+      "word": "days",
+      "start": 34.432,
+      "end": 34.612,
+      "score": 0.854,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 34.652,
+      "end": 34.732,
+      "score": 0.872,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "go,",
+      "start": 34.772,
+      "end": 34.972,
+      "score": 0.822,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "this",
+      "start": 35.332,
+      "end": 35.452,
+      "score": 0.846,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "has",
+      "start": 35.472,
+      "end": 35.572,
+      "score": 0.674,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "been",
+      "start": 35.592,
+      "end": 35.712,
+      "score": 0.889,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "such",
+      "start": 35.752,
+      "end": 35.952,
+      "score": 0.744,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "a",
+      "start": 35.992,
+      "end": 36.012,
+      "score": 0.928,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "volatile",
+      "start": 36.052,
+      "end": 36.372,
+      "score": 0.462,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "election,",
+      "start": 36.412,
+      "end": 36.812,
+      "score": 0.849,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "I",
+      "start": 36.952,
+      "end": 37.032,
+      "score": 0.995,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "rule",
+      "start": 37.092,
+      "end": 37.312,
+      "score": 0.755,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "nothing",
+      "start": 37.412,
+      "end": 37.732,
+      "score": 0.867,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "out.",
+      "start": 37.852,
+      "end": 37.952,
+      "score": 0.978,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "However,",
+      "start": 38.012,
+      "end": 38.372,
+      "score": 0.875,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 38.693,
+      "end": 38.813,
+      "score": 0.962,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "change",
+      "start": 38.933,
+      "end": 39.333,
+      "score": 0.722,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "so",
+      "start": 39.633,
+      "end": 39.813,
+      "score": 0.884,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "many,",
+      "start": 39.893,
+      "end": 40.093,
+      "score": 0.798,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 40.153,
+      "end": 40.253,
+      "score": 0.974,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "change",
+      "start": 40.313,
+      "end": 40.553,
+      "score": 0.859,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "as",
+      "start": 40.593,
+      "end": 40.673,
+      "score": 0.75,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "many",
+      "start": 40.733,
+      "end": 40.913,
+      "score": 0.797,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "states",
+      "start": 40.953,
+      "end": 41.153,
+      "score": 0.918,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "as",
+      "start": 41.193,
+      "end": 41.233,
+      "score": 0.998,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "he",
+      "start": 41.253,
+      "end": 41.313,
+      "score": 0.75,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "would",
+      "start": 41.333,
+      "end": 41.453,
+      "score": 0.901,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "have",
+      "start": 41.473,
+      "end": 41.613,
+      "score": 0.77,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 41.633,
+      "end": 41.713,
+      "score": 0.672,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "change,",
+      "start": 41.773,
+      "end": 42.113,
+      "score": 0.652,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Sarah,",
+      "start": 42.153,
+      "end": 42.433,
+      "score": 0.802,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "inside",
+      "start": 42.473,
+      "end": 42.713,
+      "score": 0.971,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "the",
+      "start": 42.733,
+      "end": 42.813,
+      "score": 0.829,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Trump",
+      "start": 42.833,
+      "end": 43.013,
+      "score": 0.8,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "campaign,",
+      "start": 43.033,
+      "end": 43.394,
+      "score": 0.874,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "they've",
+      "start": 44.034,
+      "end": 44.174,
+      "score": 0.179,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "got",
+      "start": 44.194,
+      "end": 44.254,
+      "score": 0.245,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "to",
+      "start": 44.274,
+      "end": 44.314,
+      "score": 0.005,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "know",
+      "start": 44.334,
+      "end": 44.414,
+      "score": 0.498,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "this",
+      "start": 44.434,
+      "end": 44.554,
+      "score": 0.503,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "is",
+      "start": 44.614,
+      "end": 44.674,
+      "score": 0.548,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "near",
+      "start": 44.934,
+      "end": 45.094,
+      "score": 0.788,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "impossible.",
+      "start": 45.134,
+      "end": 45.554,
+      "score": 0.932,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "word": "Oh,",
+      "start": 45.774,
+      "end": 45.874,
+      "score": 0.535,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "they",
+      "start": 45.994,
+      "end": 46.174,
+      "score": 0.719,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "know",
+      "start": 46.234,
+      "end": 46.514,
+      "score": 0.796,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that",
+      "start": 46.654,
+      "end": 47.014,
+      "score": 0.674,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "this",
+      "start": 47.034,
+      "end": 47.114,
+      "score": 0.015,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "is",
+      "start": 47.314,
+      "end": 47.415,
+      "score": 0.72,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 47.455,
+      "end": 47.475,
+      "score": 0.919,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "very",
+      "start": 47.515,
+      "end": 47.775,
+      "score": 0.843,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "steep",
+      "start": 47.835,
+      "end": 48.055,
+      "score": 0.928,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "path,",
+      "start": 48.095,
+      "end": 48.295,
+      "score": 0.992,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 48.335,
+      "end": 48.395,
+      "score": 0.946,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "I",
+      "start": 48.415,
+      "end": 48.435,
+      "score": 0.987,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "think",
+      "start": 48.475,
+      "end": 48.615,
+      "score": 0.803,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that's",
+      "start": 48.635,
+      "end": 48.815,
+      "score": 0.892,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "what",
+      "start": 48.895,
+      "end": 49.055,
+      "score": 0.909,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "makes",
+      "start": 49.135,
+      "end": 49.355,
+      "score": 0.741,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Donald",
+      "start": 49.415,
+      "end": 49.715,
+      "score": 0.849,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 49.755,
+      "end": 49.995,
+      "score": 0.822,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "tonight",
+      "start": 50.035,
+      "end": 50.315,
+      "score": 0.901,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "so",
+      "start": 50.395,
+      "end": 50.595,
+      "score": 0.895,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "unpredictable",
+      "start": 50.716,
+      "end": 51.356,
+      "score": 0.851,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 51.396,
+      "end": 51.456,
+      "score": 0.999,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "why",
+      "start": 51.536,
+      "end": 51.816,
+      "score": 0.894,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "you're",
+      "start": 51.856,
+      "end": 51.996,
+      "score": 0.653,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "seeing",
+      "start": 52.016,
+      "end": 52.216,
+      "score": 0.61,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "so",
+      "start": 52.336,
+      "end": 52.516,
+      "score": 0.798,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "many",
+      "start": 52.556,
+      "end": 52.716,
+      "score": 0.862,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Republicans",
+      "start": 52.776,
+      "end": 53.316,
+      "score": 0.889,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "twisted",
+      "start": 53.776,
+      "end": 54.217,
+      "score": 0.767,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "in",
+      "start": 54.297,
+      "end": 54.397,
+      "score": 0.766,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "knots",
+      "start": 54.457,
+      "end": 54.797,
+      "score": 0.843,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "because",
+      "start": 54.877,
+      "end": 55.077,
+      "score": 0.896,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "they",
+      "start": 55.117,
+      "end": 55.277,
+      "score": 0.916,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "hear",
+      "start": 55.337,
+      "end": 55.597,
+      "score": 0.719,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 55.637,
+      "end": 55.917,
+      "score": 0.872,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "saying",
+      "start": 55.937,
+      "end": 56.197,
+      "score": 0.808,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "things",
+      "start": 56.237,
+      "end": 56.437,
+      "score": 0.736,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "like",
+      "start": 56.457,
+      "end": 56.597,
+      "score": 0.872,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "drain",
+      "start": 56.657,
+      "end": 56.957,
+      "score": 0.799,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 56.977,
+      "end": 57.077,
+      "score": 0.909,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "swamp.",
+      "start": 57.097,
+      "end": 57.398,
+      "score": 0.852,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "They",
+      "start": 57.458,
+      "end": 57.598,
+      "score": 0.87,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "hear",
+      "start": 57.658,
+      "end": 57.838,
+      "score": 0.771,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "him",
+      "start": 57.878,
+      "end": 58.018,
+      "score": 0.685,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "talking",
+      "start": 58.058,
+      "end": 58.338,
+      "score": 0.871,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "about",
+      "start": 58.378,
+      "end": 58.538,
+      "score": 0.953,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "term",
+      "start": 58.578,
+      "end": 58.778,
+      "score": 0.889,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "limits",
+      "start": 58.798,
+      "end": 59.038,
+      "score": 0.811,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "and",
+      "start": 59.078,
+      "end": 59.158,
+      "score": 0.894,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "say,",
+      "start": 59.198,
+      "end": 59.398,
+      "score": 0.714,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "why",
+      "start": 59.878,
+      "end": 60.078,
+      "score": 0.873,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "is",
+      "start": 60.158,
+      "end": 60.218,
+      "score": 0.837,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "this",
+      "start": 60.258,
+      "end": 60.398,
+      "score": 0.852,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "not",
+      "start": 60.478,
+      "end": 60.619,
+      "score": 0.833,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "what",
+      "start": 60.639,
+      "end": 60.719,
+      "score": 0.786,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "you've",
+      "start": 60.739,
+      "end": 60.859,
+      "score": 0.4,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "been",
+      "start": 60.879,
+      "end": 60.999,
+      "score": 0.66,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "talking",
+      "start": 61.019,
+      "end": 61.339,
+      "score": 0.824,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "about",
+      "start": 61.379,
+      "end": 61.579,
+      "score": 0.84,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 61.659,
+      "end": 61.759,
+      "score": 0.702,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 61.779,
+      "end": 61.879,
+      "score": 0.685,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "last",
+      "start": 61.939,
+      "end": 62.199,
+      "score": 0.961,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "six",
+      "start": 62.299,
+      "end": 62.539,
+      "score": 0.836,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "months?",
+      "start": 62.599,
+      "end": 62.859,
+      "score": 0.836,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "If",
+      "start": 62.899,
+      "end": 62.979,
+      "score": 0.835,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "you",
+      "start": 62.999,
+      "end": 63.139,
+      "score": 0.925,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "had",
+      "start": 63.179,
+      "end": 63.279,
+      "score": 0.975,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "just",
+      "start": 63.319,
+      "end": 63.479,
+      "score": 0.865,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "hammered",
+      "start": 63.539,
+      "end": 63.92,
+      "score": 0.893,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "home",
+      "start": 63.96,
+      "end": 64.14,
+      "score": 0.783,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "this",
+      "start": 64.18,
+      "end": 64.34,
+      "score": 0.748,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "message,",
+      "start": 64.4,
+      "end": 64.76,
+      "score": 0.816,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "cast",
+      "start": 65.14,
+      "end": 65.42,
+      "score": 0.739,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Hillary",
+      "start": 65.44,
+      "end": 65.7,
+      "score": 0.784,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton",
+      "start": 65.74,
+      "end": 66.06,
+      "score": 0.839,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "as",
+      "start": 66.12,
+      "end": 66.2,
+      "score": 0.734,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 66.24,
+      "end": 66.26,
+      "score": 0.985,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "corrupt",
+      "start": 66.3,
+      "end": 66.56,
+      "score": 0.888,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "politician,",
+      "start": 66.62,
+      "end": 67.121,
+      "score": 0.842,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "we",
+      "start": 67.421,
+      "end": 67.521,
+      "score": 0.838,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "wouldn't",
+      "start": 67.541,
+      "end": 67.821,
+      "score": 0.679,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "have",
+      "start": 67.901,
+      "end": 68.121,
+      "score": 0.799,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 68.181,
+      "end": 68.221,
+      "score": 0.499,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "situation",
+      "start": 68.261,
+      "end": 68.781,
+      "score": 0.89,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "where",
+      "start": 68.821,
+      "end": 68.961,
+      "score": 0.905,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Utah",
+      "start": 69.061,
+      "end": 69.301,
+      "score": 0.768,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "is",
+      "start": 69.341,
+      "end": 69.401,
+      "score": 0.468,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "up",
+      "start": 69.461,
+      "end": 69.541,
+      "score": 0.755,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 69.561,
+      "end": 69.661,
+      "score": 0.924,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "grabs,",
+      "start": 69.701,
+      "end": 69.981,
+      "score": 0.911,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "where",
+      "start": 70.021,
+      "end": 70.281,
+      "score": 0.637,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Arizona",
+      "start": 70.642,
+      "end": 71.102,
+      "score": 0.91,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "is",
+      "start": 71.162,
+      "end": 71.222,
+      "score": 0.845,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "up",
+      "start": 71.282,
+      "end": 71.362,
+      "score": 0.814,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 71.382,
+      "end": 71.482,
+      "score": 0.755,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "grabs.",
+      "start": 71.522,
+      "end": 71.762,
+      "score": 0.882,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Now,",
+      "start": 72.142,
+      "end": 72.282,
+      "score": 0.837,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 72.322,
+      "end": 72.362,
+      "score": 0.535,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "number",
+      "start": 72.443,
+      "end": 72.663,
+      "score": 0.898,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 72.703,
+      "end": 72.763,
+      "score": 0.748,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Republicans",
+      "start": 72.803,
+      "end": 73.304,
+      "score": 0.916,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "are",
+      "start": 73.344,
+      "end": 73.444,
+      "score": 0.656,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "still",
+      "start": 73.464,
+      "end": 73.684,
+      "score": 0.705,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "very,",
+      "start": 73.784,
+      "end": 74.105,
+      "score": 0.842,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "very",
+      "start": 74.165,
+      "end": 74.525,
+      "score": 0.847,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "skeptical",
+      "start": 74.565,
+      "end": 75.166,
+      "score": 0.707,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that",
+      "start": 75.206,
+      "end": 75.326,
+      "score": 0.766,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Arizona",
+      "start": 75.406,
+      "end": 75.887,
+      "score": 0.888,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "could",
+      "start": 75.907,
+      "end": 76.047,
+      "score": 0.84,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "actually",
+      "start": 76.207,
+      "end": 76.588,
+      "score": 0.854,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "go",
+      "start": 76.688,
+      "end": 76.928,
+      "score": 0.905,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "for",
+      "start": 77.009,
+      "end": 77.129,
+      "score": 0.673,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Hillary",
+      "start": 77.169,
+      "end": 77.489,
+      "score": 0.932,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Clinton",
+      "start": 77.529,
+      "end": 77.93,
+      "score": 0.458,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "or",
+      "start": 78.31,
+      "end": 78.39,
+      "score": 0.67,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that",
+      "start": 78.43,
+      "end": 78.551,
+      "score": 0.894,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Donald",
+      "start": 78.591,
+      "end": 78.911,
+      "score": 0.802,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 78.951,
+      "end": 79.191,
+      "score": 0.724,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "could",
+      "start": 79.231,
+      "end": 79.432,
+      "score": 0.749,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "lose",
+      "start": 79.512,
+      "end": 79.792,
+      "score": 0.731,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Utah",
+      "start": 79.912,
+      "end": 80.253,
+      "score": 0.786,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "because",
+      "start": 80.293,
+      "end": 80.453,
+      "score": 0.999,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "there",
+      "start": 80.493,
+      "end": 80.693,
+      "score": 0.615,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "are",
+      "start": 80.813,
+      "end": 80.934,
+      "score": 0.619,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "a",
+      "start": 80.954,
+      "end": 80.974,
+      "score": 0.753,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "lot",
+      "start": 81.014,
+      "end": 81.154,
+      "score": 0.825,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "of",
+      "start": 81.174,
+      "end": 81.234,
+      "score": 0.749,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "entrenched",
+      "start": 81.274,
+      "end": 81.635,
+      "score": 0.81,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Republicans",
+      "start": 81.675,
+      "end": 82.195,
+      "score": 0.794,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "there.",
+      "start": 82.215,
+      "end": 82.396,
+      "score": 0.974,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "But",
+      "start": 82.456,
+      "end": 82.556,
+      "score": 0.835,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "there's",
+      "start": 82.876,
+      "end": 83.076,
+      "score": 0.883,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "nothing",
+      "start": 83.137,
+      "end": 83.457,
+      "score": 0.895,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "on",
+      "start": 83.637,
+      "end": 83.757,
+      "score": 0.845,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that",
+      "start": 83.797,
+      "end": 83.978,
+      "score": 0.837,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "map",
+      "start": 84.058,
+      "end": 84.398,
+      "score": 0.877,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "that's",
+      "start": 84.418,
+      "end": 84.578,
+      "score": 0.875,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "going",
+      "start": 84.598,
+      "end": 84.699,
+      "score": 0.992,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "to",
+      "start": 84.719,
+      "end": 84.759,
+      "score": 0.992,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "make",
+      "start": 84.779,
+      "end": 84.899,
+      "score": 0.758,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "the",
+      "start": 84.919,
+      "end": 84.979,
+      "score": 0.991,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "Trump",
+      "start": 85.019,
+      "end": 85.179,
+      "score": 0.959,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "campaign",
+      "start": 85.219,
+      "end": 85.54,
+      "score": 0.919,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "feel",
+      "start": 85.56,
+      "end": 85.72,
+      "score": 0.958,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "good",
+      "start": 85.76,
+      "end": 85.9,
+      "score": 0.876,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "word": "today.",
+      "start": 85.92,
+      "end": 86.14,
+      "score": 0.455,
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "language": "en"
+}
