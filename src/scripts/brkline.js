@@ -22,6 +22,3 @@ export default function findUniqueSpeakers(e) {
 		speakers.push(current_speaker);
 	}
 }
-
-
-
