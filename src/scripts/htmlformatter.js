@@ -13,7 +13,7 @@ export default function htmlFormatter(data) {
 			return generateHTML(key, value)
 		}).join('');
 		
-		htmlElements = "<div class='personal_cards'>" + htmlElements + "</div>";
+		htmlElements = "<div class='personal_cards'><div class='child-wrapper'>" + htmlElements + "</div></div>";
 		return htmlElements;
 	}).join('');
 }

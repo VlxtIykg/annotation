@@ -16,20 +16,20 @@
 	max-width: 50%
 	margin: auto
 
-.personal_cards
+.personal_cards,
+.personal_cards > .child-wrapper
 	max-height: 2rem
 	display: flex
 	flex-wrap: wrap
 
 .personal_cards,
-.personal_cards > p.text
+.personal_cards > .child-wrapper > p.text
 	position: relative
 
 p.text
-	position: absolute
-	margin-bottom: 1rem
-	white-space: pre
-	text-align: center
+	// margin-bottom: 1rem
+	// white-space: pre
+	// text-align: center
 	color: #ffffffda
 
 .S1 ~ p.text
@@ -76,20 +76,22 @@ p.text
 .space
 	background-color: var(--default-background)
 	white-space: pre
-	height: 24px
 
 // .card_wrapper
 // 	position: absolute
 
+// .personal_cards.expanded
+	
 
-.personal_cards.expanded
-	// position: absolute
+.personal_cards.expanded > .child-wrapper
+	position: absolute
 	z-index: 10
-	max-width: 24rem
-	max-height: 24rem
-	height: 100%
+	max-width: 30rem
+	width: 13rem
+	max-height: 30rem
 	color: #ffffffda
-	padding: 1.5rem
+	padding: 1rem
+	// margin: 1rem
 	background-color: #202022
 	
 	pointer-events: auto
@@ -119,8 +121,9 @@ p.text
 	p.speaker
 		position: relative
 		height: 24px
-		background: #f0f0f0
-		color: #191919
+		width: 100%
+		background-color: #f0f0f0
+		color: #000000
 		display: block
 		flex-grow: 1
 		padding: 0.1rem
@@ -140,29 +143,4 @@ p.text
 			width: 100%
 			height: 100%
 			z-index: 1
-			
-	body
-		font-family: Arial, sans-serif
-
-	.text-container
-		position: relative
-		margin: 50px
-
-	.hover-text-container
-		position: relative
-		display: inline-block
-
-	.hover-text
-		background-color: yellow
-		cursor: pointer
-
-	.hover-box
-		display: none
-		position: absolute
-		top: 1.5em // Adjust this to position the hover text correctly
-		left: 0
-		background-color: #f9f9f9
-		padding: 10px
-		border: 1px solid #ccc
-		z-index: 10
 
