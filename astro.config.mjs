@@ -5,6 +5,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  // site: "project1.kami.wtf",
   integrations: [react(), tailwind()],
-  output: "server"
+  output: "server",
+  adapter: cloudflare(),
 });

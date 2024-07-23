@@ -1,6 +1,7 @@
-import fs from 'fs';
-import path from 'path';
+export const prerender = true;
 import { Buffer } from 'node:buffer';
+import fs from 'node:fs';
+import path from 'node:path';
 import autoFill from './parser';
 import htmlFormatter from '@scripts/htmlformatter';
 
