@@ -14,6 +14,13 @@ AAnnotator, also known as AI Annotator, is a website that can be accessed locall
 
 <!-- *If you're interested in knowing the powerlevel9k configuration to get this prompt, have a look at [this gist](https://gist.github.com/athityakumar/1bd5e9e24cd2a1891565573a893993eb).* -->
 
+# Branch
+> [!IMPORTANT] 
+> You are in the production branch.
+
+Currently this repostitory is split into two branch, production is named master branch and development is named development branch!
+
+Differences can be found [here!](github/BRANCH.md)
 # Table of contents
 
 - [Installation](#installation)
@@ -34,13 +41,14 @@ AAnnotator, also known as AI Annotator, is a website that can be accessed locall
 
 2. Install the relevant packages
 
-    *Note for `bun` users - Please use the below command and that `ci` does not exist.*
+    > [!NOTE]  
+    > Note for `bun` users - Please use the below command and that `ci` does not exist.
 
     ```sh
     bun install
     ```
-
-	*Note for `node` users - Please use the below command and that `ci` requires a package-lock.json!*
+    > [!NOTE]  
+	> Note for `node` users - Please use the below command and that `ci` requires a package-lock.json!
 
     ```sh
     node install
@@ -64,6 +72,7 @@ AAnnotator, also known as AI Annotator, is a website that can be accessed locall
 6. Have a look at [other astro commands](#recommended-configurations) and [Custom configurations](#custom-configurations).
 
 ## 🧞 Commands
+[(Back to top)](#table-of-contents)
 
 All commands are run from the root of the project, from a terminal:
 
