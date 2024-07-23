@@ -10,4 +10,7 @@ export default defineConfig({
   integrations: [react(), tailwind()],
   output: "server",
   adapter: cloudflare(),
+  ssr: {
+    external: ["node:fs", "node:path", "node:buffer"],
+  }
 });
