@@ -19,6 +19,7 @@ const FileUpload = () => {
 	};
 
 	const handleSubmit = async (event) => {
+		console.log("submitting!")
 		event.preventDefault();
 		if (file) {
 			const formData = new FormData();
