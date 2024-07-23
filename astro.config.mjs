@@ -8,9 +8,11 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   // site: "project1.kami.wtf",
   integrations: [react(), tailwind()],
-  output: "server",
-  adapter: cloudflare(),
-  ssr: {
-    external: ["node:fs", "node:path", "node:buffer"],
+  output: "hybrid",
+  adapter: cloudflare({mode: 'directory',}),
+  vite: {
+    ssr: {
+      external: ["node:fs", "node:path", "node:buffer"],
+    }
   }
 });
