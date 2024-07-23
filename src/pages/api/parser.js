@@ -19,10 +19,12 @@ export default function autoFill(data, formatter) {
 
 function speechmatics(data) {
 	try {
+		/*
 		if (data instanceof Array) {
 			const _temp = data.map(filename => processJSONFile(JSON.parse(fs.readFileSync(filename, 'utf8'))));
 			return _temp;
 		}
+		*/
 
 		if (isJSON(data)) {
 			const template = processJSONFile(jsonData);
@@ -30,6 +32,7 @@ function speechmatics(data) {
 		}
 
 		const jsonContent = fs.readFileSync(data, 'utf8');
+		console.log({jsonContent})
 		const jsonData = JSON.parse(jsonContent).results;
 		const _temp = jsonData.map(result => fillTemplate(result));
 		return _temp;
