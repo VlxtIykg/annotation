@@ -26,7 +26,7 @@ const FileUpload = () => {
 			formData.append('file', file);
 			formData.append('formatter', selectedFormatter); 
 
-			const response = await fetch('/api/upload', {
+			const response = await fetch('@api/upload', {
 				method: 'POST',
 				body: formData,
 			});
