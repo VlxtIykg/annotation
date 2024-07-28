@@ -31,3 +31,12 @@ export async function POST({ request }) {
 
   return new Response(JSON.stringify({status: 200, message: html_str}));
 }
+
+export async function GET({params, request}) {
+  return new Response(
+    JSON.stringify({
+      name: 'Astro',
+      url: 'https://astro.build/'
+    })
+  )
+}

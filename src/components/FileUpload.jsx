@@ -4,6 +4,7 @@ import speechmatic from '@assets/speechmatic.svg';
 import wsx from '@assets/wsx.svg';
 import findUniqueSpeakers from "@scripts/brkline.js";
 import cardActivator from '@scripts/card_activator.js';
+// import { POST } from '@pages/api/upload.js';
 
 const FileUpload = () => {
 	const [file, setFile] = useState(null);
