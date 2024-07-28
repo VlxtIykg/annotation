@@ -9,6 +9,7 @@ const FileUpload = () => {
 	const [file, setFile] = useState(null);
 	const [result, setResult] = useState('');
 	const [selectedFormatter, setSelectedFormatter] = useState(null);
+	const inDev = import.meta.env.DEV
 
 	const handleRadioChange = (event) => {
 		setSelectedFormatter(event.target.id);
@@ -19,14 +20,14 @@ const FileUpload = () => {
 	};
 
 	const handleSubmit = async (event) => {
-		console.log("submitting!")
+		console.log(inDev ? "api/upload" : "./api/upload.astro.mjs")
 		event.preventDefault();
 		if (file) {
 			const formData = new FormData();
 			formData.append('file', file);
 			formData.append('formatter', selectedFormatter); 
 
-			const response = await fetch('@api/upload', {
+			const response = await fetch('api/upload', {
 				method: 'POST',
 				body: formData,
 			});
