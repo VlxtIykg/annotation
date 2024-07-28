@@ -9,7 +9,7 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   // site: "project1.kami.wtf",
   integrations: [react(), tailwind()],
-  output: "hybrid",
+  output: "server",
   adapter: node({mode: 'standalone',}),
   vite: {
     ssr: {
