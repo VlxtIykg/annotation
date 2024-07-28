@@ -16,10 +16,10 @@ COPY . .
 # [optional] tests & build
 ENV NODE_ENV=development
 RUN bun test
-RUN bun run build
+RUN bunx --bun run build
 
 # Run the app
 USER bun
-EXPOSE 3003/tcp
+EXPOSE 2999/tcp
 ENTRYPOINT ["bun", "run", "preview"]
 
