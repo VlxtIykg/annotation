@@ -23,4 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
+# Uploaded files
 resources/
+api/uploads/whisperx-out
