@@ -14,6 +14,13 @@ AAnnotator, also known as AI Annotator, is a website that can be accessed locall
 
 <!-- *If you're interested in knowing the powerlevel9k configuration to get this prompt, have a look at [this gist](https://gist.github.com/athityakumar/1bd5e9e24cd2a1891565573a893993eb).* -->
 
+# Branch
+> [!IMPORTANT] 
+> You are in the production branch.
+
+Currently this repostitory is split into two branch, production is named master branch and development is named development branch!
+
+Differences can be found [here!](github/BRANCH.md)
 # Table of contents
 
 - [Installation](#installation)
@@ -32,38 +39,32 @@ AAnnotator, also known as AI Annotator, is a website that can be accessed locall
 1. [![Install](https://img.shields.io/badge/Install-this%20runtime-020202?style=flat-square&logoSize=auto&labelColor=030303&color=030303)](https://bun.sh/docs/installation)[![bun](https://img.shields.io/badge/recommended-white?style=flat-square&logo=Bun&logoColor=fffff2%20&logoSize=auto&labelColor=000000)](https://bun.sh/docs/installation) [![or](https://img.shields.io/badge/or-that-white?style=flat-square&logoSize=auto&labelColor=1e293f&color=1e293f)](https://nodejs.org/en/download/prebuilt-installer)[![nodejs](https://img.shields.io/badge/alternative-white?style=flat-square&logo=nodedotjs&logoSize=auto&labelColor=1e2a42&color=558e48)](https://nodejs.org/en/download/prebuilt-installer)
 
 
-2. Install the relevant packages
+2. Install the relevant packages  
+```sh
+bun install
+```  
+> [!NOTE]
+> The command above is for the Bun runtime!
+```sh
+node install
+```  
+> [!NOTE]  
+> The command above is for the Node runtime!
 
-    *Note for `bun` users - Please use the below command and that `ci` does not exist.*
-
-    ```sh
-    bun install
-    ```
-
-	*Note for `node` users - Please use the below command and that `ci` requires a package-lock.json!*
-
-    ```sh
-    node install
-    ```
-
-3. Run the local server:
-    *Note for `bun` users - Please use the below command and that `ci` does not exist.*
-
-    ```sh
-    bun run dev
-    ```
-
-	*Note for `node` users - Please use the below command and that `ci` requires a package-lock.json!*
-
-    ```sh
-    node run dev
-    ```
+3. Run the local server  
+```sh
+bun run dev
+```  
+```sh
+node run dev
+```
 
 5. Start using `annotation` 🎉, go to https://localhost:4321
 
 6. Have a look at [other astro commands](#recommended-configurations) and [Custom configurations](#custom-configurations).
 
 ## 🧞 Commands
+[(Back to top)](#table-of-contents)
 
 All commands are run from the root of the project, from a terminal:
 

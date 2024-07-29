@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
 import { Buffer } from 'node:buffer';
+import fs from 'node:fs';
+import path from 'node:path';
 import autoFill from './parser';
 import htmlFormatter from '@scripts/htmlformatter';
 
@@ -9,7 +9,6 @@ export async function POST({ request }) {
   const formData = await request.formData();
   const file = formData.get('file');
   const formatter = formData.get('formatter');
-  // console.log(formatter);
   const arrayBuffer = await file.arrayBuffer();
   const buffer = Buffer.from(arrayBuffer);
 
