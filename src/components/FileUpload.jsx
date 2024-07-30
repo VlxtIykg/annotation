@@ -6,14 +6,14 @@ import findUniqueSpeakers from "@scripts/brkline.js";
 import cardActivator from '@scripts/card_activator.js';
 
 const FileUpload = () => {
-    const [file, setFile] = useState(null);
-    const [fileName, setFileName] = useState('');
-    const [result, setResult] = useState('');
-    const [selectedFormatter, setSelectedFormatter] = useState(null);
+	const [file, setFile] = useState(null);
+	const [fileName, setFileName] = useState('');
+	const [result, setResult] = useState('');
+	const [selectedFormatter, setSelectedFormatter] = useState(null);
 
-    const handleRadioChange = (event) => {
-        setSelectedFormatter(event.target.id);
-    };
+	const handleRadioChange = (event) => {
+		setSelectedFormatter(event.target.id);
+	};
 
 	const handleFileChange = (event) => {
 		const selectedFile = event.target.files[0];
@@ -24,45 +24,36 @@ const FileUpload = () => {
 		}
 	};
 
-    const handleSubmit = async (event) => {
+	const handleSubmit = async (event) => {
 		console.log("submitting!")
 		event.preventDefault();
-		console.log(file)
-		const formData = new FormData();
-		formData.append('file', file, `${file.name}`);
-		formData.append('formatter', selectedFormatter); 
-		console.log(formData.getAll("file"))
-		console.log(formData.getAll("formatter"))
-		const response = await fetch('api/upload', {
-			headers: {
-				"Content-Type": "application/json",
-			},
-			method: 'POST',
-			body: formData,
-		});
 
-		console.log(await response.json())
-		// if (file) {
+		const formdata = new FormData();
+		formdata.append("file", file, fileName);
+		formdata.append("formatter", selectedFormatter);
 
-		// 	const response = await fetch('api/upload', {
-		// 		method: 'POST',
-		// 		headers: {
-		// 		  "Content-Type": file.type,
-		// 		},
-		// 		body: formData,
-		// 	});
+		const requestOptions = {
+			method: "POST",
+			body: formdata,
+			redirect: "follow"
+		};
 
-		// 	const data = await response.json();
-		// 	setResult(data.message);
-		// }
+		try {
+			const response = await fetch("/api/upload", requestOptions);
+			const result = await response.text();
+			let div = JSON.parse(result)
+			setResult(div.message);
+		} catch (error) {
+			console.error(error);
+		};
 	};
 
-    useEffect(() => {
-        if (result) {
-            cardActivator();
-            findUniqueSpeakers();
-        }
-    }, [result]);
+	useEffect(() => {
+		if (result) {
+			cardActivator();
+			findUniqueSpeakers();
+		}
+	}, [result]);
 
 	return (
 		<div className=''>

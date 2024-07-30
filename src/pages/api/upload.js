@@ -1,38 +1,45 @@
 import { Buffer } from 'node:buffer';
 import fs from 'node:fs';
-import path from 'node:path';
+import path, { format } from 'node:path';
 import autoFill from './parser';
 import htmlFormatter from '@scripts/htmlformatter';
 
-
-export async function POST({ request }) {
-  console.log("POST request received")
-  const formData = await request.formData();
-  const file = formData.get('file');
-  const formatter = formData.get('formatter');
-  const arrayBuffer = await file.arrayBuffer();
-  const buffer = Buffer.from(arrayBuffer);
-
-  const uploadsDir = path.join(process.cwd(), 'api/uploads');
-
-  // Ensure the uploads directory exists
-  if (!fs.existsSync(uploadsDir)) {
-    fs.mkdirSync(uploadsDir);
-  }
-
-  // Save file to server or process it
-  const filePath = path.join(uploadsDir, file.name);
-  fs.writeFileSync(filePath, buffer);
-
-  // Process the file and return the result
-  const result = `File ${file.name} uploaded successfully.`;
-
-  const extrapolated_data = autoFill(filePath, formatter);
-  const html_str = htmlFormatter(extrapolated_data);
-
-  return new Response(JSON.stringify({status: 200, message: html_str}));
+export async function POST(context) {
+	// TODO - Add error handling for file upload
+	// TODO - Add ways to add files directly without type
+	// TODO - Add zip support
+	try {
+		const formData = await context.request.formData();
+		const file = formData.get('file');
+		console.log(file);
+		const type = formData.get('file').type;
+		switch (type) {
+			case 'application/json;charset=utf-8':
+				const formatter = formData.get('formatter');
+				const json_file = await file.json();
+				const extrapolated_data = autoFill(json_file, formatter);
+				const html_str = htmlFormatter(extrapolated_data);
+				return new Response(JSON.stringify({status: 200, message: html_str}));
+			case 'application/zip':
+				console.log(formData.get('zip'));
+				// Code for handling ZIP file
+				break;
+			case null:
+				console.log('No content type specified');
+				// Code for handling no content type specified
+				return new Response(JSON.stringify({status: 400, message: `No content type specified`}));
+			default:
+				console.log('Unsupported content type');
+				// Code for handling unsupported content type
+				return new Response(JSON.stringify({status: 400, message: `Unsupported content type`}));
+		}
+		return new Response(JSON.stringify({status: 200, message: `html_str`}));
+	} catch (error) {
+		console.error(error)
+	 return new Response(JSON.stringify({status: 400, message: `Did not receive a file?`}));   
+	}
 }
 
 export async function GET() {
-  return new Response(JSON.stringify({status: 200, message: 'GET request received'}));
+	return new Response(JSON.stringify({status: 200, message: 'GET request received'}));
 }

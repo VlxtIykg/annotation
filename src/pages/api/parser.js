@@ -3,15 +3,16 @@ import JSON from 'json5';
 /**
  * 
  * @param {array | string} data - Array of file paths
- * @param {string} data - Raw json data 
+ * @param {string} data - json object
+ * @description - If you are expecting to parse multiple files, add a handler like the zip handler 
  * @returns 
  */
 export default function autoFill(data, formatter) {
 	switch(formatter){
-		case "sms":{
+		case "sms": {
 			return speechmatics(data);
 		}
-		default:{
+		default: {
 			return whisperx(data);
 		}	
 	}	
@@ -19,23 +20,9 @@ export default function autoFill(data, formatter) {
 
 function speechmatics(data) {
 	try {
-		/*
-		if (data instanceof Array) {
-			const _temp = data.map(filename => processJSONFile(JSON.parse(fs.readFileSync(filename, 'utf8'))));
-			return _temp;
-		}
-		*/
-
-		if (isJSON(data)) {
-			const template = processJSONFile(jsonData);
-			return template;	
-		}
-
-		const jsonContent = fs.readFileSync(data, 'utf8');
-		console.log({jsonContent})
-		const jsonData = JSON.parse(jsonContent).results;
+		const jsonData = data.results;
 		const _temp = jsonData.map(result => fillTemplate(result));
-		return _temp;
+		return _temp;	
 	} catch (error) {
 		console.error(`Error reading or parsing data:`, error);
 	}
@@ -43,11 +30,9 @@ function speechmatics(data) {
 
 function whisperx(data) {
 	try {
-		const jsonContent = fs.readFileSync(data, 'utf8');
-		const jsonData = JSON.parse(jsonContent).segments;
+		const jsonData = data.segments;
 		const _temp = jsonData.map(result => fillTemplateWhisper(result));
-		const onearray = _temp.flat();
-		return onearray
+		return _temp.flat();
 	} catch (error) {
 		console.error(`Error reading or parsing data:`, error);	
 	}
@@ -55,11 +40,12 @@ function whisperx(data) {
 
 // vanillaJS
 function isJSON(str) {
-    try {
-        return (JSON.parse(str) && !!str);
-    } catch (e) {
-        return false;
-    }
+	try {
+		JSON.parse(str);
+	} catch (e) {
+			return false;
+	}
+	return true;
 }
 function fillTemplateWhisper(json) {
 	const kami = []
