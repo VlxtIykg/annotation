@@ -7,7 +7,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: "project1.kami.wtf",
+  site: "http://localhost:3000",
   integrations: [react(), tailwind()],
   output: "hybrid",
   adapter: node({mode: 'standalone',}),
