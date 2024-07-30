@@ -17,5 +17,5 @@ export default defineConfig({
     }
   },
   prefetch: true,
-  server: { port: 3003 }
+  server: { port: 3000 }
 });
