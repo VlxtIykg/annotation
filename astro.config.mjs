@@ -14,7 +14,7 @@ import cloudflare from "@astrojs/cloudflare";
  * @type {import('astro/config').Config}
  */
 export default defineConfig({
-  site: "http://localhost:3000",
+  site: "https://project1.kami.boo",
   integrations: [react(), tailwind()],
   output: "server",
   adapter: node({mode: 'standalone'}),
