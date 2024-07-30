@@ -1,7 +1,11 @@
 // astro.config.mjs
 import { defineConfig } from 'astro/config';
+
+// Frameworks
 import react from '@astrojs/react';
 import tailwind from "@astrojs/tailwind";
+
+// SSR Adapters
 import node from "@astrojs/node";
 import cloudflare from "@astrojs/cloudflare";
 
