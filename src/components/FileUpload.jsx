@@ -92,16 +92,16 @@ const FileUpload = () => {
                             </div>
                         </div>
                     </div>
-                    <br/>
-                    <legend className='sr-only'>Upload your file</legend>
-                    <div className="border-2 bg-black rounded-lg w-fit mx-auto my-0 fontify cursor-pointer">
-                        <input type="file" id="files"  className='hidden' onChange={handleFileChange}/>
-                        <label className="px-1 cursor-pointer" htmlFor="files">{fileName || 'Select file'}</label><br></br>
-                    </div>
-                    <div className='h-1 p-1'></div>
-                    <div className="border-2 bg-black px-1 rounded-lg w-fit mx-auto my-0 fontify">
-                        <button className='text-white-500' type="submit">Submit</button>
-                    </div>
+					<br/>
+					<legend className='sr-only'>Upload your file</legend>
+					<div className="border-2 bg-black rounded-lg w-fit mx-auto my-0 fontify cursor-pointer">
+						<input type="file" id="files"  className='hidden' onChange={handleFileChange}/>
+						<label className="px-1 cursor-pointer" htmlFor="files">{fileName || 'Select file'}</label><br></br>
+					</div>
+					<div className='h-1 p-1'></div>
+					<div className="border-2 bg-black px-1 rounded-lg w-fit mx-auto my-0 fontify">
+						<button className='text-white-500' type="submit">Submit</button>
+					</div>
                 </fieldset>
             </form>
             {result && <div id="diarized_text" className="max-w-prose personal_ct flex flex-wrap" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(result) }} />}
