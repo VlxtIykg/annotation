@@ -42,11 +42,14 @@ const FileUpload = () => {
 
 		try {
 			const response = await fetch("/api/upload", requestOptions);
-			if (debug_level > 100) {
-				console.log(response);
-			}
 			const result = await response.text();
 			let div = JSON.parse(result)
+			if (debug_level > 100) {
+				console.log(response);
+				console.log(result);
+				console.log({status: result.status, message: result.message, error: result.error});
+				console.log({status: div.status, message: div.message, error: div.error});
+			}
 			setResult(div.message);
 		} catch (error) {
 			console.error(error);
