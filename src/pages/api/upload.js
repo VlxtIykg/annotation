@@ -6,6 +6,7 @@ import htmlFormatter from '@scripts/htmlformatter';
 
 
 export async function POST({ request }) {
+  console.log("POST request received")
   const formData = await request.formData();
   const file = formData.get('file');
   const formatter = formData.get('formatter');
@@ -30,4 +31,8 @@ export async function POST({ request }) {
   const html_str = htmlFormatter(extrapolated_data);
 
   return new Response(JSON.stringify({status: 200, message: html_str}));
+}
+
+export async function GET() {
+  return new Response(JSON.stringify({status: 200, message: 'GET request received'}));
 }
