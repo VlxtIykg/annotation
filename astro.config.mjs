@@ -18,11 +18,6 @@ export default defineConfig({
   integrations: [react(), tailwind()],
   output: "server",
   adapter: cloudflare(),
-  // vite: {
-  //   ssr: {
-  //     external: ["node:fs", "node:path", "node:buffer"],
-  //   }
-  // },
   // prefetch: true,
   server: { port: 3000 }
 });

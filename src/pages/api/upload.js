@@ -1,6 +1,3 @@
-import { Buffer } from 'node:buffer';
-import fs from 'node:fs';
-import path, { format } from 'node:path';
 import autoFill from './parser';
 import htmlFormatter from '@scripts/htmlformatter';
 
