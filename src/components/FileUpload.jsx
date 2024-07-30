@@ -25,6 +25,7 @@ const FileUpload = () => {
 	};
 
 	const handleSubmit = async (event) => {
+		fetch("/api/upload", {method: "GET"}).then(data => data.json()).then(data => console.log(data)).catch(err => console.log(err));
 		console.log("submitting!")
 		event.preventDefault();
 

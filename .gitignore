@@ -26,3 +26,6 @@ pnpm-debug.log*
 # Uploaded files
 resources/
 api/uploads/whisperx-out
+
+# Wrangler
+.wrangler
