@@ -29,6 +29,7 @@ const FileUpload = () => {
 		console.log("submitting!")
 		event.preventDefault();
 
+		const debug_level = 101;
 		const formdata = new FormData();
 		formdata.append("file", file, fileName);
 		formdata.append("formatter", selectedFormatter);
@@ -41,6 +42,9 @@ const FileUpload = () => {
 
 		try {
 			const response = await fetch("/api/upload", requestOptions);
+			if (debug_level > 100) {
+				console.log(response);
+			}
 			const result = await response.text();
 			let div = JSON.parse(result)
 			setResult(div.message);

@@ -50,7 +50,7 @@ export async function POST(context) {
   } catch (error) {
     console.error(error);
     return new Response(
-      JSON.stringify({ status: 400, message: `Did not receive a file?` }),
+      JSON.stringify({ status: 400, message: `Did not receive a file?`, error }),
     );
   }
 }
