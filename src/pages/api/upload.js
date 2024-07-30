@@ -11,16 +11,25 @@ export async function POST(context) {
 		console.log(file);
 		const type = formData.get('file').type;
 		switch (type) {
-			case 'application/json;charset=utf-8':
+			case 'application/json;charset=utf-8': {
 				const formatter = formData.get('formatter');
 				const json_file = await file.json();
 				const extrapolated_data = autoFill(json_file, formatter);
 				const html_str = htmlFormatter(extrapolated_data);
 				return new Response(JSON.stringify({status: 200, message: html_str}));
-			case 'application/zip':
+				}
+			case 'application/json': {
+				const formatter = formData.get('formatter');
+				const json_file = await file.json();
+				const extrapolated_data = autoFill(json_file, formatter);
+				const html_str = htmlFormatter(extrapolated_data);
+				return new Response(JSON.stringify({status: 200, message: html_str}));
+			}
+			case 'application/zip': {
 				console.log(formData.get('zip'));
 				// Code for handling ZIP file
 				break;
+			}
 			case null:
 				console.log('No content type specified');
 				// Code for handling no content type specified
@@ -28,7 +37,7 @@ export async function POST(context) {
 			default:
 				console.log('Unsupported content type');
 				// Code for handling unsupported content type
-				return new Response(JSON.stringify({status: 400, message: `Unsupported content type`}));
+				return new Response(JSON.stringify({status: 400, message: `<p>Unsupported content type</p><br>${type}`}));
 		}
 		return new Response(JSON.stringify({status: 200, message: `html_str`}));
 	} catch (error) {
