@@ -40,6 +40,7 @@ export async function GET() {
  * @returns {Response} Returns a response object to send back to original user
  */
 export async function context_Handler(json_file, type, formatter, skip) {
+  let json_file = await json_file.json();
   if (skip) type = skip;
   switch (type) {
     // Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
@@ -71,8 +72,6 @@ export async function context_Handler(json_file, type, formatter, skip) {
       );
     default:
       // Code for handling files that cannot be parsed be it frontend or backend
-      const json_file = await file.json();
-
       console.log("Unsupported content type");
       return new Response(
         JSON.stringify({ status: 400, message: `${json_file}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
