@@ -10,9 +10,12 @@ export async function POST(context) {
     const file = formData.get("file");
     const type = formData.get("file").type;
     const formatter = formData.get("formatter");
-    console.log(file);
-    const json_file = await file.json();
-    console.log({json_file});
+    let json_file;
+    try {
+      json_file = await file.json();
+    } catch (error) {
+      json_file = "Couldn't run .json() on file";
+    }
     return new Response(
       JSON.stringify({ status: 400, message: `${json_file}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
     );
