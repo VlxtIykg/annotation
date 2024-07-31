@@ -10,6 +10,7 @@ export async function POST(context) {
     const file = formData.get("file");
     console.log(file);
     const type = formData.get("file").type;
+    /*
     switch (type) {
       case "application/json;charset=utf-8": {
         const formatter = formData.get("formatter");
@@ -28,7 +29,7 @@ export async function POST(context) {
       case "application/zip": {
         console.log(formData.get("zip"));
         // Code for handling ZIP file
-        break;
+        return;
       }
       case null:
         console.log("No content type specified");
@@ -46,11 +47,12 @@ export async function POST(context) {
           }),
         );
     }
-    return new Response(JSON.stringify({ status: 200, message: `html_str` }));
+    */
+    return new Response(JSON.stringify({ status: 200, message: `${file}\n${type}` }));
   } catch (error) {
     console.error(error);
     return new Response(
-      JSON.stringify({ status: 400, message: `Did not receive a file?`, error }),
+      JSON.stringify({ status: 400, message: `Did not receive a file?\n${error}`, error }),
     );
   }
 }
