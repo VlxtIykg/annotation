@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import DOMPurify from "dompurify";
 import spm from "@assets/spms.svg";
 import whis from "@assets/whisp.svg";

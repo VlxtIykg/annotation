@@ -1,4 +1,4 @@
-export default function findUniqueSpeakers(e) {
+export default function findUniqueSpeakers() {
 	const speakers = [];
 	const cards = document.getElementsByClassName('personal_cards');
 	
