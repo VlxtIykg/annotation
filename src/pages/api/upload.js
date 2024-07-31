@@ -54,8 +54,8 @@ export async function context_Handler(file, type, skip) {
      */
     case "application/json": {
       const formatter = formData.get("formatter");
-      const json_file = await file.json();
-      const extrapolated_data = autoFill(json_file, formatter);
+      // const json_file = await file.json();
+      const extrapolated_data = autoFill(file, formatter);
       const html_str = htmlFormatter(extrapolated_data);
       return new Response(JSON.stringify({ status: 200, message: html_str }));
     }
