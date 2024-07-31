@@ -8,9 +8,10 @@ export async function POST(context) {
   try {
     const formData = await context.request.formData();
     const file = formData.get("file");
-    console.log(file);
     const type = formData.get("file").type;
-    return context_Handler(file, type, formData);
+    const formatter = formData.get("formatter");
+    console.log(file);
+    return context_Handler(file, type, formatter, true);
   } catch (error) {
     console.error(error);
     return new Response(
@@ -31,17 +32,17 @@ export async function GET() {
 
 /**
  * 
- * @param {Blob | JSON | JSON.stringify(file) } file Zip not supported yet, file sent to the parent function is sent here
+ * @param {Blob | JSON } file Zip not supported yet, file sent to the parent function is sent here
  * @param {string} type In forms of application/*, * being type i.e. zip, json, etc
+ * @param {string} formatter Either sms or wsx only! String type only.
  * @param {boolean} skip Whether to skip entire switch case
  * @returns {Response} Returns a response object to send back to original user
  */
-export async function context_Handler(file, type, skip) {
+export async function context_Handler(file, type, formatter, skip) {
   if (skip) type = skip;
   switch (type) {
     // Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
     case "application/json;charset=utf-8": {
-      const formatter = formData.get("formatter");
       const json_file = await file.json();
       const extrapolated_data = autoFill(json_file, formatter);
       const html_str = htmlFormatter(extrapolated_data);
@@ -53,9 +54,8 @@ export async function context_Handler(file, type, skip) {
      * ZIP files as application/zip and as [object Blob]
      */
     case "application/json": {
-      const formatter = formData.get("formatter");
-      // const json_file = await file.json();
-      const extrapolated_data = autoFill(file, formatter);
+      const json_file = await file.json();
+      const extrapolated_data = autoFill(json_file, formatter);
       const html_str = htmlFormatter(extrapolated_data);
       return new Response(JSON.stringify({ status: 200, message: html_str }));
     }
@@ -71,10 +71,12 @@ export async function context_Handler(file, type, skip) {
         JSON.stringify({ status: 400, message: `No content type specified or no file sent` }),
       );
     default:
-      console.log("Unsupported content type");
       // Code for handling files that cannot be parsed be it frontend or backend
+      const json_file = await file.json();
+
+      console.log("Unsupported content type");
       return new Response(
-        JSON.stringify({ status: 400, message: `${json_file}<br>${type}<br><p>Unsupported content type</p><br>`}),
+        JSON.stringify({ status: 400, message: `${json_file ?? file}<br>${type}<br><p>Unsupported content type</p><br>`}),
       );
   }
 }
