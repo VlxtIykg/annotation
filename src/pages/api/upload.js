@@ -12,7 +12,8 @@ export async function POST(context) {
     const formatter = formData.get("formatter");
     // let [json_file, err] = await handleTryCatch(file.json());
     // if (err) {json_file = file;}
-    return context_Handler(file, type, formatter, false);
+    return JSON.stringify({status: 200, message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}`});
+    // return context_Handler(file, type, formatter, false);
   } catch (error) {
     console.error(error);
     return new Response(

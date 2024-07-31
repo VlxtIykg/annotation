@@ -32,7 +32,6 @@ const FileUpload = () => {
 		console.log("submitting!");
 		event.preventDefault();
 
-		const debug_level = 101;
 		const formdata = new FormData();
 		formdata.append("file", file, fileName);
 		formdata.append("formatter", selectedFormatter);
@@ -45,14 +44,12 @@ const FileUpload = () => {
 
 		try {
 			const response = await fetch("/api/upload", requestOptions);
-			const result = await response.text();
-			if (debug_level > 100) {
-				console.log(response);
-				console.log(result);
-			}
+			// const result = await response.text();
+			const result = await response.json();
+			console.log(response);
+			console.log(result);
 			try {
-				let div = JSON.parse(result);
-				setResult(div.message);
+				setResult(result.message);
 			} catch (error) {
 				setResult(error);
 			}

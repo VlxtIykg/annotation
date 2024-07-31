@@ -8,8 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "html_test": "bun run src/scripts/htmlformatter.js",
-    "prepare": "husky"
+    "html_test": "bun run src/scripts/htmlformatter.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.3",
@@ -28,8 +27,6 @@
     "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "git-format-staged": "^3.1.1",
-    "husky": "^9.1.4",
     "prettier": "^3.3.3",
     "sass": "^1.77.8"
   },
