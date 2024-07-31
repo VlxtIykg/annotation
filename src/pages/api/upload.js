@@ -40,12 +40,12 @@ export async function GET() {
  * @returns {Response} Returns a response object to send back to original user
  */
 export async function context_Handler(json_file, type, formatter, skip) {
-  let json_file = await json_file.json();
+  let json_file_test = json_file;
   if (skip) type = skip;
   switch (type) {
     // Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
     case "application/json;charset=utf-8": {
-      const extrapolated_data = autoFill(json_file, formatter);
+      const extrapolated_data = autoFill(json_file_test, formatter);
       const html_str = htmlFormatter(extrapolated_data);
       return new Response(JSON.stringify({ status: 200, message: html_str }));
     }
@@ -55,7 +55,7 @@ export async function context_Handler(json_file, type, formatter, skip) {
      * ZIP files as application/zip and as [object Blob]
      */
     case "application/json": {
-      const extrapolated_data = autoFill(json_file, formatter);
+      const extrapolated_data = autoFill(json_file_test, formatter);
       const html_str = htmlFormatter(extrapolated_data);
       return new Response(JSON.stringify({ status: 200, message: html_str }));
     }
@@ -74,7 +74,7 @@ export async function context_Handler(json_file, type, formatter, skip) {
       // Code for handling files that cannot be parsed be it frontend or backend
       console.log("Unsupported content type");
       return new Response(
-        JSON.stringify({ status: 400, message: `${json_file}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
+        JSON.stringify({ status: 400, message: `${json_file_test}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
       );
   }
 }
