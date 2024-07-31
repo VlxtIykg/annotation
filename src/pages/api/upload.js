@@ -11,7 +11,12 @@ export async function POST(context) {
     const type = formData.get("file").type;
     const formatter = formData.get("formatter");
     console.log(file);
-    return context_Handler(file, type, formatter, true);
+    const json_file = await file.json();
+    console.log({json_file});
+    return new Response(
+      JSON.stringify({ status: 400, message: `${json_file}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
+    );
+    // return context_Handler(file, type, formatter, true);
   } catch (error) {
     console.error(error);
     return new Response(
