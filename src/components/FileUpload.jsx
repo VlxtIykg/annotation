@@ -44,8 +44,8 @@ const FileUpload = () => {
 
 		try {
 			const response = await fetch("/api/upload", requestOptions);
-			// const result = await response.text();
-			const result = await response.json();
+			const result = await response.text();
+			// const result = await response.json(); 
 			console.log(response);
 			console.log(result);
 			try {
