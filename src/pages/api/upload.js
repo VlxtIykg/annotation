@@ -10,16 +10,9 @@ export async function POST(context) {
     const file = formData.get("file");
     const type = formData.get("file").type;
     const formatter = formData.get("formatter");
-    let json_file;
-    try {
-      json_file = await file.json();
-    } catch (error) {
-      json_file = "Couldn't run .json() on file";
-    }
-    return new Response(
-      JSON.stringify({ status: 400, message: `${json_file}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
-    );
-    // return context_Handler(file, type, formatter, true);
+    let [json_file, err] = await handleTryCatch(file.json());
+    if (err) {json_file = file;}
+    return context_Handler(json_file, type, formatter, false);
   } catch (error) {
     console.error(error);
     return new Response(
@@ -46,12 +39,11 @@ export async function GET() {
  * @param {boolean} skip Whether to skip entire switch case
  * @returns {Response} Returns a response object to send back to original user
  */
-export async function context_Handler(file, type, formatter, skip) {
+export async function context_Handler(json_file, type, formatter, skip) {
   if (skip) type = skip;
   switch (type) {
     // Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
     case "application/json;charset=utf-8": {
-      const json_file = await file.json();
       const extrapolated_data = autoFill(json_file, formatter);
       const html_str = htmlFormatter(extrapolated_data);
       return new Response(JSON.stringify({ status: 200, message: html_str }));
@@ -62,7 +54,6 @@ export async function context_Handler(file, type, formatter, skip) {
      * ZIP files as application/zip and as [object Blob]
      */
     case "application/json": {
-      const json_file = await file.json();
       const extrapolated_data = autoFill(json_file, formatter);
       const html_str = htmlFormatter(extrapolated_data);
       return new Response(JSON.stringify({ status: 200, message: html_str }));
@@ -84,7 +75,12 @@ export async function context_Handler(file, type, formatter, skip) {
 
       console.log("Unsupported content type");
       return new Response(
-        JSON.stringify({ status: 400, message: `${json_file ?? file}<br>${type}<br><p>Unsupported content type</p><br>`}),
+        JSON.stringify({ status: 400, message: `${json_file}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`}),
       );
   }
 }
+
+async function handleTryCatch(request) {
+    return request.then(data => [data, null])
+      .catch(err => [null, err]);
+  }
