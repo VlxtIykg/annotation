@@ -10,9 +10,9 @@ export async function POST(context) {
     const file = formData.get("file");
     const type = formData.get("file").type;
     const formatter = formData.get("formatter");
-    let [json_file, err] = await handleTryCatch(file.json());
-    if (err) {json_file = file;}
-    return context_Handler(json_file, type, formatter, false);
+    // let [json_file, err] = await handleTryCatch(file.json());
+    // if (err) {json_file = file;}
+    return context_Handler(file, type, formatter, false);
   } catch (error) {
     console.error(error);
     return new Response(
