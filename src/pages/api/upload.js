@@ -10,13 +10,17 @@ export async function POST(context) {
 		const file = formData.get("file");
 		const type = formData.get("file").type;
 		const formatter = formData.get("formatter");
+
 		if (!file) {
-			return new Response
+			return new Response(JSON.stringify({
+				status: 400,
+				message: `No file received`,
+			}));
 		}
 		// let [json_file, err] = await handleTryCatch(file.json());
 		// if (err) {json_file = file;}
 		try {
-			// let attempted = await file.json();
+			let attempted = await file.text();
 			let attempted_jsoning = JSON.stringify(attempted);
 			return Response(JSON.stringify({
 				status: 200,
