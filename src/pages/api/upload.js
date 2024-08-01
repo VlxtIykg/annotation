@@ -113,6 +113,7 @@ export async function context_Handler(json_file, type, formatter, skip) {
 				JSON.stringify({
 					status: 400,
 					message: `No content type specified or no file sent`,
+					reason: `For the grace of good god, how did you manage to reach a null content type when it errors earlier if you sent no file?`,
 				}),
 			);
 		}
