@@ -100,9 +100,13 @@ export async function context_Handler(json_file, type, formatter, skip) {
 		case "application/zip": {
 			console.log(formData.get("zip"));
 			// Code for handling ZIP file
-			return;
+			return new Response(JSON.stringify({
+				status: 500,
+				message: `ZIP file not supported yet`,
+				reason: `Adding zip file support soon!`,
+			}));
 		}
-		case null:
+		case null: {
 			console.log("No content type specified");
 			// Code for handling no content type not yet specified or file not uploaded
 			return new Response(
@@ -111,17 +115,21 @@ export async function context_Handler(json_file, type, formatter, skip) {
 					message: `No content type specified or no file sent`,
 				}),
 			);
-		default:
+		}
+		default: {
 			// Code for handling files that cannot be parsed be it frontend or backend
 			console.log("Unsupported content type");
 			return new Response(
 				JSON.stringify({
-					status: 400,
-					message: `${json_file_test}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`,
+					status: 500,
+					message: `${json_str}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`,
+					reason: `Either debugging issues or unsupported content type`,
 				}),
 			);
+		}
 	}
 }
+
 
 async function handleTryCatch(request, isFn = false) {
 	if (isFn) {
