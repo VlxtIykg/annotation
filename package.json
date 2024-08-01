@@ -8,10 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "html_test": "bun run src/scripts/htmlformatter.js",
-    "prepare": "husky"
+    "html_test": "bun run src/scripts/htmlformatter.js"
   },
   "dependencies": {
+    "@astrojs/check": "^0.8.3",
     "@astrojs/cloudflare": "^11.0.1",
     "@astrojs/node": "^8.3.2",
     "@astrojs/react": "^3.6.0",
@@ -23,12 +23,10 @@
     "form-data": "^4.0.0",
     "js-cache": "^1.0.3",
     "react-svg": "^16.1.34",
-    "tailwindcss": "^3.4.6"
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "git-format-staged": "^3.1.1",
-    "husky": "^9.1.4",
-    "prettier": "^3.3.3",
     "sass": "^1.77.8"
   },
   "resolutions": {

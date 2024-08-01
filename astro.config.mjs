@@ -17,12 +17,7 @@ export default defineConfig({
   site: "https://project1.kami.boo",
   integrations: [react(), tailwind()],
   output: "server",
-  adapter: node({mode: 'standalone'}),
-  // vite: {
-  //   ssr: {
-  //     external: ["node:fs", "node:path", "node:buffer"],
-  //   }
-  // },
+  adapter: cloudflare(),
   // prefetch: true,
   server: { port: 3000 }
 });
