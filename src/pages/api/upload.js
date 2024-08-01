@@ -70,20 +70,19 @@ export async function POST(context) {
 
 
 /**
- *
- * @param {Blob | JSON } file Zip not supported yet, file sent to the parent function is sent here
+ * @description Handles the context of the request (whether it is a JSON or ZIP file) and formats it accordingly into it's respective html and divs and sends back the response object!
+ * @param {Blob | JSON } json_str Zip not supported yet, only JSON, JSON is parsed previously, failure to parse will return an error response and not reach this function
  * @param {string} type In forms of application/*, * being type i.e. zip, json, etc
  * @param {string} formatter Either sms or wsx only! String type only.
- * @param {boolean} skip Whether to skip entire switch case
- * @returns {Response} Returns a response object to send back to original user
+ * @param {boolean} skip Whether to skip entire switch case and run the default case, for debugging purposes
+ * @returns {Response} Returns a 200 response request back to the user
  */
-export async function context_Handler(json_file, type, formatter, skip) {
-	let json_file_test = json_file;
+export async function context_Handler(json_str, type, formatter, skip) {
 	if (skip) type = skip;
 	switch (type) {
 		// Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
 		case "application/json;charset=utf-8": {
-			const extrapolated_data = autoFill(json_file_test, formatter);
+			const extrapolated_data = autoFill(json_str, formatter);
 			const html_str = htmlFormatter(extrapolated_data);
 			return new Response(JSON.stringify({ status: 200, message: html_str }));
 		}
@@ -93,7 +92,7 @@ export async function context_Handler(json_file, type, formatter, skip) {
 		 * ZIP files as application/zip and as [object Blob]
 		 */
 		case "application/json": {
-			const extrapolated_data = autoFill(json_file_test, formatter);
+			const extrapolated_data = autoFill(json_str, formatter);
 			const html_str = htmlFormatter(extrapolated_data);
 			return new Response(JSON.stringify({ status: 200, message: html_str }));
 		}
