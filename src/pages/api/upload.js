@@ -1,6 +1,12 @@
 import autoFill from "./parser";
 import htmlFormatter from "@scripts/htmlformatter";
 
+export async function GET() {
+	return new Response(
+		JSON.stringify({ status: 200, message: "GET request received" }),
+	);
+}
+
 export async function POST(context) {
 	// TODO - Add error handling for file upload
 	// TODO - Add ways to add files directly without type
