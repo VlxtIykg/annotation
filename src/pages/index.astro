@@ -1,6 +1,5 @@
 ---
 import FileUpload from "../components/FileUpload.jsx";
-import parseJSON from "@components/parser";
 import "@styles/index.sass";
 ---
 
@@ -19,6 +18,7 @@ import "@styles/index.sass";
       height: 100px;
     }
   </style>
-    <FileUpload client:load />
+  <body>
+    <FileUpload client:only="react" />
   </body>
 </html>

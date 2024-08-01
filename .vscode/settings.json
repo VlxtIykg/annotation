@@ -1,7 +1,0 @@
-{
-	"conventionalCommits.scopes": [
-		"frontend+backend",
-		"frontend",
-		"backend"
-	]
-}

@@ -1,27 +1,26 @@
 import cache from "./cacheHandler";
 
 export default function nullHandler(key) {
-		switch (key) {
-			case "text": {
-				return text();
-			}
-			case "start_time": {
-				return start_time();
-			}
-			case "end_time": {
-				return end_time();
-			}
-			case "confidence": {
-				return confidence();
-			}
-			case "speaker": {
-				return speaker();
-			}
-			default: {
-				return "N/A (Error in transit)";
-			}
+	switch (key) {
+		case "text": {
+			return text();
 		}
-
+		case "start_time": {
+			return start_time();
+		}
+		case "end_time": {
+			return end_time();
+		}
+		case "confidence": {
+			return confidence();
+		}
+		case "speaker": {
+			return speaker();
+		}
+		default: {
+			return "N/A (Error in transit)";
+		}
+	}
 }
 
 function start_time() {
