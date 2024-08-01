@@ -6,7 +6,6 @@ import react from '@astrojs/react';
 import tailwind from "@astrojs/tailwind";
 
 // SSR Adapters
-import node from "@astrojs/node";
 import cloudflare from "@astrojs/cloudflare";
 
 // Docs: https://astro.build/config
@@ -14,7 +13,7 @@ import cloudflare from "@astrojs/cloudflare";
  * @type {import('astro/config').Config}
  */
 export default defineConfig({
-  site: "https://project1.kami.boo",
+  site: "https://project1.kami.wtf",
   integrations: [react(), tailwind()],
   output: "server",
   adapter: cloudflare(),

@@ -18,7 +18,7 @@ AAnnotator, also known as AI Annotator, is a website that can be accessed locall
 > [!IMPORTANT] 
 > You are in the production branch.
 
-Currently this repostitory is split into two branch, production is named master branch and development is named development branch!
+Currently this repostitory is split into three branch, production is named master branch and development is named development branch and testing production is cloudflare-page-testing branch! Complicated amirite?
 
 Differences can be found [here!](github/BRANCH.md)
 # Table of contents
