@@ -10,19 +10,22 @@ export async function POST(context) {
 		const file = formData.get("file");
 		const type = formData.get("file").type;
 		const formatter = formData.get("formatter");
+		if (!file) {
+			return new Response
+		}
 		// let [json_file, err] = await handleTryCatch(file.json());
 		// if (err) {json_file = file;}
 		try {
 			let attempted = await file.json();
-			return JSON.stringify({
+			return Response(JSON.stringify({
 				status: 200,
 				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted converting json: ${attempted}`,
-			});
+			}));
 		} catch (error) {
-			return JSON.stringify({
+			return new Response(JSON.stringify({
 				status: 200,
 				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>file.json() failed loading, couldn't parse it as json lol`,
-			});
+			}));
 		}
 		// return context_Handler(file, type, formatter, false);
 	} catch (error) {

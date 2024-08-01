@@ -1,5 +1,6 @@
 {
   "useTabs": true,
   "arrowParens": "always",
-  "experimentalTernaries": true
+  "experimentalTernaries": true,
+  "indent_size": 2
 }
