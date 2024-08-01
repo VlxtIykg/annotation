@@ -16,16 +16,16 @@ export async function POST(context) {
 		// let [json_file, err] = await handleTryCatch(file.json());
 		// if (err) {json_file = file;}
 		try {
-			let attempted = await file.json();
+			// let attempted = await file.json();
 			let attempted_jsoning = JSON.stringify(attempted);
 			return Response(JSON.stringify({
 				status: 200,
-				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted converting json: ${attempted}<br>AJ: ${attempted_jsoning}`,
+				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>AJ: ${attempted_jsoning}`,
 			}));
 		} catch (error) {
 			return new Response(JSON.stringify({
 				status: 200,
-				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>file.json() failed loading, couldn't parse it as json lol`,
+				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted stringifying failed.. :(`,
 			}));
 		}
 		// return context_Handler(file, type, formatter, false);
