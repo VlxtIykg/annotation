@@ -111,6 +111,19 @@ export async function context_Handler(json_file, type, formatter, skip) {
 	}
 }
 
-async function handleTryCatch(request) {
-	return request.then((data) => [data, null]).catch((err) => [null, err]);
+async function handleTryCatch(request, isFn = false) {
+	if (isFn) {
+		try {
+			const result = request();
+			return [result, null];
+		} catch (error) {
+			return [null, error];
+		}
+	}
+  try {
+    const data = await request;
+    return [data, null];
+  } catch (err) {
+    return [null, err];
+  }
 }
