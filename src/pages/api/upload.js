@@ -25,7 +25,7 @@ export async function POST(context) {
 		} catch (error) {
 			return new Response(JSON.stringify({
 				status: 200,
-				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted stringifying failed.. :(`,
+				message: `Error: ${error}<br>File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted stringifying failed.. :(`,
 			}));
 		}
 		// return context_Handler(file, type, formatter, false);
