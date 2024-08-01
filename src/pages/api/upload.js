@@ -11,51 +11,63 @@ export async function POST(context) {
 	// TODO - Add error handling for file upload
 	// TODO - Add ways to add files directly without type
 	// TODO - Add zip support
-	try {
-		const formData = await context.request.formData();
-		const file = formData.get("file");
-		const type = formData.get("file").type;
-		const formatter = formData.get("formatter");
-
-		if (!file) {
-			return new Response(JSON.stringify({
-				status: 400,
-				message: `No file received`,
-			}));
-		}
-		// let [json_file, err] = await handleTryCatch(file.json());
-		// if (err) {json_file = file;}
-		try {
-			let attempted = await file.text();
-			let attempted_jsoning = JSON.stringify(attempted);
-			return new Response(JSON.stringify({
-				status: 200,
-				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>AJ: ${attempted_jsoning}`,
-			}));
-		} catch (error) {
-			return new Response(JSON.stringify({
-				status: 400,
-				message: `Error: ${error}<br>File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted stringifying failed.. :(`,
-			}));
-		}
-		// return context_Handler(file, type, formatter, false);
-	} catch (error) {
-		console.error(error);
+	const [formData, formDataError] = await handleTryCatch(context.request.formData());
+	if (formDataError) {
+		console.error("Error extracting form data:", formDataError);
 		return new Response(
 			JSON.stringify({
 				status: 400,
-				message: `Did not receive a file?\n${error}`,
-				error,
+				message: "Failed to extract form data",
+				error: {message: formDataError.message, stack: error}
 			}),
+			{ status: 400, headers: { "Content-Type": "application/json" } }
 		);
 	}
+
+	const file = formData.get("file");
+	const type = formData.get("file").type;
+	const formatter = formData.get("formatter");
+
+
+	if (!file) {
+		return new Response(
+			JSON.stringify({
+				status: 400,
+				message: "No file provided"
+			}),
+			{ status: 400, headers: { "Content-Type": "application/json" } }
+		);
+	}
+	
+	const [fileContent, fileContentError] = await handleTryCatch(file.text());
+  if (fileContentError) {
+    console.error("Error reading file content:", fileContentError);
+    return new Response(
+      JSON.stringify({
+        status: 400,
+        message: "Failed to read file content, please send an issue to the github! Don't forget to screenshot console via browser and/or read the issue.md! Thank you very much!",
+				note: "Perhaps change .text() to .json() or JSON.parse(variable) or JSON.stringify(variable) or something else",
+        error: {message: fileContentError.message, stack: fileContentError}
+      }),
+      { status: 400, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
+	const [jsonContent, jsonError] = await handleTryCatch(JSON.parse(fileContent));
+	if (jsonError) {
+		return new Response(
+			JSON.stringify({
+				status: 400,
+				message: "Failed to parse JSON",
+				error: error.message
+			}),
+			{ status: 400, headers: { "Content-Type": "application/json" } }
+		);
+	}
+
+	return context_Handler(jsonContent, type, formatter, false);
 }
 
-export async function GET() {
-	return new Response(
-		JSON.stringify({ status: 200, message: "GET request received" }),
-	);
-}
 
 /**
  *
