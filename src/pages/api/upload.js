@@ -22,13 +22,13 @@ export async function POST(context) {
 		try {
 			let attempted = await file.text();
 			let attempted_jsoning = JSON.stringify(attempted);
-			return Response(JSON.stringify({
+			return new Response(JSON.stringify({
 				status: 200,
 				message: `File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>AJ: ${attempted_jsoning}`,
 			}));
 		} catch (error) {
 			return new Response(JSON.stringify({
-				status: 200,
+				status: 400,
 				message: `Error: ${error}<br>File received: ${file.name}<br>File type: ${type}<br>Formatter: ${formatter}<br>Physical file: ${file}<br>Attempted stringifying failed.. :(`,
 			}));
 		}
