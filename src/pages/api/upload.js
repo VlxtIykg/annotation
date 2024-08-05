@@ -25,7 +25,7 @@ export async function POST(context) {
 	}
 
 	const file = formData.get("file");
-	const type = formData.get("file").type;
+	let type = formData.get("file").type;
 	const formatter = formData.get("formatter");
 
 
@@ -65,19 +65,24 @@ export async function POST(context) {
 		);
 	}
 
+  if ((type === null || type === undefined || type === "") && jsonContent !== null) {
+    type = "application/json";
+  }
+
 	return context_Handler(jsonContent, type, formatter, false);
 }
 
 
 /**
  * @description Handles the context of the request (whether it is a JSON or ZIP file) and formats it accordingly into it's respective html and divs and sends back the response object!
- * @param {Blob | JSON } json_str Zip not supported yet, only JSON, JSON is parsed previously, failure to parse will return an error response and not reach this function
+ * @param {Blob | JSON} json_str Zip not supported yet, only JSON, JSON is parsed previously, failure to parse will return an error response and not reach this function
  * @param {string} type In forms of application/*, * being type i.e. zip, json, etc
  * @param {string} formatter Either sms or wsx only! String type only.
  * @param {boolean} skip Whether to skip entire switch case and run the default case, for debugging purposes
  * @returns {Response} Returns a 200 response request back to the user
  */
 export async function context_Handler(json_str, type, formatter, skip) {
+  console.log({type});
 	if (skip) type = skip;
 	switch (type) {
 		// Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
@@ -122,7 +127,7 @@ export async function context_Handler(json_str, type, formatter, skip) {
 			return new Response(
 				JSON.stringify({
 					status: 500,
-					message: `${json_str}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`,
+					message: `${json_str}<br>${{formatter}}<br>${type}<br><p>Unsupported content type</p><br>`,
 					reason: `Either debugging issues or unsupported content type`,
 				}),
 			);
