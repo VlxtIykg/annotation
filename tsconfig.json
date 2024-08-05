@@ -1,8 +1,15 @@
 {
+  "typeAcquisition": {
+    "enable": true
+  },
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    "allowJs": true,
     "jsx":"react-jsx",
     "jsxImportSource": "react",
+    "alwaysStrict": true,
+    "strict": true,
+    "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
       "@components/*": [

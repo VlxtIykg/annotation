@@ -7,7 +7,7 @@ export async function GET() {
 	);
 }
 
-export async function POST(context) {
+export async function POST(context: { request: { formData: () => any; }; }) {
 	// TODO - Add error handling for file upload
 	// TODO - Add ways to add files directly without type
 	// TODO - Add zip support
@@ -18,14 +18,16 @@ export async function POST(context) {
 			JSON.stringify({
 				status: 400,
 				message: "Failed to extract form data",
-				error: {message: formDataError.message, stack: error}
+				error: {message: formDataError.message, stack: formDataError}
 			}),
 			{ status: 400, headers: { "Content-Type": "application/json" } }
 		);
 	}
 
 	const file = formData.get("file");
-	const type = formData.get("file").type;
+	let type = formData.get("file").type;
+  console.log(type)
+  if (type === null || type === "octet/stream" || type === "") type = "application/json";
 	const formatter = formData.get("formatter");
 
 
@@ -59,7 +61,7 @@ export async function POST(context) {
 			JSON.stringify({
 				status: 400,
 				message: "Failed to parse JSON",
-				error: error.message
+				error: jsonError
 			}),
 			{ status: 400, headers: { "Content-Type": "application/json" } }
 		);
@@ -77,7 +79,7 @@ export async function POST(context) {
  * @param {boolean} skip Whether to skip entire switch case and run the default case, for debugging purposes
  * @returns {Response} Returns a 200 response request back to the user
  */
-export async function context_Handler(json_str, type, formatter, skip) {
+export async function context_Handler(json_str: any, type: any, formatter: string, skip: boolean) {
 	if (skip) type = skip;
 	switch (type) {
 		// Localhost receives JSON files as application/json;charset=utf-8 and as [object Blob]
@@ -87,17 +89,17 @@ export async function context_Handler(json_str, type, formatter, skip) {
 			return new Response(JSON.stringify({ status: 200, message: html_str }));
 		}
 		/**
-		 * Cloudflare receives
-		 * JSON files as application/json and as [object Object] <- postman and site
-		 * ZIP files as application/zip and as [object Blob]
-		 */
-		case "application/json": {
-			const extrapolated_data = autoFill(json_str, formatter);
-			const html_str = htmlFormatter(extrapolated_data);
-			return new Response(JSON.stringify({ status: 200, message: html_str }));
+     * Cloudflare receives
+     * JSON files as application/json and as [object Object] <- postman and site
+     * ZIP files as application/zip and as [object Blob]
+    */
+   case "application/json": {
+     const extrapolated_data = autoFill(json_str, formatter);
+    //  console.log(extrapolated_data);
+     const html_str = htmlFormatter(extrapolated_data);
+     return new Response(JSON.stringify({ status: 200, message: html_str }));
 		}
 		case "application/zip": {
-			console.log(formData.get("zip"));
 			// Code for handling ZIP file
 			return new Response(JSON.stringify({
 				status: 500,
@@ -122,7 +124,7 @@ export async function context_Handler(json_str, type, formatter, skip) {
 			return new Response(
 				JSON.stringify({
 					status: 500,
-					message: `${json_str}<br>${file}<br>${type}<br><p>Unsupported content type</p><br>`,
+					message: `${json_str}<br>${json_str}<br>${type}<br><p>Unsupported content type</p><br>`,
 					reason: `Either debugging issues or unsupported content type`,
 				}),
 			);
@@ -131,7 +133,7 @@ export async function context_Handler(json_str, type, formatter, skip) {
 }
 
 
-async function handleTryCatch(request, isFn = false) {
+async function handleTryCatch(request: () => any, isFn = false) {
 	if (isFn) {
 		try {
 			const result = request();

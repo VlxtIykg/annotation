@@ -6,16 +6,17 @@ import findUniqueSpeakers from "@scripts/brkline.js";
 import cardActivator from "@scripts/card_activator.js";
 
 const FileUpload = () => {
-	const [file, setFile] = useState(null);
-	const [fileName, setFileName] = useState("");
-	const [result, setResult] = useState("");
-	const [selectedFormatter, setSelectedFormatter] = useState(null);
-
-	const handleRadioChange = (event) => {
+  const [file, setFile] = useState<File | null>(null);
+  const [fileName, setFileName] = useState<string>("");
+  const [result, setResult] = useState<string>("");
+  const [selectedFormatter, setSelectedFormatter] = useState<string | null>(null);
+  
+	const handleRadioChange = (event: ChangeEvent) => {
 		setSelectedFormatter(event.target.id);
 	};
 
-	const handleFileChange = (event) => {
+	const handleFileChange = (event: ChangeEvent) => {
+    if (event.target.files === null) return;
 		const selectedFile = event.target.files[0];
 		setFile(selectedFile);
 		if (selectedFile) {
@@ -24,19 +25,27 @@ const FileUpload = () => {
 		}
 	};
 
-	const handleSubmit = async (event) => {
-		fetch("/api/upload", { method: "GET" })
-			.then((data) => data.json())
-			.then((data) => console.log(data))
-			.catch((err) => console.log(err));
-		console.log("submitting!");
-		event.preventDefault();
+	const handleSubmit = async (event: FormEvent) => {
+    event.preventDefault();
+
+    try {
+      const initialResponse = await fetch("/api/upload", { method: "GET" });
+      const initialData = await initialResponse.json();
+      console.log(initialData);
+    } catch (err) {
+        console.error("Initial fetch error:", err);
+        setResult("Initial fetch error: " + err);
+    }
 
 		const formdata = new FormData();
-		formdata.append("file", file, fileName);
-		formdata.append("formatter", selectedFormatter);
+    if (file) {
+      formdata.append("file", file, fileName);
+    }
+    if (selectedFormatter) {
+        formdata.append("formatter", selectedFormatter);
+    }
 
-		const requestOptions = {
+		const requestOptions: RequestInit = {
 			method: "POST",
 			body: formdata,
 			redirect: "follow",
@@ -44,14 +53,15 @@ const FileUpload = () => {
 
 		try {
 			const response = await fetch("/api/upload", requestOptions);
-			// const result = await response.text();
+
+      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+
 			const result = await response.json(); 
-			console.log(response);
-			console.log(result);
       setResult(result.message);
-		} catch (error) {
-      console.error(error);
-      setResult(error);
+		} catch (error : unknown) {
+      const err = error as Error;
+      console.error(err);
+      setResult(err.message);
 		}
 	};
 

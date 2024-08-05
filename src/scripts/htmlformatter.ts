@@ -1,7 +1,11 @@
+interface DataObject {
+  [key: string]: string | number | null; // Adjust the types as necessary
+}
+
 import cache from "./cacheHandler";
 import nullHandler from "./nullhandler";
 
-export default function htmlFormatter(data) {
+export default function htmlFormatter(data: DataObject[]) {
 	cache.set("start_time", null);
 	cache.set("end_time", null);
 	cache.set("confidence", null);
@@ -18,8 +22,9 @@ export default function htmlFormatter(data) {
 	}).join('');
 }
 
-function generateHTML(key, value) {
+function generateHTML(key: string, value: string | number | null): string | undefined {
 	if (!value) value = nullHandler(key);
+  if (typeof value === 'number') value = value.toFixed(2);
 	if (key === "locale") return;
 	if (value === ' ') return;
 
@@ -29,13 +34,13 @@ function generateHTML(key, value) {
 		return `<span class="space"> </span><p class="text">${value}</p>`;
 	}
 	if (key === 'speaker') {
-		let specific_speaker_cls = "S" + parseInt(value.split("_")[1]);
+		let specific_speaker_cls = "S" + parseInt(value.split("_")[1], 10);
 		return `<p class="speaker ${specific_speaker_cls}">Speaker: ${value.toLowerCase()}</p>`;
 	}
   return `<p class="details ${key} ${value}">${key}: ${value}</p>`;
 }
 
-function punctuations(arg1) {
+function punctuations(arg1: string): string {
 	return `<p class="text">${arg1}<br/></p>`;
 }
 
