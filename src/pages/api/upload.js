@@ -65,7 +65,8 @@ export async function POST(context) {
 		);
 	}
 
-  if ((type === null || type === undefined || type === "") && jsonContent !== null) {
+  // Can't handle octet-stream yet!
+  if ((type === null || type === undefined || type === "" || type === "application/octet-stream") && jsonContent !== null) {
     type = "application/json";
   }
 
