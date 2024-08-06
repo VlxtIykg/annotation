@@ -1,8 +1,8 @@
 // astro.config.mjs
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 // Frameworks
-import react from '@astrojs/react';
+import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 
 // SSR Adapters
@@ -16,7 +16,7 @@ export default defineConfig({
   site: "https://localhost:3000",
   integrations: [react(), tailwind()],
   output: "server",
-  adapter: node({mode: "standalone"}),
+  adapter: node({ mode: "standalone" }),
   // prefetch: true,
-  server: { port: 3000 }
+  server: { port: 3000 },
 });

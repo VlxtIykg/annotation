@@ -10,7 +10,8 @@
 - [License](#license)
 
 ## Branches
-Welcome to branch md! This markdown will have the branch related information like differences, names, certain commit hashes etc! 
+
+Welcome to branch md! This markdown will have the branch related information like differences, names, certain commit hashes etc!
 
 If you have a branch related question and it is not in here, create a pull request!
 
@@ -21,6 +22,7 @@ If you have a branch related question and it is not in here, create a pull reque
 ### Dev/Development
 
 **Ports**: 4321, change it in astro.config.mjs
+
 ```
 export default defineConfig({
 	integrations: [/* integrated modules */],
@@ -32,13 +34,13 @@ export default defineConfig({
 
 ## Differences
 
-**Names**:  master (production), development (development)
+**Names**: master (production), development (development)
 
 **Ports**: nil, 4321
 
 ## Read me related information
 
-Development will have more *development* related guide/help like bun build or npm build, how to build it in docker etc!
+Development will have more _development_ related guide/help like bun build or npm build, how to build it in docker etc!
 
 Docker porting will be coming soon later!
 

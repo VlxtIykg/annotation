@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "html_test": "bun run src/scripts/htmlformatter.js"
+    "html_test": "bun run src/scripts/htmlformatter.js",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.3",
@@ -26,6 +27,9 @@
     "typescript": "^5.5.4"
   },
   "devDependencies": {
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8",
+    "prettier": "3.3.3",
     "sass": "^1.77.8"
   },
   "resolutions": {
@@ -34,6 +38,6 @@
     "strip-ansi": "6.0.0"
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
