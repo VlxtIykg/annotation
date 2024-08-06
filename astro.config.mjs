@@ -1,21 +1,22 @@
 // astro.config.mjs
-import { defineConfig } from 'astro/config';
-import react from '@astrojs/react';
-import tailwind from "@astrojs/tailwind";
-import node from "@astrojs/node";
-import cloudflare from "@astrojs/cloudflare";
+import { defineConfig } from "astro/config";
 
-// https://astro.build/config
+// Frameworks
+import react from "@astrojs/react";
+import tailwind from "@astrojs/tailwind";
+
+// SSR Adapters
+import node from "@astrojs/node";
+
+// Docs: https://astro.build/config
+/**
+ * @type {import('astro/config').Config}
+ */
 export default defineConfig({
-  // site: "project1.kami.wtf",
+  site: "https://localhost:3000",
   integrations: [react(), tailwind()],
   output: "server",
-  adapter: node({mode: 'standalone',}),
-  vite: {
-    ssr: {
-      external: ["node:fs", "node:path", "node:buffer"],
-    }
-  },
-  prefetch: true,
-  server: { port: 3003 }
+  adapter: node({ mode: "standalone" }),
+  // prefetch: true,
+  server: { port: 3000 },
 });

@@ -1,13 +1,28 @@
 :root
 	--primary-color: #ff0000
 	--secondary-color: #00ff00
-	--default-background: #1e293b
+	--default-background: #7d7e82
+
+@font-face 
+	font-family: konek
+	src: url('../assets/Kollektif.ttf')
+
+@font-face 
+	font-family: "bitkonek"
+	src: url("../assets/Kollektif-Bold.ttf")
+	font-weight: 400
 
 
 *, body, html
 	margin: 0
 	padding: 0
 	box-sizing: border-box
+
+body
+	background-color: var(--default-background)
+	color: #ffffffda
+	font-family: 'bitkonek'
+	overflow-x: hidden
 
 .start_time, .end_time, .type, .confidence, .locale, .speaker
 	display: none
@@ -87,10 +102,10 @@ p.text
 	position: absolute
 	z-index: 10
 	max-width: 30rem
-	width: 13rem
+	width: 13.25rem
 	max-height: 30rem
 	color: #ffffffda
-	padding: 1rem
+	padding: 1.15rem
 	// margin: 1rem
 	background-color: #202022
 	
@@ -104,30 +119,41 @@ p.text
 	display: flex
 	flex-direction: column
 
+	&:before
+		content: ""
+		height: 0.9rem
+		width: 0.9rem
+		box-shadow: 60px -16px #a5a2a2
+		border-radius: 100%
+		right: 3.93rem
+		background-color: transparent
+		position: absolute
+		opacity: 10%
+		top: 1.2rem
+
 	&:after
 		content: ""
-		height: 1rem
-		width: 1rem
-		border-radius: 50%
-		box-shadow: inset 2px -3px 3px #bb86fc
-		top: 0.625rem
+		height: 0.9rem
+		width: 0.9rem
+		border-radius: 100%
+		box-shadow: inset 1px -3px 3px #f10606
+		top: 0.2rem
+		right: 0.2rem
 		background-color: transparent
-		
 		position: absolute
-		right: 0
 
 	p.text,
 	p.details,
 	p.speaker
 		position: relative
 		height: 24px
-		width: 100%
-		background-color: #f0f0f0
-		color: #000000
+		width: 98%
+		background-color: #9d22f5
+		color: #E0ffff
 		display: block
 		flex-grow: 1
-		padding: 0.1rem
-		margin: 0.1rem
+		padding: .05rem
+		margin: 0.05rem
 		justify-content: center
 		text-align: center		
 
@@ -140,7 +166,7 @@ p.text
 			position: relative
 			top: 0
 			left: 0
-			width: 100%
+			width: 98%
 			height: 100%
 			z-index: 1
 
@@ -151,3 +177,6 @@ body
 	font-family: 'Roboto', sans-serif
 	font-size: 1rem
 	overflow-x: hidden
+
+.fontify
+	font-family: 'konek'

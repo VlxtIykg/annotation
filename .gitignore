@@ -20,8 +20,15 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# vscode settings folder
+.vscode/
+
 # jetbrains setting folder
 .idea/
 
+# Uploaded files
 resources/
 api/uploads/whisperx-out
+
+# Wrangler
+.wrangler
