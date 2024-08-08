@@ -4,7 +4,6 @@ about: Suggest an idea for this project
 title: "[FEATURE-REQ]"
 labels: enhancement, good first issue, help wanted, question
 assignees: VlxtIykg
-
 ---
 
 **Is your feature request related to a problem? Please describe.**

@@ -1,2 +1,2 @@
 /// <reference types="astro/client" />
-declare module 'js-cache';
+declare module "js-cache";

@@ -30,7 +30,7 @@ function speechmatics(data) {
 
 function whisperx(data) {
   try {
-    if (isJSON(data)) console.log("JSON FOUND")
+    if (isJSON(data)) console.log("JSON FOUND");
     const jsonData = data.segments;
     const _temp = jsonData.map((result) => fillTemplateWhisper(result));
     return _temp.flat();

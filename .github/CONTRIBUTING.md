@@ -1,4 +1,5 @@
 <!-- omit in toc -->
+
 # Contributing to annotation
 
 First off, thanks for taking the time to contribute! ❤️
@@ -6,12 +7,14 @@ First off, thanks for taking the time to contribute! ❤️
 All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
+>
 > - Star the project
 > - Tweet about it
 > - Refer this project in your project's readme
 > - Mention the project at local meetups and tell your friends/colleagues
 
 <!-- omit in toc -->
+
 ## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
@@ -25,14 +28,12 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
 
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
 [annotation Code of Conduct](https://github.com/VlxtIykg/annotationblob/master/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 to <>.
-
 
 ## I Have a Question
 
@@ -51,16 +52,18 @@ We will then take care of the issue as soon as possible till project is deprecat
 ## I Want To Contribute
 
 > ### Legal Notice <!-- omit in toc -->
+>
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 
 ### Reporting Bugs
 
 <!-- omit in toc -->
+
 #### Before Submitting a Bug Report
 
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
-- Make sure that you are using the latest version of your browser [shouldn't cause any issues but certain javascript modules might not be available in certain browsers yet. Check https://caniuse.com/ if you know the errored module](https://caniuse.com/). 
+- Make sure that you are using the latest version of your browser [shouldn't cause any issues but certain javascript modules might not be available in certain browsers yet. Check https://caniuse.com/ if you know the errored module](https://caniuse.com/).
 - To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/VlxtIykg/annotationissues?q=label%3Abug).
 - Collect information about the bug:
 - OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
@@ -69,16 +72,18 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
 
 <!-- omit in toc -->
+
 #### How Do I Submit a Good Bug Report?
 
 > You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to kamixalt3@gmail.com.
+
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
 - Open an [Issue](https://github.com/VlxtIykg/annotation/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
 - Explain the behavior you would expect and the actual behavior.
-- Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
+- Please provide as much context as possible and describe the _reproduction steps_ that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
 - Provide the information you collected in the previous section.
 
 Once it's filed:
@@ -89,12 +94,12 @@ Once it's filed:
 
 <!-- You might want to create an issue template for bugs and errors that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
-
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion for annotation, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
+
 #### Before Submitting an Enhancement
 
 - Make sure that you are using the latest version.
@@ -103,6 +108,7 @@ This section guides you through submitting an enhancement suggestion for annotat
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
 <!-- omit in toc -->
+
 #### How Do I Submit a Good Enhancement Suggestion?
 
 Enhancement suggestions are tracked as [GitHub issues](https://github.com/VlxtIykg/annotation/issues).
@@ -116,57 +122,69 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/VlxtIy
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
 ### Your First Code Contribution
+
 If you're new to contributing to the annotation website, here are some links to get started, minimal description in markdown comments:
 
 1. [Set up your development environment]():
-	<!-- - Install the necessary software and tools, such as [![bun](https://img.shields.io/badge/-black?style=flat-square&logo=Bun&logoColor=fffff2%20&logoSize=auto&labelColor=000000)](https://bun.sh/docs/installation) and a code editor like [vim, open git bash and type vim.](https://www.git-scm.com/downloads) To exit :wq in normal mode or [vsc](https://code.visualstudio.com/).
-	- Clone the annotation repository from GitHub. -->
+<!-- - Install the necessary software and tools, such as [![bun](https://img.shields.io/badge/-black?style=flat-square&logo=Bun&logoColor=fffff2%20&logoSize=auto&labelColor=000000)](https://bun.sh/docs/installation) and a code editor like [vim, open git bash and type vim.](https://www.git-scm.com/downloads) To exit :wq in normal mode or [vsc](https://code.visualstudio.com/).
+
+- Clone the annotation repository from GitHub. -->
 
 2. [Familiarize yourself with the project structure and codebase]():
-	<!-- - Explore the different frameworks and files in the repository.
-		- [Astro getting started](https://docs.astro.build/en/getting-started/).
-		- [Astro build a blog](https://docs.astro.build/en/tutorial/0-introduction/).
-		- [Tailwind css](https://tailwindcss.com/docs/)
-		- [React](https://react.dev/learn)
-		- Special mention
-			- [bun](https://bun.sh/docs/installation) -->
+<!-- - Explore the different frameworks and files in the repository.
+	- [Astro getting started](https://docs.astro.build/en/getting-started/).
+	- [Astro build a blog](https://docs.astro.build/en/tutorial/0-introduction/).
+	- [Tailwind css](https://tailwindcss.com/docs/)
+	- [React](https://react.dev/learn)
+	- Special mention
+		- [bun](https://bun.sh/docs/installation) -->
 
 3. [Find an area to contribute]():
-	<!-- - Look for open issues labeled as "good first issue" or "help wanted".
-	- Choose a task that aligns with your skills and interests. -->
+<!-- - Look for open issues labeled as "good first issue" or "help wanted".
+
+- Choose a task that aligns with your skills and interests. -->
 
 4. Make your changes:
-	<!-- - Create a new branch for your contribution.
-	- Write your code following the project's coding style and guidelines.
-	- Test your changes locally to ensure they work as expected. -->
+<!-- - Create a new branch for your contribution.
+
+- Write your code following the project's coding style and guidelines.
+- Test your changes locally to ensure they work as expected. -->
 
 5. Submit your contribution:
-	<!-- - Commit your changes and push them to your forked repository.
-	- Open a pull request (PR) to the main repository.
-	- Provide a clear description of your changes and why they are valuable. -->
+<!-- - Commit your changes and push them to your forked repository.
+
+- Open a pull request (PR) to the main repository.
+- Provide a clear description of your changes and why they are valuable. -->
 
 6. Collaborate and iterate:
-	<!-- - Engage in discussions with the project maintainers and other contributors.
-	- Address any feedback or suggestions given on your PR.
-	- Make necessary updates to your code based on the feedback. -->
+<!-- - Engage in discussions with the project maintainers and other contributors.
+
+- Address any feedback or suggestions given on your PR.
+- Make necessary updates to your code based on the feedback. -->
 
 Remember, your first code contribution is a learning experience, so don't hesitate to ask questions and seek guidance from the community. Happy coding!
 
 ### Improving The Documentation
+
 <!-- TODO
 Updating, improving and correcting the documentation
 
 -->
 
 ## Styleguides
+
 ### Commit Messages
+
 <!-- TODO
 
 -->
 
 ## Join The Project Team
+
 <!-- TODO -->
 
 <!-- omit in toc -->
+
 ## Attribution
+
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
