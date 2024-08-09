@@ -1,9 +1,9 @@
 import cache from "./cacheHandler";
 
-export default function nullHandler(key: string) {
-	switch (key) {
-		case "text": {
-			return text();
+export default function nullHandler(key: "text" | "start_time" | "end_time" | "confidence" | "speaker"): string | number {
+    switch (key) {
+        case "text": {
+            return text();
 		}
 		case "start_time": {
 			return start_time();
@@ -23,7 +23,7 @@ export default function nullHandler(key: string) {
 	}
 }
 
-function start_time(): number {
+function start_time(): number | string {
 	let mysterious_value = cache.get("end_time") ?? cache.get("start_time") ?? 0;
 	return mysterious_value;
 }
