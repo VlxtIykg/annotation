@@ -7,22 +7,19 @@ export async function GET() {
 	);
 }
 
-export async function POST(context: { request: { formData: () => any; }; }) {
-	// TODO - Add error handling for file upload
-	// TODO - Add ways to add files directly without type
-	// TODO - Add zip support
-	const [formData, formDataError] = await handleTryCatch(context.request.formData());
-	if (formDataError) {
-		console.error("Error extracting form data:", formDataError);
-		return new Response(
-			JSON.stringify({
-				status: 400,
-				message: "Failed to extract form data",
-				error: {message: formDataError.message, stack: formDataError}
-			}),
-			{ status: 400, headers: { "Content-Type": "application/json" } }
-		);
-	}
+export async function POST(context: { request: { formData: () => any; }; }): Promise<Response> {
+    const [formData, formDataError] = await handleTryCatch(context.request.formData());
+    if (formDataError) {
+        console.error("Error extracting form data:", formDataError);
+        return new Response(
+            JSON.stringify({
+                status: 400,
+                message: "Failed to extract form data",
+                error: {message: formDataError.message, stack: formDataError}
+            }),
+            { status: 400, headers: { "Content-Type": "application/json" } }
+        );
+    }
 
 	const file = formData.get("file");
 	let type = formData.get("file").type;
