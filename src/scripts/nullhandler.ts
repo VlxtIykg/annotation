@@ -23,7 +23,7 @@ export default function nullHandler(key) {
 	}
 }
 
-function start_time(): number | string {
+function start_time(): number {
 	let mysterious_value = cache.get("end_time") ?? cache.get("start_time") ?? 0;
 	return mysterious_value;
 }
