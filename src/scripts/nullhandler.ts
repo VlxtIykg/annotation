@@ -1,6 +1,6 @@
 import cache from "./cacheHandler";
 
-export default function nullHandler(key) {
+export default function nullHandler(key: string) {
 	switch (key) {
 		case "text": {
 			return text();

@@ -1,7 +1,7 @@
 import autoFill from "./parser";
 import htmlFormatter from "@scripts/htmlformatter";
 
-export async function GET() {
+export async function GET(): Promise<Response> {
 	return new Response(
 		JSON.stringify({ status: 200, message: "GET request received" }),
 	);
